@@ -1356,7 +1356,7 @@
     <string name="awake" msgid="387122265874485088">"Doba provozu zařízení"</string>
     <string name="wifi_on_time" msgid="6310209835617490616">"Doba provozu modulu Wi-Fi"</string>
     <string name="bluetooth_on_time" msgid="6157799524996162271">"Doba provozu sítě Wi-Fi"</string>
-    <string name="usage_name_percent" msgid="7976919382448235858">"<xliff:g id="NAME">%1$s</xliff:g> – <xliff:g id="NUMBER">%2$s</xliff:g> <xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="usage_name_percent" msgid="7976919382448235858">"<xliff:g id="NAME">%1$s</xliff:g> – <xliff:g id="NUMBER">%2$s</xliff:g> <xliff:g id="PERCENT">%%</xliff:g>"</string>
     <string name="history_details_title" msgid="3608240585315506067">"Podrobnosti historie"</string>
     <string name="details_title" msgid="3792801565213935385">"Podrobnosti používání"</string>
     <string name="details_subtitle" msgid="32593908269911734">"Podrobnosti používání"</string>
@@ -1849,6 +1849,7 @@
     <string name="rom_control_title">Nastavení ROM</string>
     <string name="themes_title">Témata vzhledu</string>
     <string name="advanced_settings_title">Možnosti zařízení</string>
+    <string name="performance_title">Nastavení výkonu</string>
     <string name="mod_version">Verze AOKP</string>
     <string name="mod_version_default">Neznámá</string>
     <string name="anonymous_statistics_title">AOKP statistiky</string>
@@ -1896,4 +1897,8 @@
     <string name="increasing_ring_interval_3seconds">3 sekundy</string>
     <string name="increasing_ring_interval_5seconds">5 sekund</string>
     <string name="increasing_ring_interval_10seconds">10 sekund</string>
+    <string name="adb_notify">Upozornění na ladění USB</string>
+    <string name="adb_notify_summary">Zobrazit upozornění v notifikační liště při zapnutém ladění přes USB</string>
+    <string name="safe_headset_volume_title">Bezpečná hlasitost sluchátek</string>
+    <string name="device_hostname">Název zařízení</string>
 </resources>
