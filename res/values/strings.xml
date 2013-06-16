@@ -4516,20 +4516,20 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
-    <string name="quick_links_title">Quick Links</string>
-    <string name="rom_control_title">ROM Control</string>
+    <string name="quick_links_title">Management</string>
+    <string name="rom_control_title">TripNDroid Settings</string>
     <string name="themes_title">Themes</string>
 
-    <string name="mod_version">TRIPNDROID version</string>
+    <string name="mod_version">TripNDroid version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">TRIPNDROID Statistics</string>
-    <string name="anonymous_statistics_summary">Help make TRIPNDROID better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">TripNDroid Statistics</string>
+    <string name="anonymous_statistics_summary">Help make TripNDroid better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into TRIPNDROID Statistics will allow non-personal data to be submitted to the
-        developers of TRIPNDROID to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into TripNDroid Statistics will allow non-personal data to be submitted to the
+        developers of TripNDroid to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted once weekly, during boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -4538,7 +4538,7 @@
     <string name="anonymous_learn_more">Learn more</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Enable or Disable TRIPNDROID Statistics</string>
+    <string name="anonymous_notification_desc">Enable or Disable TripNDroid Statistics</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unique ID</string>
@@ -4637,7 +4637,7 @@
     <string name="device_hostname">Device hostname</string>
 
     <!-- Launcher settings  -->
-    <string name="launcher_settings_title">Trebuchet settings</string>
+    <string name="launcher_settings_title">Trebuchet Settings</string>
 
     <!--- Sms security limit -->
     <string name="app_security_title">App security</string>
