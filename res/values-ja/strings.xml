@@ -1874,15 +1874,15 @@
     <string name="rom_control_title">ROMコントロール</string>
     <string name="themes_title">テーマ</string>
 
-    <string name="mod_version">AOKPバージョン</string>
+    <string name="mod_version">TRIPNDROIDバージョン</string>
     <string name="mod_version_default">不明</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AOKP利用統計</string>
-    <string name="anonymous_statistics_summary">AOKPをより良くするための匿名利用統計報告をオプトインする</string>
+    <string name="anonymous_statistics_title">TRIPNDROID利用統計</string>
+    <string name="anonymous_statistics_summary">TRIPNDROIDをより良くするための匿名利用統計報告をオプトインする</string>
     <string name="anonymous_statistics_warning_title">利用統計について</string>
-    <string name="anonymous_statistics_warning">匿名利用状況の送信を許諾することによって、AOKPの開発者がデバイス単位のユニークインストール数を追跡することができます。
+    <string name="anonymous_statistics_warning">匿名利用状況の送信を許諾することによって、TRIPNDROIDの開発者がデバイス単位のユニークインストール数を追跡することができます。
          送信される情報にはユニークIDが含まれますが、これはあなたの個人情報、端末のタイプ及びバージョン情報とは結びつきません。
          データ送信は週に一回端末の起動時に行われます。\n\n送信されるデータの例はプレビューをクリックすることにより確認できます。</string>
     <string name="enable_reporting_title">リポートを有効にする</string>
@@ -1892,7 +1892,7 @@
     <string name="anonymous_learn_more">詳細</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">AOKP利用統計を有効/無効にする</string>
+    <string name="anonymous_notification_desc">TRIPNDROID利用統計を有効/無効にする</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">ユニークID</string>
@@ -1924,7 +1924,7 @@
     <string name="link_volume_ringtones">着信音と同じ音量にする</string>
     <string name="link_volume_mutes">ミュート状態をリンクさせる</string>
 
-    <!-- AOKP specific sound settings
+    <!-- TRIPNDROID specific sound settings
     <string name="camera_sounds">シャッター音</string> ** TODO ** -->
     <string name="safe_headset_volume_title">安全なヘッドセット音量</string>
 

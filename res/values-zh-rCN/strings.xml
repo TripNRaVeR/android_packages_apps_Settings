@@ -1855,22 +1855,22 @@
 	<string name="rom_control_title">ROM控制</string>
 	<string name="themes_title">系统主题</string>
 	<string name="performance_title">性能控制</string>
-	<string name="mod_version">AOKP 版本</string>
+	<string name="mod_version">TRIPNDROID 版本</string>
 	<string name="mod_version_default">未知</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AOKP 统计</string>
-    <string name="anonymous_statistics_summary">发送匿名的统计报告帮助 AOKP 更好发展</string>
+    <string name="anonymous_statistics_title">TRIPNDROID 统计</string>
+    <string name="anonymous_statistics_summary">发送匿名的统计报告帮助 TRIPNDROID 更好发展</string>
     <string name="anonymous_statistics_warning_title">关于</string>
-    <string name="anonymous_statistics_warning">AOKP 数据统计允许将非个人数据提交给开发者用于统计使用设备的数量。提交的数据包括设备唯一ID，这不会损害您的隐私和个人数据。数据将在设备启动引导时提交，每周提交一次。\n\n提交的数据示例请查看预览数据。</string>
+    <string name="anonymous_statistics_warning">TRIPNDROID 数据统计允许将非个人数据提交给开发者用于统计使用设备的数量。提交的数据包括设备唯一ID，这不会损害您的隐私和个人数据。数据将在设备启动引导时提交，每周提交一次。\n\n提交的数据示例请查看预览数据。</string>
     <string name="enable_reporting_title">启用报告</string>
     <string name="preview_data_title">预览数据</string>
     <string name="view_stats_title">查看统计信息</string>
     <string name="anonymous_learn_more">更多信息</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">启用/禁用 AOKP 统计</string>
+    <string name="anonymous_notification_desc">启用/禁用 TRIPNDROID 统计</string>
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">设备唯一 ID</string>
     <string name="preview_device_title">设备</string>
@@ -1901,7 +1901,7 @@
     <string name="link_volume_ringtones">合并音量</string>
     <string name="link_volume_mutes">合并静音状态</string>
 
-    <!-- AOKP specific sound settings
+    <!-- TRIPNDROID specific sound settings
     <string name="camera_sounds">相机快门音</string> ** TODO ** -->
     <string name="safe_headset_volume_title">耳机安全音量</string>
 

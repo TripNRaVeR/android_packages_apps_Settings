@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.aokpstats;
+package com.android.settings.tripndroidstats;
 
 import android.content.Context;
 import android.os.SystemProperties;
@@ -67,14 +67,14 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        String device = SystemProperties.get("ro.aokp.device");
+        String device = SystemProperties.get("ro.tripndroid.device");
         return device == null ? SystemProperties.get("ro.product.device") : device;
     }
 
     public static String getModVersion() {
-        String version = SystemProperties.get("ro.aokp.version");
-        String branch = SystemProperties.get("ro.aokp.branch");
-        if (version == null || branch == null || !version.startsWith("aokp")) {
+        String version = SystemProperties.get("ro.tripndroid.version");
+        String branch = SystemProperties.get("ro.tripndroid.branch");
+        if (version == null || branch == null || !version.startsWith("tripndroid")) {
             return "KANG";
         } else {
             String[] splitVer = version.split("_");

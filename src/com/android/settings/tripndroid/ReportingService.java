@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.aokpstats;
+package com.android.settings.tripndroidstats;
 
 import android.app.Service;
 import android.content.Context;
@@ -45,7 +45,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReportingService extends Service {
-    /* package */ static final String TAG = "AOKPStats";
+    /* package */ static final String TAG = "TRIPNDROIDStats";
 
     private StatsUploadTask mTask;
 
@@ -87,7 +87,7 @@ public class ReportingService extends Service {
             GoogleAnalytics ga = GoogleAnalytics.getInstance(ReportingService.this);
             //ga.setDebug(true);
             Tracker tracker = ga.getTracker(getString(R.string.ga_trackingId));
-            tracker.setAppName("AOKP");
+            tracker.setAppName("TRIPNDROID");
             tracker.setAppVersion(deviceVersion);
             tracker.setCustomDimension(1, deviceId);
             tracker.setCustomDimension(2, deviceName);
@@ -95,14 +95,14 @@ public class ReportingService extends Service {
             tracker.sendEvent("checkin", deviceName, deviceVersion, null);
             tracker.close();
 
-            // report to the aokpstats service
+            // report to the tripndroidstats service
             HttpClient httpClient = new DefaultHttpClient();
-            HttpPost httpPost = new HttpPost("http://stats.aokp.co/submit.php");
+            HttpPost httpPost = new HttpPost("http://stats.tripndroid.co/submit.php");
             boolean success = false;
             try {
                 List<NameValuePair> kv = new ArrayList<NameValuePair>(2);
                 kv.add(new BasicNameValuePair("hash", deviceId));
-                kv.add(new BasicNameValuePair("aokp_version", deviceVersion));
+                kv.add(new BasicNameValuePair("tripndroid_version", deviceVersion));
 
                 httpPost.setEntity(new UrlEncodedFormEntity(kv));
                 httpClient.execute(httpPost);

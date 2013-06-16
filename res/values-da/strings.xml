@@ -1850,16 +1850,16 @@
     <string name="quiet_hours_active_from">Aktiv fra</string>
     <string name="quiet_hours_active_to">til</string>
 
-    <string name="mod_version">AOKP version</string>
+    <string name="mod_version">TRIPNDROID version</string>
     <string name="mod_version_default">Ukendt</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AOKP Statistik</string>
-    <string name="anonymous_statistics_summary">Hjælp AOKP til at blive bedre ved at slå anonym statistik til</string>
+    <string name="anonymous_statistics_title">TRIPNDROID Statistik</string>
+    <string name="anonymous_statistics_summary">Hjælp TRIPNDROID til at blive bedre ved at slå anonym statistik til</string>
     <string name="anonymous_statistics_warning_title">Om</string>
-    <string name="anonymous_statistics_warning">Tilvalg af AOKP Statistik vil sende ikke-personlige oplysninger, der tillader
-udviklere af AOKP at spore unikke installationer på tværs af enheder. De indsendte oplysninger omfatter en unik identifikator,
+    <string name="anonymous_statistics_warning">Tilvalg af TRIPNDROID Statistik vil sende ikke-personlige oplysninger, der tillader
+udviklere af TRIPNDROID at spore unikke installationer på tværs af enheder. De indsendte oplysninger omfatter en unik identifikator,
 som ikke kompromitterer dit privatliv eller personlige data. Dataene indsendes en gang om ugen, under boot. \n\nDu kan se et eksempel på de data der er indsendt, ved at trykke på Eksempel Data.</string>
     <string name="enable_reporting_title">Aktiver rapportering</string>
     <string name="preview_data_title">Eksempel Data</string>
@@ -1868,7 +1868,7 @@ som ikke kompromitterer dit privatliv eller personlige data. Dataene indsendes e
     <string name="anonymous_learn_more">Lær mere</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Aktiver eller deaktiver AOKP Statistick</string>
+    <string name="anonymous_notification_desc">Aktiver eller deaktiver TRIPNDROID Statistick</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unik ID</string>

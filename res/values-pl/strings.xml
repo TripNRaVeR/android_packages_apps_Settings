@@ -1863,9 +1863,9 @@
     <string name="adb_notify">Powiadomienie o debugowaniu USB</string>
     <string name="adb_notify_summary">Wyświetl powiadomienie o podłączeniu debugowania przez USB</string>
     <!--- Informacje o telefonie -->
-    <string name="mod_version">Wersja AOKP</string>
-    <string name="anonymous_statistics_title">Statystyki AOKP</string>
-    <string name="anonymous_statistics_summary">Pomóż uczynić AOKP jeszcze lepszym i weź udział w anonimowym zbieraniu statystyk</string>
+    <string name="mod_version">Wersja TRIPNDROID</string>
+    <string name="anonymous_statistics_title">Statystyki TRIPNDROID</string>
+    <string name="anonymous_statistics_summary">Pomóż uczynić TRIPNDROID jeszcze lepszym i weź udział w anonimowym zbieraniu statystyk</string>
     <string name="enable_reporting_title">Włącz raportowanie</string>
     <string name="preview_data_title">Sprawdź dane</string>
     <string name="view_stats_title">Obejrzyj statystyki</string>

@@ -1838,13 +1838,13 @@
     <string name="themes_title">Témák</string>
     <string name="performance_title">Teljesítmény vezérlő</string>
 
-    <string name="mod_version">AOKP verzió</string>
+    <string name="mod_version">TRIPNDROID verzió</string>
     <string name="mod_version_default">Ismeretlen</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">AOKP Statiszkikák</string>
-    <string name="anonymous_statistics_summary">Anonim statisztikák küldése, hogy jobbá tegyük az AOKP-t</string>
+    <string name="anonymous_statistics_title">TRIPNDROID Statiszkikák</string>
+    <string name="anonymous_statistics_summary">Anonim statisztikák küldése, hogy jobbá tegyük az TRIPNDROID-t</string>
     <string name="anonymous_statistics_warning_title">Rólunk</string>
     <string name="anonymous_statistics_warning">Az elküldött adat nem tartalmaz személyes adatot. Nem tartalmaz azonosítót, nem sérti személyes jogaidat, személyes adataidat Hetente küldi rendszerindítás után.\n\nAz adatokat küldés előtt az Adat előnézetben tudod ellenőrizni.</string>
     <string name="enable_reporting_title">Jelentés engedélyezése</string>
@@ -1854,7 +1854,7 @@
     <string name="anonymous_learn_more">További információ</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Engedélyezi vagy nem az AOKP statisztikát</string>
+    <string name="anonymous_notification_desc">Engedélyezi vagy nem az TRIPNDROID statisztikát</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Egyedi azonosító</string>
@@ -1891,7 +1891,7 @@
     <string name="link_volume_ringtones">Link hangerő</string>
     <string name="link_volume_mutes">Link néma állapot</string>
 
-    <!-- AOKP specific sound settings
+    <!-- TRIPNDROID specific sound settings
     <string name="camera_sounds">Camera sounds</string> ** TODO ** -->
     <string name="safe_headset_volume_title">Biztonsági fejhallgató hangerő</string>
 
