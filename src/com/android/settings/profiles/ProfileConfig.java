@@ -19,6 +19,7 @@ package com.android.settings.profiles;
 import java.util.ArrayList;
 import java.util.UUID;
 
+import android.app.AirplaneModeSettings;
 import android.app.AlertDialog;
 import android.app.ConnectionSettings;
 import android.app.Profile;
@@ -68,8 +69,6 @@ public class ProfileConfig extends SettingsPreferenceFragment
 
     private ListPreference mScreenLockModePreference;
 
-    private ListPreference mAirplaneModePreference;
-
     // constant value that can be used to check return code from sub activity.
     private static final int PROFILE_GROUP_DETAILS = 1;
 
@@ -78,6 +77,8 @@ public class ProfileConfig extends SettingsPreferenceFragment
     private ArrayList<ConnectionItem> mConnections;
 
     private SilentModeItem mSilentMode;
+
+    private AirplaneModeItem mAirplaneMode;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -119,12 +120,10 @@ public class ProfileConfig extends SettingsPreferenceFragment
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (deviceSupportsNfc(getActivity())) {
-            MenuItem nfc = menu.add(0, MENU_NFC_WRITE, 0, R.string.profile_write_nfc_tag)
+        MenuItem nfc = menu.add(0, MENU_NFC_WRITE, 0, R.string.profile_write_nfc_tag)
                 .setIcon(R.drawable.ic_menu_nfc_writer_dark);
-            nfc.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
-                    MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-        }
+        nfc.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
+                MenuItem.SHOW_AS_ACTION_WITH_TEXT);
         MenuItem wifi = menu.add(0, MENU_WIFI, 0, R.string.profile_trigger_wifi)
                 .setIcon(R.drawable.ic_location);
         wifi.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
@@ -208,20 +207,39 @@ public class ProfileConfig extends SettingsPreferenceFragment
             if (mSilentMode == null) {
                 mSilentMode = new SilentModeItem();
             }
-            SilentModeSettings settings = mProfile.getSilentMode();
-            if (settings == null) {
-                settings = new SilentModeSettings();
-                mProfile.setSilentMode(settings);
+            SilentModeSettings sms = mProfile.getSilentMode();
+            if (sms == null) {
+                sms = new SilentModeSettings();
+                mProfile.setSilentMode(sms);
             }
-            mSilentMode.mSettings = settings;
-            ProfileSilentModePreference pref = new ProfileSilentModePreference(getActivity());
-            pref.setSilentModeItem(mSilentMode);
-            pref.setTitle(R.string.silent_mode_title);
-            pref.setPersistent(false);
-            pref.setSummary(getActivity());
-            pref.setOnPreferenceChangeListener(this);
-            mSilentMode.mCheckbox = pref;
-            systemPrefs.addPreference(pref);
+            mSilentMode.mSettings = sms;
+            ProfileSilentModePreference smp = new ProfileSilentModePreference(getActivity());
+            smp.setSilentModeItem(mSilentMode);
+            smp.setTitle(R.string.silent_mode_title);
+            smp.setPersistent(false);
+            smp.setSummary(getActivity());
+            smp.setOnPreferenceChangeListener(this);
+            mSilentMode.mCheckbox = smp;
+            systemPrefs.addPreference(smp);
+
+            // Airplane mode preference
+            if (mAirplaneMode == null) {
+                mAirplaneMode = new AirplaneModeItem();
+            }
+            AirplaneModeSettings ams = mProfile.getAirplaneMode();
+            if (ams == null) {
+                ams = new AirplaneModeSettings();
+                mProfile.setAirplaneMode(ams);
+            }
+            mAirplaneMode.mSettings = ams;
+            ProfileAirplaneModePreference amp = new ProfileAirplaneModePreference(getActivity());
+            amp.setAirplaneModeItem(mAirplaneMode);
+            amp.setTitle(R.string.profile_airplanemode_title);
+            amp.setPersistent(false);
+            amp.setSummary(getActivity());
+            amp.setOnPreferenceChangeListener(this);
+            mAirplaneMode.mCheckbox = amp;
+            systemPrefs.addPreference(amp);
 
             // Lockscreen mode preference
             mScreenLockModePreference = new ListPreference(getActivity());
@@ -241,18 +259,6 @@ public class ProfileConfig extends SettingsPreferenceFragment
             }
 
             systemPrefs.addPreference(mScreenLockModePreference);
-
-            // Airplane mode preference
-            mAirplaneModePreference = new ListPreference(getActivity());
-            mAirplaneModePreference.setTitle(R.string.profile_airplanemode_title);
-                mAirplaneModePreference.setEntries(R.array.profile_airplanemode_entries);
-            mAirplaneModePreference.setEntryValues(R.array.profile_airplanemode_values);
-            mAirplaneModePreference.setPersistent(false);
-            mAirplaneModePreference.setSummary(getResources().getStringArray(
-                    R.array.profile_airplanemode_summaries)[mProfile.getAirplaneMode()]);
-            mAirplaneModePreference.setValue(String.valueOf(mProfile.getAirplaneMode()));
-            mAirplaneModePreference.setOnPreferenceChangeListener(this);
-            systemPrefs.addPreference(mAirplaneModePreference);
         }
 
         // Populate the audio streams list
@@ -335,6 +341,8 @@ public class ProfileConfig extends SettingsPreferenceFragment
             }
         } else if (preference == mSilentMode.mCheckbox) {
             mSilentMode.mSettings.setOverride((Boolean) newValue);
+        } else if (preference == mAirplaneMode.mCheckbox) {
+            mAirplaneMode.mSettings.setOverride((Boolean) newValue);
         } else if (preference == mNamePreference) {
             String name = mNamePreference.getName().toString();
             if (!name.equals(mProfile.getName())) {
@@ -349,11 +357,6 @@ public class ProfileConfig extends SettingsPreferenceFragment
             mProfile.setScreenLockMode(Integer.valueOf((String) newValue));
             mScreenLockModePreference.setSummary(getResources().getStringArray(
                     R.array.profile_lockmode_summaries)[mProfile.getScreenLockMode()]);
-        } else if (preference == mAirplaneModePreference) {
-            mProfile.setAirplaneMode(Integer.valueOf((String) newValue));
-            mAirplaneModePreference
-                    .setSummary(getResources().getStringArray(R.array.profile_airplanemode_summaries)[mProfile
-                            .getAirplaneMode()]);
         }
         return true;
     }
@@ -435,11 +438,19 @@ public class ProfileConfig extends SettingsPreferenceFragment
     }
 
     static class SilentModeItem {
-        String mLabel;
         SilentModeSettings mSettings;
         ProfileSilentModePreference mCheckbox;
 
         public SilentModeItem() {
+            // nothing to do
+        }
+    }
+
+    static class AirplaneModeItem {
+        AirplaneModeSettings mSettings;
+        ProfileAirplaneModePreference mCheckbox;
+
+        public AirplaneModeItem() {
             // nothing to do
         }
     }
