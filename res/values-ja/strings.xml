@@ -1052,6 +1052,10 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts_header" msgid="819903817323783498">"誤った回数が多すぎます。"</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer" msgid="6759029360597122873">"<xliff:g id="NUMBER">%d</xliff:g>秒後にやり直してください。"</string>
     <string name="activity_not_found" msgid="5551664692991605325">"アプリは端末にインストールされていません。"</string>
+
+    <!-- Device specific settings -->
+    <string name="advanced_settings_title">デバイスオプション</string>
+
     <string name="manageapplications_settings_title" msgid="7041951105633616745">"アプリを管理"</string>
     <string name="manageapplications_settings_summary" msgid="1794401500935451259">"インストール済みアプリを管理、削除する"</string>
     <string name="applications_settings" msgid="1721442176406964682">"アプリ"</string>
@@ -1341,6 +1345,7 @@
     <string name="accessibility_toggle_screen_magnification_preference_title" msgid="2472285215737820469">"画面の拡大"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="7218498768415430963">"画面の拡大を自動更新"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="4392059334816220155">"アプリの遷移時に画面の拡大を更新"</string>
+    <string name="accessibility_home_button_answers_call_title">ホームボタンで着信に応答</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="6673851944175874235">"電源ボタンで通話を終了"</string>
     <string name="accessibility_toggle_speak_password_preference_title" msgid="5986628515113204844">"パスワードの音声出力"</string>
     <string name="accessibility_long_press_timeout_preference_title" msgid="6708467774619266508">"押し続ける時間"</string>
@@ -1868,8 +1873,6 @@
     <string name="quick_links_title">クイックリンク</string>
     <string name="rom_control_title">ROMコントロール</string>
     <string name="themes_title">テーマ</string>
-    <string name="performance_title">パフォーマンス</string>
-    <string name="advanced_settings_title">デバイスオプション</string>
 
     <string name="mod_version">AOKPバージョン</string>
     <string name="mod_version_default">不明</string>
@@ -1951,22 +1954,44 @@
     <!-- Automatic brightness customization -->
     <string name="light_sensor_current_value">現在のライトセンサー値: <xliff:g id="light_level">%d</xliff:g> lux</string>
     <string name="auto_brightness_dialog_title">明るさの自動調整レベル</string>
-    <string name="auto_brightness_level_format"><xliff:g id="start_level">%1$s</xliff:g> -\n<xliff:g id="end_level">%2$s</xliff:g> lux</string>
+    <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
+    <string name="auto_brightness_last_level_format"><xliff:g id="level">%1$d</xliff:g> -\n\u221e lux</string>
     <string name="auto_brightness_brightness_format"><xliff:g id="percent">%s</xliff:g>%%</string>
     <string name="auto_brightness_adjust_button">調整</string>
+    <string name="auto_brightness_close_button">閉じる</string>
     <string name="auto_brightness_reset_button">リセット</string>
-    <string name="auto_brightness_remove_button">削除</string>
-    <string name="auto_brightness_add_line">行を追加</string>
-    <string name="auto_brightness_lux_dialog_title">ライトレベルの範囲</string>
-    <string name="auto_brightness_split_dialog_title">ライトレベルを分割</string>
-    <string name="auto_brightness_start_lux">開始値 (lux)</string>
-    <string name="auto_brightness_end_lux">終了値 (lux)</string>
+    <string name="auto_brightness_split_dialog_title">ライトレベル分割</string>
+    <string name="auto_brightness_level_dialog_title">ライトレベル設定</string>
+    <string name="auto_brightness_lux">周囲の明るさ (lux)</string>
+    <string name="auto_brightness_backlight">画面の輝度 (%)</string>
     <string name="auto_brightness_reset_dialog_title">レベルをリセットしますか？</string>
     <string name="auto_brightness_reset_confirmation">すべてのライトレベルがデフォルト設定にリセットされます</string>
     <string name="auto_brightness_split_lux_format">分割位置 (<xliff:g id="min">%1$d</xliff:g> 〜 <xliff:g id="max">%2$d</xliff:g> lux)</string>
     <string name="auto_brightness_level_options">ライトレベルオプション</string>
-    <string name="auto_brightness_menu_edit_lux">ライトレベルの範囲</string>
+    <string name="auto_brightness_menu_edit">編集</string>
     <string name="auto_brightness_menu_split">分割</string>
     <string name="auto_brightness_menu_remove">削除</string>
+    <string name="auto_brightness_preview">プレビュー</string>
+    <string name="auto_brightness_preview_dialog_title">輝度カーブプレビュー</string>
+    <string name="auto_brightness_help_dialog_title">ヘルプ</string>
+    <string name="auto_brightness_help_text"><b>輝度計算方法</b>
+\n\n
+輝度カーブは<i>制御点</i>の数から<i>三次スプライン補間</i>によって求められます。
+指定されたライトレベル範囲で一定の画面輝度の場合はバケツ型にならないように計算して、
+周囲の明るさの小さな変化によって画面輝度が大きく変化しないようにします。
+しかし制御点の変更結果を予測するのは少々困難です。\n
+そのために計算したカーブをプレビューで確認することができます。
+プレビューはすべての制御点が表示されるように<i>対数</i>スケールで示されることに注意してください。
+リニアスケールだと暗いレベルの制御点のわずかな変化を識別することができません。
+\n\n
+<b>輝度カーブの編集方法</b>
+\n\n
+各ライトレベルは輝度カーブのそれぞれの<i>制御点</i>に相当し、スライダーで輝度を編集することができます。
+スライダーをタッチしている間は確認のためにレベルに応じて画面輝度が変化します。\n
+各行を長押しすることで追加オプションを利用できます。
+『編集』を選択することで制御点のライトレベルと画面輝度をマニュアルで編集することができます。
+『分割』を選択すると制御点を追加してライトレベルを複製します。
+『削除』は選択したライトレベルを削除します。
+    </string>
     <string name="ok">OK</string>
 </resources>
