@@ -4563,4 +4563,6 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
+    <!-- Launcher settings  -->
+    <string name="launcher_settings_title">Trebuchet settings</string>
 </resources>
