@@ -67,7 +67,7 @@
             android:icon="@drawable/ic_settings_rom_control" >
         <intent
                 android:action="android.intent.action.MAIN"
-                android:targetClass="com.tripndroid.romcontrol.ROMControlActivity"
+                android:targetClass="com.tripndroid.romcontrol.TDSettingsActivity"
                 android:targetPackage="com.tripndroid.romcontrol" />
     </header>
 
