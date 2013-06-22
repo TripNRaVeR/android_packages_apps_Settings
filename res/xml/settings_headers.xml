@@ -67,8 +67,8 @@
             android:icon="@drawable/ic_settings_rom_control" >
         <intent
                 android:action="android.intent.action.MAIN"
-                android:targetClass="com.tripndroid.romcontrol.TDSettingsActivity"
-                android:targetPackage="com.tripndroid.romcontrol" />
+                android:targetClass="com.tripndroid.tdsettings.TDSettingsActivity"
+                android:targetPackage="com.tripndroid.tdsettings" />
     </header>
 
     <header android:id="@+id/themes"
