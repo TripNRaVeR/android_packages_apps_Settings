@@ -112,14 +112,12 @@
                 android:title="@string/notification_shortcuts_settings_title"
                 android:summary="@string/notification_shortcuts_settings_summary" />
 
-            <PreferenceScreen
+			<PreferenceScreen
                 android:id="@+id/power_widget_settings"
-                android:icon="@drawable/ic_rb_powerwidget"
+                android:fragment="com.android.settings.cyanogenmod.PowerWidget"
                 android:title="@string/power_widget"
-                android:summary="@string/power_widget_summary"
-                android:fragment="com.android.settings.cyanogenmod.PowerWidget" />
-         </PreferenceScreen>
+                android:summary="@string/power_widget_summary" />
 
-        </PreferenceCategory>
+	</PreferenceCategory>
 
 </PreferenceScreen>
