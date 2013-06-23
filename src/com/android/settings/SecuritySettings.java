@@ -259,9 +259,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
                     KEY_POWER_INSTANTLY_LOCKS);
             checkPowerInstantLockDependency();
 
-            // Add the additional CyanogenMod settings
-            addPreferencesFromResource(R.xml.security_settings_cyanogenmod);
-
             // Quick Unlock Screen Control
             mQuickUnlockScreen = (CheckBoxPreference) root
                     .findPreference(LOCKSCREEN_QUICK_UNLOCK_CONTROL);
