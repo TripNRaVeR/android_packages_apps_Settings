@@ -962,6 +962,21 @@
         <item>mute</item>
     </string-array>
 
+    <!-- Performance settings -->
+    <string-array name="pref_zram_size_entries">
+        <item>Disabled</item>
+        <item>10%</item>
+        <item>18% (default)</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="pref_zram_size_values" translatable="false">
+        <item>0</item>
+        <item>10</item>
+        <item>18</item>
+        <item>26</item>
+    </string-array>
+
     <!--  Values for profile trigger types -->
     <string-array name="profile_trigger_filters" translatable="false">
         <item>@string/profile_trigger_filter_all</item>
