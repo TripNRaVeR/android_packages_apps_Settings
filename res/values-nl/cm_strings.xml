@@ -420,6 +420,17 @@ Let op:\nAangezien het beginvolume hoger is ingesteld dan het beltoonvolume, wor
     <string name="cmupdate_settings_title">CyanogenMod-updates</string>
     <string name="cmupdate_settings_summary">Controleren op updates</string>
     <string name="advanced_settings_title">Geavanceerd</string>
+
+    <string name="misc_settings_title">UI aanpassingen</string>
+    <string name="custom_carrier_label_title">Custom provider label</string>
+    <string name="custom_carrier_label_explain">Kies aub een tekst. Laat leeg om standaard tekst te herstellen.</string>
+    <string name="custom_carrier_label_notset">Momenteel geen custom provider label ingesteld</string>
+    <string name="notification_wallpaper_title">Meldingspaneel achtergrond</string>
+    <string name="notification_wallpaper_summary">Verwijder deze achtergrond met de menu button</string>
+    <string name="notif_wallpaper_alpha_title">Meldingspaneel achtergrond alpha</string>
+    <string name="alpha_dialog_title">Kies alpha waarde</string>
+    <string name="menu_notif_wallpaper_reset">Reset meldingspaneel background</string>
+
     <string name="ime_switcher_notify">Invoermethodemelding</string>
     <string name="ime_switcher_notify_summary">Melding tonen voor wijzigen invoermethode</string>
     <string name="status_bar_title">Statusbalk</string>

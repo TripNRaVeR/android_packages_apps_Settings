@@ -723,4 +723,8 @@ public class Utils {
         }
         act.setRequestedOrientation(frozenRotation);
     }
+
+    public static void restartSystemUI() {
+        CMDProcessor.startSuCommand("pkill -TERM -f com.android.systemui");
+    }
 }

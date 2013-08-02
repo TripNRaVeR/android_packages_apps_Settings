@@ -486,6 +486,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             // stuff enabled and can turn it all off if they want.
             Settings.Global.putInt(getActivity().getContentResolver(),
                     Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 1);
+
             mLastEnabledState = true;
             mEnabledSwitch.setChecked(mLastEnabledState);
             setPrefsEnabledState(mLastEnabledState);

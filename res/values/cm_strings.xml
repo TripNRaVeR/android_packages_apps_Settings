@@ -623,6 +623,17 @@
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="advanced_settings_title">Advanced</string>
 
+    <!-- Modification settings  -->
+    <string name="misc_settings_title">UI modifications</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Enter an empty label to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="notification_wallpaper_title">Choose notification background</string>
+    <string name="notification_wallpaper_summary">Remove this wallpaper with the menu button</string>
+    <string name="notif_wallpaper_alpha_title">Notification wallpaper alpha</string>
+    <string name="alpha_dialog_title">Set alpha value</string>
+    <string name="menu_notif_wallpaper_reset">Reset notification wallpaper</string>
+
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
@@ -644,6 +655,8 @@
     <string name="status_bar_battery_status_percentage">Percentage</string>
     <string name="status_bar_battery_status_circle">Circle</string>
     <string name="status_bar_battery_status_circle_percentage">Circle with percentage</string>
+    <string name="status_bar_battery_status_circle_mod">CircleMod</string>
+    <string name="status_bar_battery_status_genx">GenX</string>
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display number of pending notifications</string>
 
@@ -1001,6 +1014,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="color_red_title">Red</string>
     <string name="color_green_title">Green</string>
     <string name="color_blue_title">Blue</string>
+
+    <string name="lockscreen_use_widget_container_carousel_title">Use widget carousel</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">Use a carousel animation when switching between lockscreen widgets.</string>
 
     <!-- Hardware tunables - Key backlight -->
     <string name="key_backlight_title">Backlight</string>
