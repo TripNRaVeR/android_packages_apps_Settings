@@ -56,7 +56,7 @@
     <string name="notification_vibrate_during_calls_title">Δόνηση κατά την κλήση</string>
     <string name="notification_vibrate_during_calls_summary">Δόνηση στις εισερχόμενες ειδοποιήσεις κατά την διάρκεια μιας κλήσης</string>
     <string name="device_hostname">Hostname συσκευής</string>
-    <string name="mod_version">Έκδοση CyanogenMod</string>
+    <string name="mod_version">Έκδοση TripNDroid</string>
     <string name="mod_version_default">Άγνωστη</string>
     <string name="build_date">Ημερομηνία έκδοσης</string>
     <string name="cpu_info">CPU</string>
@@ -424,7 +424,7 @@
     <string name="power_menu_airplane_title">Λειτουργία πτήσης</string>
     <string name="power_menu_user_title">Εναλλαγή χρήστη</string>
     <string name="power_menu_sound_title">Πάνελ έντασης</string>
-    <string name="cmupdate_settings_title">Ενημερώσεις CyanogenMod</string>
+    <string name="cmupdate_settings_title">Ενημερώσεις TripNDroid</string>
     <string name="cmupdate_settings_summary">Έλεγχος και εγκατάσταση διαθέσιμων ενημερώσεων</string>
     <string name="advanced_settings_title">Για προχωρημένους</string>
     <string name="ime_switcher_notify">Ειδοποίηση επιλογέα</string>

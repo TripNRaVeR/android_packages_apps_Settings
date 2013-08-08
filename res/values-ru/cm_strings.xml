@@ -43,7 +43,7 @@
     <string name="device_hostname">Имя хоста</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">Версия CyanogenMod</string>
+    <string name="mod_version">Версия TripNDroid</string>
     <string name="mod_version_default">Неизвестно</string>
 
     <!-- About phone screen, build date of ROM -->
@@ -522,7 +522,7 @@
     <string name="power_menu_sound_title">Звуковая панель</string>
 
     <!-- CM Updater -->
-    <string name="cmupdate_settings_title">Обновление CyanogenMod</string>
+    <string name="cmupdate_settings_title">Обновление TripNDroid</string>
     <string name="cmupdate_settings_summary">Проверка и установка доступных обновлений</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings -->

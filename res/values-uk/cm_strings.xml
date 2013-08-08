@@ -29,7 +29,7 @@
     <string name="notification_convert_sound_to_vibration_title">Вібрація при сповіщеннях</string>
     <string name="notification_convert_sound_to_vibration_summary">В режимі \"Вібро\" вібрувати при сповіщеннях незалежно від налаштувань програм</string>
     <string name="device_hostname">Ім’я пристрою</string>
-    <string name="mod_version">Версія CyanogenMod</string>
+    <string name="mod_version">Версія TripNDroid</string>
     <string name="mod_version_default">Невідомо</string>
     <string name="build_date">Дата збірки</string>
     <string name="cpu_info">Процесор</string>
@@ -343,7 +343,7 @@
     <string name="power_menu_airplane_title">Режим польоту</string>
     <string name="power_menu_user_title">Переключенння користувачів</string>
     <string name="power_menu_sound_title">Звукова панель</string>
-    <string name="cmupdate_settings_title">Оновлення CyanogenMod</string>
+    <string name="cmupdate_settings_title">Оновлення TripNDroid</string>
     <string name="cmupdate_settings_summary">Перевірка та встановлення доступних оновлень</string>
     <string name="advanced_settings_title">Розширені налаштування</string>
     <string name="ime_switcher_notify">Вибір способу введення</string>

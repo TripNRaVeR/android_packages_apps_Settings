@@ -55,7 +55,7 @@
     <string name="notification_vibrate_during_calls_title">Vibreur pendant un appel</string>
     <string name="notification_vibrate_during_calls_summary">Les notifications vibrent légèrement pendant un appel téléphonique</string>
     <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
-    <string name="mod_version">Version CyanogenMod</string>
+    <string name="mod_version">Version TripNDroid</string>
     <string name="mod_version_default">Inconnue</string>
     <string name="build_date">Date de compilation</string>
     <string name="cpu_info">CPU</string>
@@ -398,7 +398,7 @@
     <string name="power_menu_airplane_title">Mode avion</string>
     <string name="power_menu_user_title">Utilisateur</string>
     <string name="power_menu_sound_title">Son et vibreur</string>
-    <string name="cmupdate_settings_title">Mises à jour CyanogenMod</string>
+    <string name="cmupdate_settings_title">Mises à jour TripNDroid</string>
     <string name="cmupdate_settings_summary">Vérifier, afficher ou installer les mises à jour disponibles</string>
     <string name="advanced_settings_title">Paramètres avancés</string>
     <string name="ime_switcher_notify">Icône méthode de saisie</string>

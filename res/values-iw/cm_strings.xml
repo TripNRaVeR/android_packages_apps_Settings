@@ -28,7 +28,7 @@
     <string name="start_time_title">התחלה</string>
     <string name="end_time_title">סיום</string>
     <string name="device_hostname">שם המכשיר</string>
-    <string name="mod_version">גרסת CyanogenMod</string>
+    <string name="mod_version">גרסת TripNDroid</string>
     <string name="mod_version_default">לא ידועה</string>
     <string name="build_date">תאריך Build</string>
     <string name="cpu_info">מעבד</string>
@@ -351,7 +351,7 @@
     <string name="power_menu_airplane_title">מצב טיסה</string>
     <string name="power_menu_user_title">החלפת משתמש</string>
     <string name="power_menu_sound_title">אפשרויות קול</string>
-    <string name="cmupdate_settings_title">עדכוני CyanogenMod</string>
+    <string name="cmupdate_settings_title">עדכוני TripNDroid</string>
     <string name="cmupdate_settings_summary">בדוק, צפה או התקן עדכונים </string>
     <string name="advanced_settings_title">מתקדם</string>
     <string name="ime_switcher_notify">התראת בוחר קלט</string>

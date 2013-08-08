@@ -382,7 +382,7 @@
     <string name="pref_use_16bpp_alpha_title">16ビット透過</string>
     <string name="pref_use_16bpp_alpha_summary">16ビット透過を使用することでスクロールのパフォーマンスが向上しますが、低品質で稀に不自然に見えます(
 要再起動)</string>
-    <string name="mod_version">CyanogenMod バージョン</string>
+    <string name="mod_version">TripNDroid バージョン</string>
     <string name="mod_version_default">不明</string>
     <string name="build_date">ビルド日時</string>
     <string name="adb_over_network">ADBオーバーネットワーク</string>
