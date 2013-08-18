@@ -137,7 +137,7 @@
     <string name="header_category_interface">Personalization</string>
 
     <!-- Homescreen settings  -->
-    <string name="homescreen_settings_title">Home screen</string>
+    <string name="homescreen_settings_title">Launcher</string>
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Themes</string>
