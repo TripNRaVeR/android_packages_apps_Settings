@@ -99,7 +99,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private static final String ADB_NOTIFY = "adb_notify";
     private static final String ADB_TCPIP  = "adb_over_network";
     private static final String CLEAR_ADB_KEYS = "clear_adb_keys";
-    private static final String KEEP_SCREEN_ON = "keep_screen_on";
     private static final String ALLOW_MOCK_LOCATION = "allow_mock_location";
     private static final String HDCP_CHECKING_KEY = "hdcp_checking";
     private static final String HDCP_CHECKING_PROPERTY = "persist.sys.hdcp_checking";
@@ -175,7 +174,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private Preference mBugreport;
     private CheckBoxPreference mBugreportInPower;
     private CheckBoxPreference mAdbOverNetwork;
-    private CheckBoxPreference mKeepScreenOn;
     private CheckBoxPreference mEnforceReadExternal;
     private CheckBoxPreference mAllowMockLocation;
     private PreferenceScreen mPassword;
@@ -267,7 +265,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mBugreport = findPreference(BUGREPORT);
         mBugreportInPower = findAndInitCheckboxPref(BUGREPORT_IN_POWER_KEY);
         mAdbOverNetwork = findAndInitCheckboxPref(ADB_TCPIP);
-        mKeepScreenOn = findAndInitCheckboxPref(KEEP_SCREEN_ON);
         mEnforceReadExternal = findAndInitCheckboxPref(ENFORCE_READ_EXTERNAL);
         mAllowMockLocation = findAndInitCheckboxPref(ALLOW_MOCK_LOCATION);
         mPassword = (PreferenceScreen) findPreference(LOCAL_BACKUP_PASSWORD);
@@ -463,16 +460,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             return;
         }
 
-        if (mDpm.getMaximumTimeToLock(null) > 0) {
-            // A DeviceAdmin has specified a maximum time until the device
-            // will lock...  in this case we can't allow the user to turn
-            // on "stay awake when plugged in" because that would defeat the
-            // restriction.
-            mDisabledPrefs.add(mKeepScreenOn);
-        } else {
-            mDisabledPrefs.remove(mKeepScreenOn);
-        }
-
         final ContentResolver cr = getActivity().getContentResolver();
         mLastEnabledState = Settings.Global.getInt(cr,
                 Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0) != 0;
@@ -510,8 +497,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 Settings.Secure.ADB_NOTIFY, 1) != 0);
         updateCheckBox(mBugreportInPower, Settings.Secure.getInt(cr,
                 Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) != 0);
-        updateCheckBox(mKeepScreenOn, Settings.Global.getInt(cr,
-                Settings.Global.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
         updateCheckBox(mEnforceReadExternal, isPermissionEnforced(READ_EXTERNAL_STORAGE));
         updateAdbOverNetwork();
         updateCheckBox(mAllowMockLocation, Settings.Secure.getInt(cr,
@@ -1292,11 +1277,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                         Settings.Secure.ADB_PORT, -1);
                 updateAdbOverNetwork();
             }
-        } else if (preference == mKeepScreenOn) {
-            Settings.Global.putInt(getActivity().getContentResolver(),
-                    Settings.Global.STAY_ON_WHILE_PLUGGED_IN,
-                    mKeepScreenOn.isChecked() ? 
-                    (BatteryManager.BATTERY_PLUGGED_AC | BatteryManager.BATTERY_PLUGGED_USB) : 0);
         } else if (preference == mEnforceReadExternal) {
             if (mEnforceReadExternal.isChecked()) {
                 ConfirmEnforceFragment.show(this);
