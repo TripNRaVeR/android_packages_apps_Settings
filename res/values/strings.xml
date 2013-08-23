@@ -4925,4 +4925,7 @@
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
     <string name="default_string">Default</string>
+
+    <!-- User experience accessibility header -->
+    <string name="user_experience_settings_category">User experience</string>
 </resources>
