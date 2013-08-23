@@ -718,9 +718,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
     <string name="color_red_title">Rosso</string>
     <string name="color_green_title">Verde</string>
     <string name="color_blue_title">Blu</string>
-    <string name="key_backlight_title">Retroilluminazione</string>
-    <string name="button_backlight_title">Luminosità pulsanti</string>
-    <string name="keyboard_backlight_title">Luminosità tastiera</string>
     <string name="more_device_controls_title">Altro\u2026</string>
     <string name="more_device_settings_title">Altre opzioni del dispositivo</string>
     <string name="sensors_motors_title">Sensori &amp; Motori</string>
