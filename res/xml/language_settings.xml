@@ -127,4 +127,13 @@
                 android:summaryOff="@string/vibrate_input_devices_summary"
                 android:persistent="false"/>
     </PreferenceCategory>
+
+    <PreferenceCategory android:key="user_experience_settings_category"
+            android:title="@string/user_experience_settings_category">
+    <PreferenceScreen
+        android:key="accessibility_settings"
+        android:fragment="com.android.settings.AccessibilitySettings"
+        android:title="@string/accessibility_settings" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

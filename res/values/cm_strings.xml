@@ -64,6 +64,9 @@
     <!-- Title for the accessibility preference to home button to answers a call. [CHAR LIMIT=35] -->
     <string name="accessibility_home_button_answers_call_prerefence_title">Home button answers call</string>
 
+    <!-- User experience accessibility header -->
+    <string name="user_experience_settings_category">User experience</string>
+
     <!-- Category title for headset specific Settings.
          [CHAR LIMIT=40] -->
     <string name="headset_category_title">Headset</string>
