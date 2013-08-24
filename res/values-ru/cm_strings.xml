@@ -909,10 +909,6 @@
     <string name="remove_blacklist_entry">Вы действительно хотите удалить данный номер из чёрного списка?</string>
     <string name="select_contact">Выбор контакта</string>
 
-   <!-- Hardware tunables - Vibrator intensity -->
-    <string name="vibrator_intensity_title">Настройка вибрации</string>
-    <string name="vibrator_warning">Установка значений выше %1$d не рекомендуется</string>
-
     <!-- Hardware tunables - Color calibration -->
     <string name="color_calibration_title">Калибровка цвета</string>
     <string name="color_calibration_summary">Настройка цветопередачи экрана</string>

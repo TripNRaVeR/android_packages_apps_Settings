@@ -715,8 +715,6 @@ Az \"Eltávolítás\" törli a kiválasztott sort.
     <string name="remove_blacklist_number_title">Szám eltávolítása</string>
     <string name="remove_blacklist_entry">Biztosan eltávolítja a tiltólistáról?</string>
     <string name="select_contact">Válasszon kontaktot</string>
-    <string name="vibrator_intensity_title">Rezgés erőssége</string>
-    <string name="vibrator_warning">Nem ajánlott %1$d százaléknál nagyobbra állítani</string>
     <string name="color_calibration_title">Színek kalibrálása</string>
     <string name="color_calibration_summary">Képernyőn megjelenő színek kalibrálása</string>
     <string name="color_red_title">Vörös</string>

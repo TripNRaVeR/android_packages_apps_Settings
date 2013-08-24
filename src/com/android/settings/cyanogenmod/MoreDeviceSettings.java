@@ -19,7 +19,6 @@ package com.android.settings.cyanogenmod;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Vibrator;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
@@ -30,7 +29,6 @@ import com.android.settings.SettingsPreferenceFragment;
 public class MoreDeviceSettings extends SettingsPreferenceFragment {
     private static final String TAG = "MoreDeviceSettings";
 
-    private static final String KEY_SENORS_MOTORS_CATEGORY = "sensors_motors_category";
     private static final String KEY_DISPLAY_CALIBRATION_CATEGORY = "display_calibration_category";
     private static final String KEY_DISPLAY_COLOR = "color_calibration";
     private static final String KEY_DISPLAY_GAMMA = "gamma_tuning";
@@ -41,11 +39,6 @@ public class MoreDeviceSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.more_device_settings);
         ContentResolver resolver = getContentResolver();
-
-        Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        if (!VibratorIntensity.isSupported() || vibrator == null || !vibrator.hasVibrator()) {
-            removePreference(KEY_SENORS_MOTORS_CATEGORY);
-        }
 
         final PreferenceGroup calibrationCategory =
                 (PreferenceGroup) findPreference(KEY_DISPLAY_CALIBRATION_CATEGORY);

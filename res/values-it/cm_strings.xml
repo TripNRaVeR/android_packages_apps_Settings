@@ -713,8 +713,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
     <string name="remove_blacklist_number_title">Rimuovi numero</string>
     <string name="remove_blacklist_entry">Vuoi rimuovere questa voce dalla blacklist?</string>
     <string name="select_contact">Seleziona contatto</string>
-    <string name="vibrator_intensity_title">Intensità vibrazione</string>
-    <string name="vibrator_warning">Valori superiori a %1$d non sono raccomandati</string>
     <string name="color_calibration_title">Calibrazione colore</string>
     <string name="color_calibration_summary">Calibra colori su schermo</string>
     <string name="color_red_title">Rosso</string>

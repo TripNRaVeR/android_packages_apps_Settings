@@ -719,8 +719,6 @@ controle adicionais. \'Remover\' apaga a linha selecionada.
     <string name="remove_blacklist_number_title">Remover número</string>
     <string name="remove_blacklist_entry">Você deseja remover este número da lista de bloqueio?</string>
     <string name="select_contact">Selecionar contato</string>
-    <string name="vibrator_intensity_title">Intensidade de vibração</string>
-    <string name="vibrator_warning">Valores maiores que %1$d não são recomendados</string>
     <string name="color_calibration_title">Calibragem de cor</string>
     <string name="color_calibration_summary">Calibra cores na tela</string>
     <string name="color_red_title">Vermelho</string>

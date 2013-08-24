@@ -699,8 +699,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="collapse_on_dismiss_never_summary">Nach Entfernen von Benachrichtigungen geöffnet lassen</string>
     <string name="collapse_on_dismiss_if_empty_summary">Nach dem Entfernen der letzten Benachrichtigung schließen</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">Nach dem Entfernen der letzten nicht dauerhaft angezeigten Benachrichtigung schließen</string>
-    <string name="vibrator_intensity_title">Vibrationsstärke</string>
-    <string name="vibrator_warning">Höhere Werte als %1$d werden nicht empfohlen</string>
     <string name="color_calibration_title">Farbkalibrierung</string>
     <string name="color_calibration_summary">Displayfarben einstellen</string>
     <string name="color_red_title">Rot</string>

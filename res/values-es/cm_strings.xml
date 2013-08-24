@@ -721,8 +721,6 @@ podrás crear una nueva línea con el fin de insertar puntos de control adiciona
     <string name="remove_blacklist_number_title">Quitar número</string>
     <string name="remove_blacklist_entry">¿Quitar esta entrada de la lista negra?</string>
     <string name="select_contact">Seleccionar contacto</string>
-    <string name="vibrator_intensity_title">Intensidad de vibración</string>
-    <string name="vibrator_warning">No son recomendables valores superiores a %1$d</string>
     <string name="color_calibration_title">Calibración de color</string>
     <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
     <string name="color_red_title">Rojo</string>

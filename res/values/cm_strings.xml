@@ -1009,10 +1009,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
     <string name="select_contact">Select contact</string>
 
-    <!-- Hardware tunables - Vibrator intensity -->
-    <string name="vibrator_intensity_title">Vibrator intensity</string>
-    <string name="vibrator_warning">Values higher than %1$d are not recommended</string>
-
     <!-- Hardware tunables - Color calibration -->
     <string name="color_calibration_title">Color calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
@@ -1022,6 +1018,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <string name="lockscreen_use_widget_container_carousel_title">Use widget carousel</string>
     <string name="lockscreen_use_widget_container_carousel_summary">Use a carousel animation when switching between lockscreen widgets.</string>
+
+   <string name="vibrator_intensity_title">Vibrator intensity</string>
+   <string name="vibrator_warning">Values higher than %1$d are not recommended</string>
 
     <!-- Hardware tunables - Key backlight -->
     <string name="key_backlight_title">Backlight</string>

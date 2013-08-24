@@ -708,8 +708,6 @@
     <string name="remove_blacklist_number_title">番号を削除</string>
     <string name="remove_blacklist_entry">このブラックリストを削除しますか?</string>
     <string name="select_contact">連絡先を追加</string>
-    <string name="vibrator_intensity_title">バイブレーターの強さ</string>
-    <string name="vibrator_warning">%1$d より大きな値は推奨されません</string>
     <string name="color_calibration_title">色味の調整</string>
     <string name="color_calibration_summary">画面上の色を調整する</string>
     <string name="color_red_title">赤</string>

@@ -718,8 +718,6 @@ to for at indsætte yderligere kontrolpunkter. \'Fjern\' sletter den valgte linj
     <string name="remove_blacklist_number_title">Fjern nummer</string>
     <string name="remove_blacklist_entry">Vil du fjerne dette sortlistede nummer?</string>
     <string name="select_contact">Vælg kontakt</string>
-    <string name="vibrator_intensity_title">Vibrator-intensitet</string>
-    <string name="vibrator_warning">Værdier højere end %1$d anbefales ikke</string>
     <string name="color_calibration_title">Farvekalibrering</string>
     <string name="color_calibration_summary">Kalibrér skærmfarver</string>
     <string name="color_red_title">Rød</string>
