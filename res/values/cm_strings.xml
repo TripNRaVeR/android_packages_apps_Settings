@@ -146,6 +146,8 @@
     <string name="system_settings_title">Interface</string>
     <string name="system_interface_title">System interface</string>
 
+    <string name="tdsettings_title">TripNDroid settings</string>
+
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
     <string name="notification_drawer_collapse_on_dismiss_title">Auto close behavior</string>
