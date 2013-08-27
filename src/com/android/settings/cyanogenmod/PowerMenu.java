@@ -38,10 +38,6 @@ public class PowerMenu extends SettingsPreferenceFragment {
         findPreference(Settings.System.POWER_MENU_EXPANDED_DESKTOP_ENABLED).setEnabled(
                 Settings.System.getInt(resolver, Settings.System.EXPANDED_DESKTOP_STYLE, 0) != 0);
 
-        // Only enable profiles item if System Profiles are also enabled
-        findPreference(Settings.System.POWER_MENU_PROFILES_ENABLED).setEnabled(
-                Settings.System.getInt(resolver, Settings.System.SYSTEM_PROFILES_ENABLED, 1) != 0);
-
         if (!UserHandle.MU_ENABLED || !UserManager.supportsMultipleUsers()) {
             getPreferenceScreen().removePreference(
                     findPreference(Settings.System.POWER_MENU_USER_ENABLED));

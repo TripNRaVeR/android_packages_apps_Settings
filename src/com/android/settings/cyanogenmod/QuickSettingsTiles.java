@@ -122,7 +122,6 @@ public class QuickSettingsTiles extends Fragment {
                 addTile(tile.getTitleResId(), tile.getIcon(), 0, false);
             }
         }
-        addTile(R.string.profiles_add, null, R.drawable.ic_menu_add, false);
     }
 
     /**

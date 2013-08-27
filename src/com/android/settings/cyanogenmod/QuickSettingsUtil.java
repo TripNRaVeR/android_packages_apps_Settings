@@ -113,9 +113,6 @@ public class QuickSettingsUtil {
                 TILE_AUTOROTATE, R.string.title_tile_autorotate,
                 "com.android.systemui:drawable/ic_qs_auto_rotate"));
         registerTile(new QuickSettingsUtil.TileInfo(
-                TILE_PROFILE, R.string.title_tile_profile,
-                "com.android.systemui:drawable/ic_qs_profiles"));
-        registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_QUIETHOURS, R.string.title_tile_quiet_hours,
                 "com.android.systemui:drawable/ic_qs_quiet_hours_off"));
         registerTile(new QuickSettingsUtil.TileInfo(
@@ -227,13 +224,6 @@ public class QuickSettingsUtil {
             default:
                 disableTile(TILE_NETWORKMODE);
                 break;
-        }
-
-        // Don't show the profiles tile if profiles are disabled
-        if (QSUtils.systemProfilesEnabled(resolver)) {
-            enableTile(TILE_PROFILE);
-        } else {
-            disableTile(TILE_PROFILE);
         }
 
         // Don't show the Expanded desktop tile if expanded desktop is disabled

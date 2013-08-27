@@ -105,87 +105,6 @@
     <string name="lockscreen_battery_status_charging">Показывать во время зарядки</string>
     <string name="lockscreen_battery_status_alwayson">Показывать всегда</string>
 
-    <!-- Profiles settings -->
-    <string name="profiles_settings_title">Профили</string>
-    <string name="profiles_add">Добавить</string>
-    <string name="profile_menu_delete">Удалить</string>
-    <string name="profile_settings_title">Профиль</string>
-    <string name="profile_empty_list_profiles_off">Для того, чтобы настроить и использовать системные профили, включите \"Профили\".</string>
-
-    <!-- Add Profile -->
-    <string name="add_profile_dialog_title">Создать новый профиль</string>
-    <string name="profile_name_title">Имя</string>
-    <string name="profile_profile_name_prompt">Введите имя для нового профиля</string>
-    <string name="menu_new_profile">Новый профиль</string>
-    <string name="new_profile_name">&lt;новый профиль&gt;</string>
-
-    <!-- Rename Dialog  -->
-    <string name="rename_dialog_title">Переименовать</string>
-    <string name="rename_dialog_message">Введите новое имя</string>
-    <string name="duplicate_profile_name">Повторяющееся имя профиля!</string>
-    <string name="duplicate_appgroup_name">Повторяющееся имя группы приложений!</string>
-
-    <!-- Reset Profiles -->
-    <string name="profile_reset_title">Сбросить</string>
-    <string name="profile_reset_message">Вы действительно хотите удалить все профили, группы приложений и восстановить их по умолчанию?</string>
-
-    <!-- Delete confimation messages -->
-    <string name="profile_delete_confirm">Вы действительно хотите удалить этот профиль?</string>
-    <string name="profile_app_delete_confirm">Вы уверены, что хотите удалить это приложение?</string>
-    <string name="profile_cannot_delete">Вы не можете удалить активный профиль</string>
-
-    <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_connectionoverrides_title">Сетевые подключения</string>
-    <string name="profile_volumeoverrides_title">Переопределение громкости</string>
-    <string name="connection_state_disabled">Выключено</string>
-    <string name="connection_state_enabled">Включено</string>
-    <string name="volume_override_summary">Установить</string>
-
-    <!-- Menu item for managing profiles -->
-    <string name="profile_profiles_manage">Профили</string>
-    <string name="profile_profile_manage">Управление профилями</string>
-    <string name="profile_appgroups_manage">Группы приложений</string>
-    <string name="profile_appgroup_manage">Группы приложений</string>
-
-    <!-- Profile settings screen, section header for settings related to notification profiles -->
-    <string name="profile_settings">Настройки профиля</string>
-    <string name="profile_trigger_connect">При подключении</string>
-    <string name="profile_trigger_disconnect">При отключении</string>
-    <string name="profile_trigger_notrigger">Не определено</string>
-
-    <!-- Profile Settings sound modes labels -->
-    <string name="sound_mode">Режим уведомления</string>
-    <string name="ringer_mode">Режим звонка</string>
-    <string name="lights_mode">Облегчённый режим</string>
-    <string name="vibrate_mode">Режим вибрации</string>
-    <string name="choose_soundtone">Звук уведомления</string>
-    <string name="choose_ringtone">Мелодия звонка</string>
-
-    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-    <string name="soundtone_title">Звук уведомления</string>
-
-    <!-- Title for application group setting screen -->
-    <string name="profile_appgroups_title">Группы приложений</string>
-    <string name="profile_applist_title">Приложения</string>
-    <string name="profile_new_appgroup">Новая группа приложений</string>
-    <string name="profile_delete_appgroup">Удалить эту группу приложений</string>
-    <string name="profile_appgroup_name_prompt">Введите имя для новой группы приложений</string>
-    <string name="profile_appgroup_name_title">Имя</string>
-
-    <!-- Add application dialog box title -->
-    <string name="profile_choose_app">Выбрать приложение</string>
-
-    <!-- Profiles - system settings -->
-    <string name="profile_system_settings_title">Настройки системы</string>
-    <string name="profile_lockmode_title">Режим блок. экрана</string>
-    <string name="profile_lockmode_default">По умолчанию</string>
-    <string name="profile_lockmode_insecure">Ненадёжный</string>
-    <string name="profile_lockmode_disabled">Выключен</string>
-    <string name="profile_lockmode_default_summary">Оставить без изменения</string>
-    <string name="profile_lockmode_insecure_summary">Использовать ненадёжную блокировку экрана</string>
-    <string name="profile_lockmode_disabled_summary">Блокировка экрана выключена</string>
-    <string name="profile_airplanemode_title">Режим полёта</string>
-
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="toggleWifiAp">Точка доступа Wi-Fi</string>
     <string name="toggleData">Передача данных</string>
@@ -327,22 +246,6 @@
     <string name="increasing_ring_interval_3seconds">3 секунды</string>
     <string name="increasing_ring_interval_5seconds">5 секунд</string>
     <string name="increasing_ring_interval_10seconds">10 секунд</string>
-
-    <string name="profile_trigger_configure">Настроить переключение</string>
-    <string name="profile_triggers">Переключение</string>
-    <string name="profile_trigger_filter_all">Все способы</string>
-    <string name="profile_trigger_filter_wifi">Переключение по Wi-Fi</string>
-    <string name="profile_trigger_filter_bluetooth">Переключение по Bluetooth</string>
-
-    <string name="profile_write_nfc_tag">Записать NFC-тег</string>
-    <string name="profile_write_touch_tag">Нажмите для записи тега</string>
-    <string name="profile_write_success">Тег успешно записан</string>
-    <string name="profile_write_failed">Записать тег не удалось!</string>
-    <string name="profile_selected">Выбран профиль: %1$s</string>
-    <string name="profile_nfc_text">Запись NFC-тега для профиля позволит прикосновением к тегу выбрать нужный профиль. При повторном нажатии будет выбран ранее используемый профиль.</string>
-    <string name="profile_unknown_nfc_tag">Неизвестный профиль</string>
-    <string name="profile_add_nfc_text">Этот NFC-тег присвоен неизвестному профилю. Назначение этого NFC-тега к существующему профилю позволит использовать его в будущем.</string>
-    <string name="profile_select">Выберите профиль</string>
 
     <string name="link_volume_ringtones">Связать громкость</string>
     <string name="link_volume_mutes">Беззвучный режим влияет на уведомления</string>

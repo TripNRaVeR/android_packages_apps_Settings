@@ -16,8 +16,6 @@
 
 package com.android.settings;
 
-import com.android.settings.profiles.ProfileEnabler;
-
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.accounts.OnAccountsUpdateListener;
@@ -62,9 +60,6 @@ import com.android.settings.accounts.ManageAccountsSettings;
 import com.android.settings.blacklist.BlacklistSettings;
 import com.android.settings.bluetooth.BluetoothEnabler;
 import com.android.settings.bluetooth.BluetoothSettings;
-import com.android.settings.profiles.AppGroupConfig;
-import com.android.settings.profiles.ProfileConfig;
-import com.android.settings.profiles.ProfilesSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.WifiEnabler;
 import com.android.settings.wifi.WifiSettings;
@@ -411,9 +406,6 @@ public class Settings extends PreferenceActivity
                 WifiDisplaySettings.class.getName().equals(fragmentName) ||
                 BluetoothSettings.class.getName().equals(fragmentName) ||
                 DreamSettings.class.getName().equals(fragmentName) ||
-                ProfilesSettings.class.getName().equals(fragmentName) ||
-                ProfileConfig.class.getName().equals(fragmentName) ||
-                AppGroupConfig.class.getName().equals(fragmentName) ||
                 BlacklistSettings.class.getName().equals(fragmentName) ||
                 ToggleAccessibilityServicePreferenceFragment.class.getName().equals(fragmentName)) {
             intent.putExtra(EXTRA_UI_OPTIONS, ActivityInfo.UIOPTION_SPLIT_ACTION_BAR_WHEN_NARROW);
@@ -639,7 +631,6 @@ public class Settings extends PreferenceActivity
 
         private final WifiEnabler mWifiEnabler;
         private final BluetoothEnabler mBluetoothEnabler;
-        private final ProfileEnabler mProfileEnabler;
 
         private AuthenticatorHelper mAuthHelper;
 
@@ -655,9 +646,7 @@ public class Settings extends PreferenceActivity
         static int getHeaderType(Header header) {
             if (header.fragment == null && header.intent == null) {
                 return HEADER_TYPE_CATEGORY;
-            } else if (header.id == R.id.wifi_settings
-                    || header.id == R.id.bluetooth_settings
-                    || header.id == R.id.profiles_settings) {
+            } else if (header.id == R.id.wifi_settings || header.id == R.id.bluetooth_settings) {
                 return HEADER_TYPE_SWITCH;
             } else {
                 return HEADER_TYPE_NORMAL;
@@ -701,7 +690,6 @@ public class Settings extends PreferenceActivity
             // Switches inflated from their layouts. Must be done before adapter is set in super
             mWifiEnabler = new WifiEnabler(context, new Switch(context));
             mBluetoothEnabler = new BluetoothEnabler(context, new Switch(context));
-            mProfileEnabler = new ProfileEnabler(context, new Switch(context));
         }
 
         @Override
@@ -758,10 +746,8 @@ public class Settings extends PreferenceActivity
                     // Would need a different treatment if the main menu had more switches
                     if (header.id == R.id.wifi_settings) {
                         mWifiEnabler.setSwitch(holder.switch_);
-                    } else if (header.id == R.id.bluetooth_settings) {
+                    } else {
                         mBluetoothEnabler.setSwitch(holder.switch_);
-                    } else if (header.id == R.id.profiles_settings) {
-                        mProfileEnabler.setSwitch(holder.switch_);
                     }
                     // No break, fall through on purpose to update common fields
 
@@ -798,13 +784,11 @@ public class Settings extends PreferenceActivity
         public void resume() {
             mWifiEnabler.resume();
             mBluetoothEnabler.resume();
-            mProfileEnabler.resume();
         }
 
         public void pause() {
             mWifiEnabler.pause();
             mBluetoothEnabler.pause();
-            mProfileEnabler.pause();
         }
     }
 
@@ -832,11 +816,7 @@ public class Settings extends PreferenceActivity
             titleRes = R.string.wallpaper_settings_fragment_title;
         } else if (pref.getFragment().equals(OwnerInfoSettings.class.getName())
                 && UserHandle.myUserId() != UserHandle.USER_OWNER) {
-            if (UserManager.get(this).isLinkedUser()) {
-                titleRes = R.string.profile_info_settings_title;
-            } else {
-                titleRes = R.string.user_info_settings_title;
-            }
+            titleRes = R.string.user_info_settings_title;
         }
         startPreferencePanel(pref.getFragment(), pref.getExtras(), titleRes, pref.getTitle(),
                 null, 0);
@@ -909,7 +889,6 @@ public class Settings extends PreferenceActivity
     public static class AnonymousStatsActivity extends Settings { /* empty */ }
     public static class ApnSettingsActivity extends Settings { /* empty */ }
     public static class ApnEditorActivity extends Settings { /* empty */ }
-    public static class ProfilesSettingsActivity extends Settings { /* empty */ }
     public static class QuietHoursSettingsActivity extends Settings { /* empty */ }
     public static class DreamSettingsActivity extends Settings { /* empty */ }
     public static class SystemSettingsActivity extends Settings { /* empty */ }
