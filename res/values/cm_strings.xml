@@ -193,6 +193,7 @@
     <string name="toggleSync">Data Sync</string>
     <string name="toggle2g3g">2G/3G</string>
     <string name="toggleWimax">WiMAX</string>
+    <string name="toggleNfc">NFC</string>
 
     <!-- Screen security - Screen security   -->
     <string name="screen_security_category">Screen security</string>

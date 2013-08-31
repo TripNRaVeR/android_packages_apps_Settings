@@ -91,7 +91,6 @@
     <string name="lockscreen_battery_status_charging">Μόνο κατά τη φόρτιση</string>
     <string name="lockscreen_battery_status_alwayson">Πάντα</string>
     <string name="profiles_add">Προσθήκη</string>
-    <string name="profile_appgroups_title">Γκρουπ εφαρμογών</string>
     <string name="profile_applist_title">Εφαρμογές</string>
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Φορητό σημείο πρόσβασης Wi-Fi</string>
@@ -667,7 +666,6 @@
     <string name="backlight_summary_disabled">Ανενεργός</string>
     <string name="backlight_summary_enabled_with_timeout">Ενεργός για <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Ενεργός</string>
-    <string name="category_gamma_title">Γάμμα</string>
     <string name="gamma_tuning_title_head">Βελτίωση γάμμα</string>
     <string name="gamma_tuning_summary_head">Βελτίωση επιπέδων γάμμα της οθόνης</string>
     <string name="more_device_controls_title">Περισσότερα\u2026</string>
