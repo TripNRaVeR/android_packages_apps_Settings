@@ -14,6 +14,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_countrycode_entries">
+        <item>Yhdysvallat</item>
+        <item>Kanada, Taiwan</item>
+        <item>Saksa</item>
+        <item>Eurooppa</item>
+        <item>Japani, Venäjä</item>
+        <item>Australia</item>
+        <item>Kiina</item>
+        <item>Korea</item>
+        <item>Turkki</item>
+        <item>Singapore</item>
+        <item>Brasilia</item>
+    </string-array>
+
     <string-array name="volume_overlay_entries">
         <item>Yksittäinen</item>
         <item>Laajennettava</item>
@@ -41,11 +55,11 @@
     <string-array name="haptic_feedback_entries">
         <item>Käytä yleisiä asetuksia</item>
         <item>Päällä</item>
-        <item>Pois</item>
+        <item>Pois päältä</item>
     </string-array>
     <string-array name="entries_status_bar_am_pm">
-         <item>Normaali</item>
-         <item>Pieni</item>
-         <item>Ei käytössä</item>
+        <item>Normaali</item>
+        <item>Pieni</item>
+        <item>Ei käytössä</item>
     </string-array>
 </resources>
