@@ -505,8 +505,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="auto_brightness_sensitivity_medium">Normal</string>
     <string name="auto_brightness_sensitivity_high">Flink</string>
     <string name="auto_brightness_sensitivity_veryhigh">Sehr flink</string>
-    <string name="advanced_reboot_title">Erweitertes Neustartmenü</string>
-    <string name="advanced_reboot_summary">Bei entsperrtem Bildschirm dem Neustartmenü Optionen für Neustart in Recovery und Bootloader hinzufügen</string>
     <string name="volume_adjust_sounds_enable_title">Änderungston</string>
     <string name="volume_adjust_sounds_enable_summary">Beim Anpassen der Lautstärke mit den Lautstärketasten einen Ton abspielen</string>
     <string name="lockpattern_settings_enable_error_path_title">Fehler anzeigen</string>

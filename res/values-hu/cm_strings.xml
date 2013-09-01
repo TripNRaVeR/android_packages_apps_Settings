@@ -533,8 +533,6 @@ Az \"Eltávolítás\" törli a kiválasztott sort.
     <string name="auto_brightness_sensitivity_medium">Közepes</string>
     <string name="auto_brightness_sensitivity_high">Magas</string>
     <string name="auto_brightness_sensitivity_veryhigh">Nagyon magas</string>
-    <string name="advanced_reboot_title">Speciális újraindítás</string>
-    <string name="advanced_reboot_summary">Recovery és Bootloader újraindítási mód megjelenítése a kikapcsoló menüben (feloldott kijelzőnél)</string>
     <string name="navigation_ring_title">Gyorsindítás</string>
     <string name="navring_target_reset_message">Biztosan vissza kívánja állítani alaphelyzetbe a navigációs sáv összes hivatkozását?</string>
     <string name="navring_target_reset">Alapbeállítások visszaállítva</string>

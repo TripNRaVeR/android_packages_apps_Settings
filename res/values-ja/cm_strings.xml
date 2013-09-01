@@ -493,8 +493,6 @@
     <string name="auto_brightness_level_options">明るさレベルのオプション</string>
     <string name="auto_brightness_menu_split">分離</string>
     <string name="auto_brightness_menu_remove">削除</string>
-    <string name="advanced_reboot_title">高度な再起動</string>
-    <string name="advanced_reboot_summary">アンロック時の電源メニューにリカバリモードやブートローダへの再起動オプションを追加します。</string>
     <string name="navigation_bar_category">ナビゲーションバー</string>
     <string name="navigation_ring_title">クイック起動ショートカット</string>
     <string name="navring_target_reset_message">作成したナビゲーションバーのショートカットを全て削除してデフォルトに戻しますか?</string>

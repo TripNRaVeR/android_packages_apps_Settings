@@ -424,8 +424,6 @@
     <string name="safe_headset_volume_title">Veilige oorfone volume</string>
     <string name="cyanogenmod_waiver_title">Kwytskelding</string>
     <string name="cyanogenmod_waiver_body">"Wysiging van hierdie instelling kan teen jou staat of regerings wette wees.\n\nRaak "<b>"OK"</b>" om hierdie waarskuwing en kwytskelding te aanvaar en CyanogenMod en sy bydraers te vrywaar van alle wetlike verpligtinge."</string>
-    <string name="advanced_reboot_title">Gevorderde herlaai</string>
-    <string name="advanced_reboot_summary">Wanneer toestel ontsluit is, maak die \'recovery\' en \'bootloader\' herlaai opsies in die kragkieslys beskikbaar</string>
     <string name="volume_adjust_sounds_enable_title">Volume verandering</string>
     <string name="volume_adjust_sounds_enable_summary">Speel \'n klank tydens volume verandering</string>
     <string name="root_access">\'Root\' toegang</string>

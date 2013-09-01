@@ -504,8 +504,6 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="auto_brightness_sensitivity_medium">Gemiddeld</string>
     <string name="auto_brightness_sensitivity_high">Hoog</string>
     <string name="auto_brightness_sensitivity_veryhigh">Zeer hoog</string>
-    <string name="advanced_reboot_title">Geavanceerd herstarten</string>
-    <string name="advanced_reboot_summary">Indien ontgrendeld, opties tonen in het aan/uit-knopmenu voor herstarten naar recovery of bootloader</string>
     <string name="navigation_ring_title">Snelkoppelingen</string>
     <string name="navring_target_reset_message">Alle snelkoppelingen herstellen naar standaard?</string>
     <string name="navring_target_reset">Snelkoppelingen hersteld naar standaard</string>

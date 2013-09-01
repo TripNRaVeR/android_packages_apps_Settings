@@ -383,8 +383,6 @@
     <string name="auto_brightness_level_options">밝기 수준 설정</string>
     <string name="auto_brightness_menu_split">분할</string>
     <string name="auto_brightness_menu_remove">삭제</string>
-    <string name="advanced_reboot_title">다시 시작 메뉴 확장</string>
-    <string name="advanced_reboot_summary">전원 메뉴의 다시 시작 항목에 복구 모드와 부트로더로 진입할 수 있는 옵션을 추가</string>
     <string name="wifi_setting_countrycode_title">Wi-Fi 국가 코드</string>
     <string name="wifi_setting_countrycode_summary">Wi-Fi의 국가 코드 지정</string>
     <string name="wifi_setting_countrycode_error">국가 코드를 설정하는 동안 문제가 발생했습니다.</string>

@@ -524,8 +524,6 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="auto_brightness_sensitivity_medium">Moyenne</string>
     <string name="auto_brightness_sensitivity_high">Élevée</string>
     <string name="auto_brightness_sensitivity_veryhigh">Très élevée</string>
-    <string name="advanced_reboot_title">Redémarrage avancé</string>
-    <string name="advanced_reboot_summary">Inclure les options de redémarrage en mode recovery et bootloader dans le menu marche/arrêt lorsque l\'appareil est déverrouillé</string>
     <string name="navigation_ring_title">Raccourcis de lancement rapide</string>
     <string name="navring_target_reset_message">Supprimer tous les raccourcis de la barre de navigation et revenir à la configuration d\'origine\u00A0?</string>
     <string name="navring_target_reset">Raccourcis de la barre de navigation réinitialisés</string>

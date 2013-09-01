@@ -577,11 +577,6 @@ jednotlivě měnit a tím zvětšit počet řídících bodů. \'Odstranit\' sma
     <string name="auto_brightness_sensitivity_medium">Střední</string>
     <string name="auto_brightness_sensitivity_high">Vysoká</string>
     <string name="auto_brightness_sensitivity_veryhigh">Velmi vysoká</string>
-
-    <string name="advanced_reboot_title">Rozšířený restart</string>
-    <string name="advanced_reboot_summary">Pokud povoleno, v nabídce vypnutí jsou také možnosti restartovat zařízení do recovery nebo bootloaderu</string>
-
-
     <string name="navigation_ring_title">Zkratky rychlého spuštění</string>
     <string name="navring_target_reset_message">Odstranit všechny uživatelem vytvořené zkratky v navigační liště a obnovit do výchozího nastavení?</string>
     <string name="navring_target_reset">Zkratky navigační lišty obnoveny</string>

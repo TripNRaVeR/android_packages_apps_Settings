@@ -479,8 +479,6 @@ Ek özelliklere bir satıra uzun basarak erişilebilir. \'Düzenle\' tuşuyla he
 ayarlayabilir hem de istediğiniz parlaklığı elle girebilirsiniz. \'Böl\'ü seçmek bir saturu daha fazla kontrol noktası
 oluşturmak için ikiye böler. \'Sil\' satırı siler.
     </string>
-    <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
-    <string name="advanced_reboot_summary">Ekran açıkken bootloader ya da recovery moduna geçebileceğiniz yeniden başlatma menüsünü gösterir</string>
     <string name="navigation_ring_title">Hızlı başlatma kısayolları</string>
     <string name="navring_target_reset_message">Kulanıcı tarafından oluşturulan kısayolları sil ve varsayılana dön?</string>
     <string name="navring_target_reset">Navigasyon çubuğu varsayılanlara ayarlandı</string>

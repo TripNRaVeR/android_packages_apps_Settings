@@ -527,8 +527,6 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
     <string name="auto_brightness_sensitivity_medium">Media</string>
     <string name="auto_brightness_sensitivity_high">Alta</string>
     <string name="auto_brightness_sensitivity_veryhigh">Molto alta</string>
-    <string name="advanced_reboot_title">Riavvio avanzato</string>
-    <string name="advanced_reboot_summary">Quando attivato include, nel menu apposito, opzioni per il riavvio in modalità recovery o bootloader</string>
     <string name="navigation_ring_title">Scorciatoie di avvio rapido</string>
     <string name="navring_target_reset_message">Cancellare le impostazioni correnti e ripristinare le predefinite?</string>
     <string name="navring_target_reset">Avvio rapido ripristinato</string>

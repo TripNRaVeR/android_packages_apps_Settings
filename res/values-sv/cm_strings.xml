@@ -498,8 +498,6 @@ Varje linje i belysningslistan korresponerar med en <i>kontrollpunkt</i> i belys
     <string name="auto_brightness_sensitivity_medium">Medium</string>
     <string name="auto_brightness_sensitivity_high">Hög</string>
     <string name="auto_brightness_sensitivity_veryhigh">Mycket hög</string>
-    <string name="advanced_reboot_title">Avancerad omstart</string>
-    <string name="advanced_reboot_summary">Inkluderar alternativ i avstängningsmenyn för att starta om till Recoveryläge eller Bootloader.</string>
     <string name="navigation_ring_title">Snabbstartsgenvägar</string>
     <string name="navring_target_reset_message">Ta bort alla användarskapade navigeringsradsgenvägar och återställ till standard?</string>
     <string name="navring_target_reset">Återställ navigeringsradsgenvägar till standard</string>

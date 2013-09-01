@@ -529,8 +529,6 @@ zarówno edytować poziom jasności otoczenia dla danego punktu kontrolnego, jak
 pożądaną jasność ekranu. Wybranie \'Podziel\' pozwala przekształcić jeden pasek w
 dwa nowe, odpowiadające kolejnym punktom kontrolnym. \'Usuń\' kasuje wybrany pasek.
     </string>
-    <string name="advanced_reboot_title">Zaawansowany restart</string>
-    <string name="advanced_reboot_summary">Umożliwia ponowne uruchomienie urządzenia w trybie recovery lub bootloadera</string>
     <string name="root_access">Dostęp do roota</string>
     <string name="root_access_warning_title">Przyznać dostęp do roota?</string>
     <string name="root_access_warning_message">Przyznanie aplikacjom praw roota może być niebezpieczne i zagrozić bezpieczeństwu systemu!</string>

@@ -649,10 +649,6 @@
     <string name="auto_brightness_sensitivity_high">Высокая</string>
     <string name="auto_brightness_sensitivity_veryhigh">Очень высокая</string>
 
-    <!-- Advanced reboot options -->
-    <string name="advanced_reboot_title">Расширенная перезагрузка</string>
-    <string name="advanced_reboot_summary">Включить варианты перезагрузки (recovery или bootloader) в меню кнопки питания</string>
-
     <!-- Navigation bar buttons and shortcuts category title -->
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Ярлыки быстрого запуска</string>

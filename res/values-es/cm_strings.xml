@@ -540,8 +540,6 @@ podrás crear una nueva línea con el fin de insertar puntos de control adiciona
     <string name="auto_brightness_sensitivity_medium">Media</string>
     <string name="auto_brightness_sensitivity_high">Alta</string>
     <string name="auto_brightness_sensitivity_veryhigh">Muy alta</string>
-    <string name="advanced_reboot_title">Reinicio modo avanzado</string>
-    <string name="advanced_reboot_summary">En dispositivos desbloqueados, incluir opciones en el menú de apagado para reiniciar en modo \u00ABrecovery\u00BB o \u00ABbootloader\u00BB</string>
     <string name="navigation_ring_title">Accesos rápidos</string>
     <string name="navring_target_reset_message">¿Restablecer la configuración por defecto?</string>
     <string name="navring_target_reset">Accesos rápidos restablecidos</string>

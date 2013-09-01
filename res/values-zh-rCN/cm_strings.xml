@@ -474,8 +474,6 @@
     <string name="auto_brightness_sensitivity_medium">中</string>
     <string name="auto_brightness_sensitivity_high">高</string>
     <string name="auto_brightness_sensitivity_veryhigh">非常高</string>
-    <string name="advanced_reboot_title">高级重启</string>
-    <string name="advanced_reboot_summary">解锁设备后, 在电源菜单的重启选项下加入重启至恢复模式与引导程序的选择</string>
     <string name="navigation_ring_title">导航栏快捷方式</string>
     <string name="navring_target_reset_message">确定删除所有用户创建的导航栏快捷方式并还原为默认值?</string>
     <string name="navring_target_reset">导航栏快捷方式已还原为默认值</string>

@@ -500,8 +500,6 @@ Lisää asetuksia on saaavilla painamalla riviä pitkään. Valitsemalla \'Muokk
     <string name="auto_brightness_sensitivity_medium">Keskitaso</string>
     <string name="auto_brightness_sensitivity_high">Korkea</string>
     <string name="auto_brightness_sensitivity_veryhigh">Erittäin korkea</string>
-    <string name="advanced_reboot_title">Edistynyt uudelleenkäynnistys</string>
-    <string name="advanced_reboot_summary">Kun käytössä, käynnistysvalikossa on vaihtoehdot käynnistää Recovery- ja Bootloader-tilaan</string>
     <string name="navigation_ring_title">Pikakäynnistyksen kuvakkeet</string>
     <string name="navring_target_reset_message">Poista kaikki käyttäjän luomat navigointipalkin pikakuvakkeet ja palauta oletukset?</string>
     <string name="navring_target_reset">Navigointipalkin pikakuvakkeet palautettu oletuksiinsa</string>
