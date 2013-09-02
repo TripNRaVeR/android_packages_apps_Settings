@@ -19,13 +19,18 @@ package com.android.settings;
 
 
 import static android.provider.Settings.System.SCREEN_OFF_TIMEOUT;
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 
 import android.app.Activity;
+import android.app.ActivityThread;
 import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.app.admin.DevicePolicyManager;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -34,6 +39,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.os.RemoteException;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -90,6 +96,8 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String KEY_CREDENTIALS_MANAGER = "credentials_management";
     private static final String KEY_NOTIFICATION_ACCESS = "manage_notification_access";
     private static final String PACKAGE_MIME_TYPE = "application/vnd.android.package-archive";
+    private static final String ENFORCE_READ_EXTERNAL = "enforce_read_external";
+    private static final String TAG_CONFIRM_ENFORCE = "confirm_enforce";
 
     // CyanogenMod Additions
     private static final String SLIDE_LOCK_TIMEOUT_DELAY = "slide_lock_timeout_delay";
@@ -121,6 +129,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private DialogInterface mWarnInstallApps;
     private CheckBoxPreference mToggleVerifyApps;
     private CheckBoxPreference mPowerButtonInstantlyLocks;
+    private CheckBoxPreference mEnforceReadExternal;
 
     private Preference mNotificationAccess;
 
@@ -362,6 +371,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
             // Show password
             mShowPassword = (CheckBoxPreference) root.findPreference(KEY_SHOW_PASSWORD);
+           mEnforceReadExternal = (CheckBoxPreference) root.findPreference(ENFORCE_READ_EXTERNAL);
 
             // Credential storage
             final UserManager um = (UserManager) getActivity().getSystemService(Context.USER_SERVICE);
@@ -660,7 +670,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
         if (mPowerButtonInstantlyLocks != null) {
             mPowerButtonInstantlyLocks.setChecked(lockPatternUtils.getPowerButtonInstantlyLocks());
         }
-
         if (mShowPassword != null) {
             mShowPassword.setChecked(Settings.System.getInt(getContentResolver(),
                     Settings.System.TEXT_SHOW_PASSWORD, 1) != 0);
@@ -672,6 +681,17 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
         // Blacklist
         updateBlacklistSummary();
+    }
+
+    void updateCheckBox(CheckBoxPreference checkBox, boolean value) {
+        checkBox.setChecked(value);
+    }
+
+    private void updateAllOptions() {
+        final Context context = getActivity();
+        final ContentResolver cr = context.getContentResolver();
+
+        updateCheckBox(mEnforceReadExternal, isPermissionEnforced(READ_EXTERNAL_STORAGE));
     }
 
     @Override
@@ -726,6 +746,12 @@ public class SecuritySettings extends SettingsPreferenceFragment
         } else if (preference == mShowPassword) {
             Settings.System.putInt(getContentResolver(), Settings.System.TEXT_SHOW_PASSWORD,
                     mShowPassword.isChecked() ? 1 : 0);
+        } else if (preference == mEnforceReadExternal) {
+            if (mEnforceReadExternal.isChecked()) {
+                ConfirmEnforceFragment.show(this);
+            } else {
+                setPermissionEnforced(getActivity(), READ_EXTERNAL_STORAGE, false);
+            }
         } else if (preference == mToggleAppInstallation) {
             if (mToggleAppInstallation.isChecked()) {
                 mToggleAppInstallation.setChecked(false);
@@ -810,6 +836,61 @@ public class SecuritySettings extends SettingsPreferenceFragment
         Intent intent = new Intent();
         intent.setClassName("com.android.facelock", "com.android.facelock.AddToSetup");
         startActivity(intent);
+    }
+
+    /**
+     * Dialog to confirm enforcement of {@link android.Manifest.permission#READ_EXTERNAL_STORAGE}.
+     */
+    public static class ConfirmEnforceFragment extends DialogFragment {
+        public static void show(SecuritySettings parent) {
+            final ConfirmEnforceFragment dialog = new ConfirmEnforceFragment();
+            dialog.setTargetFragment(parent, 0);
+            dialog.show(parent.getFragmentManager(), TAG_CONFIRM_ENFORCE);
+        }
+
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            final Context context = getActivity();
+
+            final AlertDialog.Builder builder = new AlertDialog.Builder(context);
+            builder.setTitle(R.string.enforce_read_external_confirm_title);
+            builder.setMessage(R.string.enforce_read_external_confirm_message);
+
+            builder.setPositiveButton(android.R.string.ok, new OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    setPermissionEnforced(context, READ_EXTERNAL_STORAGE, true);
+                    ((SecuritySettings) getTargetFragment()).updateAllOptions();
+                }
+            });
+            builder.setNegativeButton(android.R.string.cancel, new OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    ((SecuritySettings) getTargetFragment()).updateAllOptions();
+                }
+            });
+
+            return builder.create();
+        }
+    }
+
+    private static boolean isPermissionEnforced(String permission) {
+        try {
+            return ActivityThread.getPackageManager().isPermissionEnforced(permission);
+        } catch (RemoteException e) {
+            throw new RuntimeException("Problem talking with PackageManager", e);
+        }
+    }
+
+    private static void setPermissionEnforced(
+            Context context, String permission, boolean enforced) {
+        try {
+            // TODO: offload to background thread
+            ActivityThread.getPackageManager()
+                    .setPermissionEnforced(READ_EXTERNAL_STORAGE, enforced);
+        } catch (RemoteException e) {
+            throw new RuntimeException("Problem talking with PackageManager", e);
+        }
     }
 
     private void updateBlacklistSummary() {

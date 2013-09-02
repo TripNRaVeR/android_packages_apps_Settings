@@ -96,5 +96,10 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.CredentialStorage"/>
         </Preference>
+
+        <CheckBoxPreference
+                android:key="enforce_read_external"
+                android:title="@string/enforce_read_external_title"
+                android:summary="@string/enforce_read_external_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
