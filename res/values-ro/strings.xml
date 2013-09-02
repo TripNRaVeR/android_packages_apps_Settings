@@ -1667,19 +1667,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Monitorizare"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Modul Strict activat"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Ilum. intermit. la operaţii lungi pe firul princ."</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Afiş. actualiz. suprafeţe"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Iluminare suprafeţe toată fereastra la actualizare"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Afiş. actualiz. ecran GPU"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Iluminare ecrane din ferestre la desenarea cu GPU"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Actualiz. strat. hardware"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Straturile hardware clipesc verde la actualizare"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Nivel suprapunere GPU"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"Max. – min.: albastru, verde, roşu deschis, roşu."</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Dezactivaţi suprapun. HW"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Utilizaţi mereu GPU pentru compunerea ecranului"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Monitorizări OpenGL"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Afişaţi limite aspect"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Afişaţi limitele clipului, marginile etc."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Afişaţi utiliz. procesor."</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Suprap. pe ecran indic. util. curentă a procesor."</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Forţaţi redarea cu GPU"</string>

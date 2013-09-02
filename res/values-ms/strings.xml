@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Memantau"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Mod tegas didayakan"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Kelip skrin bila apl m\'buat oprsi pjg pd urtn utma"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Tunjuk kms kini permukaan"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Denyar permukaan tetingkap yg dikemas kini"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Tunjuk kemas kini GPU"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Denyar pandangan dlm tetingkap yg dilukis dgn GPU"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Menunjukkan lapisan kemas kini perkakasan"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Pancar hijau lapisan perkakasan yg dikemas kini"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Tunjukkan had lebih GPU"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"Terbaik -&gt; terburuk: biru, hijau, merah muda, merah"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Lumpuhkan tindihan atas HW"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Sentiasa gunakan GPU untuk komposit skrin"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Dayakan kesan OpenGL"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Tunjukkan batas reka letak"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Tunjukkan batas klip, margin dll."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Tunjukkan penggunaan CPU"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Tindihan atas skrin menunjukkan penggunaan semasa CPU"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Paksa penyerahan GPU"</string>

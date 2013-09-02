@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"모니터링"</string>
     <string name="strict_mode" msgid="1938795874357830695">"엄격 모드 사용"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"앱이 기본 스레드에서 오래 작업하면 화면 깜박이기"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"표면 업데이트 표시"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"전체 창 표면이 업데이트되었을 때 플래시 처리"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"GPU 보기 업데이트 표시"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"GPU로 드로잉했을 때 창 내부 보기 플래시 처리"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"하드웨어 업데이트 표시"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"업데이트 할 때 하드웨어 레이어 깜박이기"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"GPU 오버드로 표시"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"오버드로가 적은 순으로: 파란색, 녹색, 옅은 빨간색, 빨간색"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"HW 오버레이 사용 안함"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"화면 합성 목적으로 항상 GPU 사용"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"OpenGL 추적 사용 설정"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"레이아웃 범위 표시"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"클립 경계, 여백 등을 표시"</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"CPU 사용량 표시"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"현재 CPU 사용량 오버레이 표시"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"GPU 렌더링 강제 설정"</string>

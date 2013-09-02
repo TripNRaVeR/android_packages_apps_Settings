@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Supervisió"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Mode estricte"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Centelleja si les aplicacions triguen molt al procés principal"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Canvis de superfície"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Actualitza superfícies de finestres en actualitzar-se"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Actualitzacions GPU"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Actualitza vistes de finestres creades amb GPU"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Mostra actualitzacions capes"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Il·lumina capes de maquinari en verd en actualitzar-se"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Mostra superació de GPU"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"De millor a pitjor: blau, verd, vermell clar, vermell"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Desactiva superposicions HW"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Usa sempre GPU per combinar pantalles"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Activa seguiment d\'OpenGL"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Mostra límits de disseny"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Mostra els límits de clips, els marges, etc."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Mostra l\'ús de la CPU"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Superposa l\'ús de la CPU a la pantalla"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Força acceleració GPU"</string>

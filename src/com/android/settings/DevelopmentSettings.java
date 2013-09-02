@@ -112,17 +112,13 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private static final String WAIT_FOR_DEBUGGER_KEY = "wait_for_debugger";
     private static final String VERIFY_APPS_OVER_USB_KEY = "verify_apps_over_usb";
     private static final String STRICT_MODE_KEY = "strict_mode";
-    private static final String SHOW_SCREEN_UPDATES_KEY = "show_screen_updates";
     private static final String DISABLE_OVERLAYS_KEY = "disable_overlays";
     private static final String SHOW_CPU_USAGE_KEY = "show_cpu_usage";
     private static final String FORCE_HARDWARE_UI_KEY = "force_hw_ui";
     private static final String FORCE_MSAA_KEY = "force_msaa";
     private static final String TRACK_FRAME_TIME_KEY = "track_frame_time";
     private static final String SHOW_NON_RECTANGULAR_CLIP_KEY = "show_non_rect_clip";
-    private static final String SHOW_HW_SCREEN_UPDATES_KEY = "show_hw_screen_udpates";
-    private static final String SHOW_HW_LAYERS_UPDATES_KEY = "show_hw_layers_udpates";
     private static final String SHOW_HW_OVERDRAW_KEY = "show_hw_overdraw";
-    private static final String DEBUG_LAYOUT_KEY = "debug_layout";
     private static final String WINDOW_ANIMATION_SCALE_KEY = "window_animation_scale";
     private static final String TRANSITION_ANIMATION_SCALE_KEY = "transition_animation_scale";
     private static final String ANIMATOR_DURATION_SCALE_KEY = "animator_duration_scale";
@@ -176,15 +172,11 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private CheckBoxPreference mVerifyAppsOverUsb;
 
     private CheckBoxPreference mStrictMode;
-    private CheckBoxPreference mShowScreenUpdates;
     private CheckBoxPreference mDisableOverlays;
     private CheckBoxPreference mShowCpuUsage;
     private CheckBoxPreference mForceHardwareUi;
     private CheckBoxPreference mForceMsaa;
-    private CheckBoxPreference mShowHwScreenUpdates;
-    private CheckBoxPreference mShowHwLayersUpdates;
     private CheckBoxPreference mShowHwOverdraw;
-    private CheckBoxPreference mDebugLayout;
     private ListPreference mTrackFrameTime;
     private ListPreference mShowNonRectClip;
     private ListPreference mWindowAnimationScale;
@@ -280,17 +272,13 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             }
         }
         mStrictMode = findAndInitCheckboxPref(STRICT_MODE_KEY);
-        mShowScreenUpdates = findAndInitCheckboxPref(SHOW_SCREEN_UPDATES_KEY);
         mDisableOverlays = findAndInitCheckboxPref(DISABLE_OVERLAYS_KEY);
         mShowCpuUsage = findAndInitCheckboxPref(SHOW_CPU_USAGE_KEY);
         mForceHardwareUi = findAndInitCheckboxPref(FORCE_HARDWARE_UI_KEY);
         mForceMsaa = findAndInitCheckboxPref(FORCE_MSAA_KEY);
         mTrackFrameTime = addListPreference(TRACK_FRAME_TIME_KEY);
         mShowNonRectClip = addListPreference(SHOW_NON_RECTANGULAR_CLIP_KEY);
-        mShowHwScreenUpdates = findAndInitCheckboxPref(SHOW_HW_SCREEN_UPDATES_KEY);
-        mShowHwLayersUpdates = findAndInitCheckboxPref(SHOW_HW_LAYERS_UPDATES_KEY);
         mShowHwOverdraw = findAndInitCheckboxPref(SHOW_HW_OVERDRAW_KEY);
-        mDebugLayout = findAndInitCheckboxPref(DEBUG_LAYOUT_KEY);
         mWindowAnimationScale = addListPreference(WINDOW_ANIMATION_SCALE_KEY);
         mTransitionAnimationScale = addListPreference(TRANSITION_ANIMATION_SCALE_KEY);
         mAnimatorDurationScale = addListPreference(ANIMATOR_DURATION_SCALE_KEY);
@@ -497,10 +485,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateMsaaOptions();
         updateTrackFrameTimeOptions();
         updateShowNonRectClipOptions();
-        updateShowHwScreenUpdatesOptions();
-        updateShowHwLayersUpdatesOptions();
         updateShowHwOverdrawOptions();
-        updateDebugLayoutOptions();
         updateAnimationScaleOptions();
         updateOverlayDisplayDevicesOptions();
         updateOpenGLTracesOptions();
@@ -789,31 +774,12 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 int showCpu = reply.readInt();
                 @SuppressWarnings("unused")
                 int enableGL = reply.readInt();
-                int showUpdates = reply.readInt();
-                updateCheckBox(mShowScreenUpdates, showUpdates != 0);
                 @SuppressWarnings("unused")
                 int showBackground = reply.readInt();
                 int disableOverlays = reply.readInt();
                 updateCheckBox(mDisableOverlays, disableOverlays != 0);
                 reply.recycle();
                 data.recycle();
-            }
-        } catch (RemoteException ex) {
-        }
-    }
-
-    private void writeShowUpdatesOption() {
-        try {
-            IBinder flinger = ServiceManager.getService("SurfaceFlinger");
-            if (flinger != null) {
-                Parcel data = Parcel.obtain();
-                data.writeInterfaceToken("android.ui.ISurfaceComposer");
-                final int showUpdates = mShowScreenUpdates.isChecked() ? 1 : 0; 
-                data.writeInt(showUpdates);
-                flinger.transact(1002, data, null, 0);
-                data.recycle();
-
-                updateFlingerOptions();
             }
         } catch (RemoteException ex) {
         }
@@ -905,28 +871,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateShowNonRectClipOptions();
     }
 
-    private void updateShowHwScreenUpdatesOptions() {
-        updateCheckBox(mShowHwScreenUpdates,
-                SystemProperties.getBoolean(HardwareRenderer.DEBUG_DIRTY_REGIONS_PROPERTY, false));
-    }
-
-    private void writeShowHwScreenUpdatesOptions() {
-        SystemProperties.set(HardwareRenderer.DEBUG_DIRTY_REGIONS_PROPERTY,
-                mShowHwScreenUpdates.isChecked() ? "true" : null);
-        pokeSystemProperties();
-    }
-
-    private void updateShowHwLayersUpdatesOptions() {
-        updateCheckBox(mShowHwLayersUpdates, SystemProperties.getBoolean(
-                HardwareRenderer.DEBUG_SHOW_LAYERS_UPDATES_PROPERTY, false));
-    }
-
-    private void writeShowHwLayersUpdatesOptions() {
-        SystemProperties.set(HardwareRenderer.DEBUG_SHOW_LAYERS_UPDATES_PROPERTY,
-                mShowHwLayersUpdates.isChecked() ? "true" : null);
-        pokeSystemProperties();
-    }
-
     private void updateShowHwOverdrawOptions() {
         updateCheckBox(mShowHwOverdraw, SystemProperties.getBoolean(
                 HardwareRenderer.DEBUG_SHOW_OVERDRAW_PROPERTY, false));
@@ -935,17 +879,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private void writeShowHwOverdrawOptions() {
         SystemProperties.set(HardwareRenderer.DEBUG_SHOW_OVERDRAW_PROPERTY,
                 mShowHwOverdraw.isChecked() ? "true" : null);
-        pokeSystemProperties();
-    }
-
-    private void updateDebugLayoutOptions() {
-        updateCheckBox(mDebugLayout,
-                SystemProperties.getBoolean(View.DEBUG_LAYOUT_PROPERTY, false));
-    }
-
-    private void writeDebugLayoutOptions() {
-        SystemProperties.set(View.DEBUG_LAYOUT_PROPERTY,
-                mDebugLayout.isChecked() ? "true" : "false");
         pokeSystemProperties();
     }
 
@@ -1245,8 +1178,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             writeVerifyAppsOverUsbOptions();
         } else if (preference == mStrictMode) {
             writeStrictModeVisualOptions();
-        } else if (preference == mShowScreenUpdates) {
-            writeShowUpdatesOption();
         } else if (preference == mDisableOverlays) {
             writeDisableOverlaysOption();
         } else if (preference == mShowCpuUsage) {
@@ -1261,14 +1192,8 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             writeHardwareUiOptions();
         } else if (preference == mForceMsaa) {
             writeMsaaOptions();
-        } else if (preference == mShowHwScreenUpdates) {
-            writeShowHwScreenUpdatesOptions();
-        } else if (preference == mShowHwLayersUpdates) {
-            writeShowHwLayersUpdatesOptions();
         } else if (preference == mShowHwOverdraw) {
             writeShowHwOverdrawOptions();
-        } else if (preference == mDebugLayout) {
-            writeDebugLayoutOptions();
         } else if (preference == mKillAppLongpressBack) {
             writeKillAppLongpressBackOptions();
         }

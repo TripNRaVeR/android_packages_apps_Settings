@@ -1672,19 +1672,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"監視"</string>
     <string name="strict_mode" msgid="1938795874357830695">"厳格モードを有効にする"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"メインスレッドの処理が長引く場合は画面を点滅させる"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"表示面の更新を表示"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"更新時にウィンドウの表示面全体を点滅させる"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"GPU表示の更新を表示"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"GPUでの描画時にウィンドウ内の表示を点滅させる"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"ハードウェア層情報を表示"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"ハードウェア層が更新されると緑を表示"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"GPUオーバードローを表示"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"良好な状態から順に: 青、緑、薄い赤、赤"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"HWオーバーレイを無効"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"画面合成に常にGPUを使用する"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"OpenGLトレースを有効化"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"レイアウト境界を表示"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"クリップの境界線、マージンなどを表示"</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"CPU使用状況を表示"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"現在のCPU使用状況をオーバーレイ表示する"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"GPUレンダリングを使用"</string>

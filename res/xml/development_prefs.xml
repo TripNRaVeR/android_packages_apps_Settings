@@ -123,16 +123,6 @@
     <PreferenceCategory android:key="debug_drawing_category"
             android:title="@string/debug_drawing_category">
 
-        <CheckBoxPreference
-            android:key="show_screen_updates"
-            android:title="@string/show_screen_updates"
-            android:summary="@string/show_screen_updates_summary"/>
-
-        <CheckBoxPreference
-            android:key="debug_layout"
-            android:title="@string/debug_layout"
-            android:summary="@string/debug_layout_summary"/>
-
         <ListPreference
             android:key="window_animation_scale"
             android:title="@string/window_animation_scale_title"
@@ -170,16 +160,6 @@
                 android:key="force_hw_ui"
                 android:title="@string/force_hw_ui"
                 android:summary="@string/force_hw_ui_summary"/>
-
-        <CheckBoxPreference
-                android:key="show_hw_screen_udpates"
-                android:title="@string/show_hw_screen_updates"
-                android:summary="@string/show_hw_screen_updates_summary"/>
-
-        <CheckBoxPreference
-                android:key="show_hw_layers_udpates"
-                android:title="@string/show_hw_layers_updates"
-                android:summary="@string/show_hw_layers_updates_summary"/>
 
         <CheckBoxPreference
                 android:key="show_hw_overdraw"

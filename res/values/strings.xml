@@ -3962,21 +3962,6 @@
     <string name="strict_mode_summary">Flash screen when apps do long operations
             on main thread</string>
 
-    <!-- UI debug setting: show where surface updates happen? [CHAR LIMIT=25] -->
-    <string name="show_screen_updates">Show surface updates</string>
-    <!-- UI debug setting: show surface updates summary [CHAR LIMIT=50] -->
-    <string name="show_screen_updates_summary">Flash entire window surfaces when they update</string>
-
-    <!-- UI debug setting: show where window updates happen with GPU rendering? [CHAR LIMIT=25] -->
-    <string name="show_hw_screen_updates">Show GPU view updates</string>
-    <!-- UI debug setting: show GPU rendering screen updates summary [CHAR LIMIT=50] -->
-    <string name="show_hw_screen_updates_summary">Flash views inside windows when drawn with the GPU</string>
-
-    <!-- UI debug setting: show when hardware layers get updated [CHAR LIMIT=25] -->
-    <string name="show_hw_layers_updates">Show hardware layers updates</string>
-    <!-- UI debug setting: show hardware layers updates summary [CHAR LIMIT=50] -->
-    <string name="show_hw_layers_updates_summary">Flash hardware layers green when they update</string>
-
     <!-- UI debug setting: show the amount of overdraw in apps using the GPU [CHAR LIMIT=25] -->
     <string name="show_hw_overdraw">Show GPU overdraw</string>
     <!-- UI debug setting: Show the amount of overdraw summary [CHAR LIMIT=50] -->
@@ -3989,11 +3974,6 @@
 
     <!-- UI debug setting: enable various types of OpenGL traces [CHAR LIMIT=25] -->
     <string name="enable_opengl_traces_title">Enable OpenGL traces</string>
-
-    <!-- UI debug setting: show layout bounds information [CHAR LIMIT=25] -->
-    <string name="debug_layout">Show layout bounds</string>
-    <!-- UI debug setting: show layout bounds information summary [CHAR LIMIT=50] -->
-    <string name="debug_layout_summary">Show clip bounds, margins, etc.</string>
 
     <!-- UI debug setting: show how CPU is being used? [CHAR LIMIT=25] -->
     <string name="show_cpu_usage">Show CPU usage</string>

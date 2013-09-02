@@ -1660,19 +1660,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Ufuatiliaji"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Modi makinifu imewezeshwa"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Mulika skrini wakati programu zinafanya uendeshaji mrefu kwenye mnyororo mkuu"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Onyesha masasisho ya sehemu"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Angaza dirisha lote zitakaposasisha"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Onyesha sasisho za mtazamo wa GPU"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Kiwango cha maoni ndani ya madirisha wakati yanatolewa na GPU"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Onyesha sasisho za safu za maunzi"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Angaza kijani safu za maunzi zinaposasisha"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Onyesha utoaji zaidi wa GPU"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"Kutoka kwa bora hadi mbovu zaidi: samawati, kijani, nyekundu hafifu, nyekundu"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Lemaza miekeleo ya HW"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Daima tumia GPU kwa mchanganyiko wa skrini"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Wezesha ufuatiliaji wa OpenGL"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Onyesha mipaka ya mpangilio"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Onyesha mipaka ya picha, kingo, nk."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Onyesha matumizi ya CPU"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Kuegeshwa kwa skrini ikionyesha matumizi ya sasa ya CPU"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Lazimisha kutungiliza  GPU"</string>

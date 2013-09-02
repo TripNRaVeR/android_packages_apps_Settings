@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Monitoraggio"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Attiva StrictMode"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Flash dello schermo in caso di lunghe operazioni sul thread principale"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Aggiornamenti superficie"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Flash delle superfici delle finestre all\'aggiornamento"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Aggiornamenti visualizz. GPU"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Flash delle visualizzazioni dentro le finestre se disegnate con GPU"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Aggiornam. livelli hardware"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Lampeggia verde se aggiornam. livelli hardware"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Mostra overdraw GPU"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"Dal migliore al peggiore: blu, verde, rosso chiaro, rosso"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Disabilita overlay HW"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Usa sempre GPU per la composizione dello schermo"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Attiva tracce OpenGL"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Mostra limiti di layout"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Mostra limiti, margini dei clip e così via"</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Mostra utilizzo CPU"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Overlay schermo che mostra l\'uso corrente della CPU"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Forza rendering GPU"</string>

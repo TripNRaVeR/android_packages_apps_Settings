@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Figyelés"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Szigorú mód engedélyezve"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Képernyővillogás a fő szál hosszú műveleteinél"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Képernyőfrissítések megj."</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"A teljes ablakfelület villogjon frissítéskor."</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"GPU-nézetfriss. megjel."</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Ablakbeli nézetek villognak GPU-s rajznál."</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Hardverréteg-frissítések"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Frissítéskor a hardverrétegek zölden villognak"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"GPU-kitakarás megjelenít."</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"Legjobbtól a legrosszabbig: kék, zöld, piros"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"HW fedvények letiltása"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Mindig a GPU használata képernyő-feldolgozáshoz"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"OpenGL nyomon követése"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Elrendezéshatár mutatása"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Kliphatárok, margók stb. megjelenítése."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"CPU-használat mutatása"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Képernyőfedvény a jelenlegi CPU-használattal"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"GPU-megjelenítés"</string>

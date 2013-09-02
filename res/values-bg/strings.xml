@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Наблюдение"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Строг режим: Активиран"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Примигване на екрана при дълги операции в главната нишка"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Актуал. на повърхн: Показв."</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Примигв. на целите повърхности на прозорците при актуализирането им"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Показване на актуализациите на изгледа от GPU"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Примигв. на изгледи в прозорците при начертаване с GPU"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Актуализации на слоевете на хардуера"</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Примигв. на слоевете на хардуера в зелено при актуал."</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Преизчертаване от GPU"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"От най-добро към най-лошо: синьо, зелено, светло червено, червено"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Хардуерни наслагвания: Деактив."</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Винаги да се използва GPU за изграждане на екрана"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Трасирания на OpenGL: Акт."</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Граници на оформлението"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Показв. на границите на изрязване, полетата и др."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Употреба на процесора"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Наслагване на екрана показва употр. на процесора"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Принудително изобразяване"</string>

@@ -1666,19 +1666,11 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Övervakning"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Strikt läge aktiverat"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Tänd skärm när app gör omfattande åtgärd på huvudtråd"</string>
-    <string name="show_screen_updates" msgid="5470814345876056420">"Visa ytuppdateringar"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Hela fönstret blinkar vid uppdatering"</string>
-    <string name="show_hw_screen_updates" msgid="5036904558145941590">"Visa GPU-visningsuppdateringar"</string>
-    <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Visningar blinkar i fönster vid GPU-ritningar"</string>
-    <string name="show_hw_layers_updates" msgid="5645728765605699821">"Visa maskinvaruskiktuppd."</string>
-    <string name="show_hw_layers_updates_summary" msgid="5296917233236661465">"Låt maskinvaruskikt blinka grönt vid uppdateringar"</string>
     <string name="show_hw_overdraw" msgid="1136884304711318251">"Visa GPU-flerlagerritning"</string>
     <string name="show_hw_overdraw_summary" msgid="4295714000923082647">"Från bäst till sämst: blå, grön, ljusröd, röd"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Inaktivera HW-överlagringar"</string>
     <string name="disable_overlays_summary" msgid="3578941133710758592">"Använd alltid GPU för skärmsammansättning"</string>
     <string name="enable_opengl_traces_title" msgid="6790444011053219871">"Aktivera OpenGL-spår"</string>
-    <string name="debug_layout" msgid="5981361776594526155">"Visa layoutgränser"</string>
-    <string name="debug_layout_summary" msgid="2001775315258637682">"Visa gränser för videoklipp, marginaler m.m."</string>
     <string name="show_cpu_usage" msgid="2389212910758076024">"Visa CPU-användning"</string>
     <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Överlägg på skärmen med aktuell CPU-användning"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Framtvinga GPU-rendering"</string>
