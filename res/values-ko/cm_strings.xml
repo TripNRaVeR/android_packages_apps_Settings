@@ -83,9 +83,6 @@
     <string name="slide_lock_delay_5m">5분</string>
     <string name="slide_lock_delay_10m">10분</string>
     <string name="slide_lock_delay_30m">30분</string>
-    <string name="performance_settings_title">성능</string>
-    <string name="performance_settings_warning_title">주의 사항</string>
-    <string name="performance_settings_warning">이 설정들은 실험적인 것들이며 변경 시 불안정, 충돌, 데이터 손실 또는 하드웨어 고장이 발생할 수 있습니다. \n\n이 설정들을 변경하였을 경우에는 버그 리포트를 사용하지 말아주시기 바랍니다.</string>
     <string name="display_rotation_title">회전</string>
     <string name="display_rotation_disabled">사용 안함</string>
     <string name="display_rotation_unit">도</string>

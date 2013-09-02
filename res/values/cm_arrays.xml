@@ -88,21 +88,6 @@
         <item>3</item>
     </string-array>
 
-    <!-- Performance settings -->
-    <string-array name="pref_zram_size_entries">
-        <item>Disabled</item>
-        <item>10%</item>
-        <item>18% (default)</item>
-        <item>26%</item>
-    </string-array>
-
-    <string-array name="pref_zram_size_values" translatable="false">
-        <item>0</item>
-        <item>10</item>
-        <item>18</item>
-        <item>26</item>
-    </string-array>
-
     <string-array name="lockscreen_delay_entries" translatable="false">
         <item>@string/slide_lock_delay_none</item>
         <item>@string/slide_lock_delay_1s</item>

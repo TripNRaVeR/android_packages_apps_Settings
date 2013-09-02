@@ -126,9 +126,6 @@
     <string name="slide_lock_delay_5m">5 minuuttia</string>
     <string name="slide_lock_delay_10m">10 minuuttia</string>
     <string name="slide_lock_delay_30m">30 minuuttia</string>
-    <string name="performance_settings_title">Suorituskyky</string>
-    <string name="performance_settings_warning_title">Jatka varovaisesti</string>
-    <string name="performance_settings_warning">Nämä asetukset ovat kokeellisia ja niiten muuttaminen voi mahdollisesti aiheuttaa epävakautta, kaatumisia, tiedon häviämistä tai laitteistovikoja.\n\nPyydämme, ettet lähetä virheraportteja näihin asetuksiin liittyen.</string>
     <string name="display_rotation_title">Näytön kierto</string>
     <string name="display_rotation_disabled">Pois käytöstä</string>
     <string name="display_rotation_unit">astetta</string>
