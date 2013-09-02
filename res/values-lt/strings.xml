@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Stebėjimas"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Įgal. griežtas režimas"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Ekr. blyksės, kai pr. atl. ilgus proc. pgr. gijoje"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Žymiklio vieta"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Ekrano perdanga rodo dabartinius lietimo duomenis"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Rodyti palietimus"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Rodyti vaizdinius palietimų atsiliepimus"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Rodyti paviršiaus naujin."</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Naujinant mirginti visus langų paviršius"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Rodyt GPU rodinių naujin."</string>

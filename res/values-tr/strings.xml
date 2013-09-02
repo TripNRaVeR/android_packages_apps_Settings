@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"İzleme"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Yüksek düzey modu etkin"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Uygulamalar uzun işlem yaparken flash ekranı."</string>
-    <string name="pointer_location" msgid="6084434787496938001">"İşaretçi konumu"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Mevcut dokunmatik verilerini gösteren yer paylaşımı"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Dokunmaları göster"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Dokunmalarda görsel geri bildirim göster"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Yüzey güncellemelerini göster"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Güncelleme sırasında tüm pencere yüzeylerini çiz"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"GPU görünüm güncellemelerini göster"</string>

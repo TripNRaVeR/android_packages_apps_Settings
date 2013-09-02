@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Overvåking"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Streng modus er aktivert"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Skjermblink når apper utfører lang handling på hovedtråd"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Pekerplassering"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Skjermoverlegg viser aktuelle berøringsdata"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Vis berøringer"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Vis visuelle tilbakemeldinger for berøringer"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Vis overflateoppdateringer"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Fremhev hele vinduer når de oppdateres"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Vis GPU-visningsoppdateringer"</string>

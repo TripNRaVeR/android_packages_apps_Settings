@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Supervisió"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Mode estricte"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Centelleja si les aplicacions triguen molt al procés principal"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Ubicació del punter"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Superposa les dades dels tocs a la pantalla"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Mostra els tocs"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Mostra la ubicació dels tocs a la pantalla"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Canvis de superfície"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Actualitza superfícies de finestres en actualitzar-se"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Actualitzacions GPU"</string>

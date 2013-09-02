@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Jälgimine"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Range režiim on lubatud"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Ekr. vilgub, kui rakend. teevad peateemal toiming."</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Kursori asukoht"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Praegusi puuteandmeid kuvav ekraani ülekate"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Näita puuteid"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Kuva visuaalset tagasisidet puudete kohta"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Näita pinna värskendusi"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Akna pinna värskendam. kirjuta kogu akna pind üle"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Näita GPU kuva värskend."</string>

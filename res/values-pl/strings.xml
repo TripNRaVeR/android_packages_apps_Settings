@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Monitorowanie"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Tryb ścisły włączony"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Miganie ekranu podczas długich operacji w wątku głównym"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Lokalizacja wskaźnika"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Nakładka pokazująca dane o dotknięciach ekranu"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Pokaż dotknięcia"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Potwierdzenia wizualne po dotknięciu"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Pokaż zmiany powierzchni"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Podświetlaj całe aktualizowane powierzchnie okien"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Pokaż zmiany widoku z GPU"</string>

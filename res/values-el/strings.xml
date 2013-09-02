@@ -1665,10 +1665,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Παρακολούθηση"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Ενεργ. αυστηρής λειτουργ."</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Αναβ. οθόνη σε εκτέλεση μεγάλων λειτ.σε κύριο νήμα"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Θέση δείκτη"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Επικάλ.οθόνης για προβολή τρεχόντων δεδ/νων αφής"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Εμφάνιση αγγιγμάτων"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Εμφάνιση οπτικών σχολίων για αγγίγματα"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Εμφάνιση ενημερώσεων επιφάνειας"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Προβολή Flash ολόκλ. των επιφ παραθ. όταν ενημερ."</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Εμφάνιση των ενημερώσεων προβολής GPU"</string>

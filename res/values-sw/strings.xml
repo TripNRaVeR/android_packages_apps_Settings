@@ -1660,10 +1660,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Ufuatiliaji"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Modi makinifu imewezeshwa"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Mulika skrini wakati programu zinafanya uendeshaji mrefu kwenye mnyororo mkuu"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Mahali pa pointa"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Kuegeshwa kwa skrini ikionyesha data ya mguso ya sasa"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Onyesha miguso"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Onyesha mwitikio wa kuonekana wa miguso"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Onyesha masasisho ya sehemu"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Angaza dirisha lote zitakaposasisha"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Onyesha sasisho za mtazamo wa GPU"</string>

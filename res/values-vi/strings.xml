@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Giám sát"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Đã bật chế độ nghiêm ngặt"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Màn hình flash khi ứng dụng thực hiện các hoạt động dài trên chuỗi chính"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Vị trí con trỏ"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Lớp phủ màn hình hiển thị dữ liệu chạm hiện tại"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Hiển thị số lần chạm"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Hiển thị phản hồi trực quan cho các lần chạm"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Hiển thị cập nhật bề mặt"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Chuyển nhanh toàn bộ các giao diện cửa sổ khi các giao diện này cập nhật"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Hiển thị cập nhật chế độ xem GPU"</string>

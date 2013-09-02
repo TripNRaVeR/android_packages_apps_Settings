@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"المراقبة"</string>
     <string name="strict_mode" msgid="1938795874357830695">"تم تمكين الوضع المتشدد"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"وميض الشاشة عند إجراء التطبيقات عمليات طويلة في سلسلة المحادثات الرئيسية"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"موقع المؤشر"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"عرض تراكب الشاشة لبيانات اللمس الحالية"</string>
-    <string name="show_touches" msgid="1356420386500834339">"عرض مرات اللمس"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"عرض تعليقات مرئية لمرات اللمس"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"عرض تحديثات السطح"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"وميض أسطح النوافذ بالكامل عندما يتم تحديثها"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"إظهار تحديثات عرض GPU"</string>

@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Надгледање"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Омогућен је строги режим"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Нека екран трепери када апликације обављају дуге операције на главној нити"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Локација показивача"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Постав. елемент са тренутним подацима о додиру"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Прикажи додире"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Прикажи визуелне повратне информације за додире"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Прик. ажурирања површине"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Осветли све површине прозора када се ажурирају"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Прикажи ажур. GPU приказа"</string>

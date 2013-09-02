@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Monitoring"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Strict mode enabled"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Flash screen when apps do long operations on main thread"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Pointer location"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Screen overlay showing current touch data"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Show touches"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Show visual feedback for touches"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Show surface updates"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Flash entire window surfaces when they update"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Show GPU view updates"</string>

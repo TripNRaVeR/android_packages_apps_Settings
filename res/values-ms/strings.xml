@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Memantau"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Mod tegas didayakan"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Kelip skrin bila apl m\'buat oprsi pjg pd urtn utma"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Lokasi penuding"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Tindihan atas skrin menunjukkan data sentuh semasa"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Tunjukkan sentuhan"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Menunjukkan maklum balas visual untuk sentuhan"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Tunjuk kms kini permukaan"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Denyar permukaan tetingkap yg dikemas kini"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Tunjuk kemas kini GPU"</string>

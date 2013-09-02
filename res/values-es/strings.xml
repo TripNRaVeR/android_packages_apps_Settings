@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Supervisión"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Modo estricto"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Destellar si las aplicaciones tardan mucho en el proceso principal"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Ubicación del puntero"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Superponer los datos de las pulsaciones en la pantalla"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Mostrar pulsaciones"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Mostrar la ubicación de las pulsaciones en la pantalla"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Cambios de superficie"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Actualizar superficies de ventana al actualizarse"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Actualizaciones GPU"</string>

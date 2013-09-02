@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"निगरानी"</string>
     <string name="strict_mode" msgid="1938795874357830695">"सख्‍त मोड सक्षम किया गया"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"जब एप्लि. मुख्‍य थ्रेड पर लंबी कार्यवाही करते हैं तो स्‍क्रीन फ़्लैश करें"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"सूचक स्थान"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"वर्तमान स्‍पर्श डेटा दिखाने वाला स्‍क्रीन ओवरले"</string>
-    <string name="show_touches" msgid="1356420386500834339">"स्पर्श दिखाएं"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"स्पर्श के लिए दृश्यमान फ़ीडबैक दिखाएं"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"सतह अपडेट दिखाएं"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"विंडो सतहें अपडेट होने पर उन सभी को फ़्लैश करें"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"GPU दृश्‍य अपडेट दिखाएं"</string>

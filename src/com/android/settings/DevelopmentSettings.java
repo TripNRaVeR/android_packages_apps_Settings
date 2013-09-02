@@ -112,8 +112,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private static final String WAIT_FOR_DEBUGGER_KEY = "wait_for_debugger";
     private static final String VERIFY_APPS_OVER_USB_KEY = "verify_apps_over_usb";
     private static final String STRICT_MODE_KEY = "strict_mode";
-    private static final String POINTER_LOCATION_KEY = "pointer_location";
-    private static final String SHOW_TOUCHES_KEY = "show_touches";
     private static final String SHOW_SCREEN_UPDATES_KEY = "show_screen_updates";
     private static final String DISABLE_OVERLAYS_KEY = "disable_overlays";
     private static final String SHOW_CPU_USAGE_KEY = "show_cpu_usage";
@@ -178,8 +176,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private CheckBoxPreference mVerifyAppsOverUsb;
 
     private CheckBoxPreference mStrictMode;
-    private CheckBoxPreference mPointerLocation;
-    private CheckBoxPreference mShowTouches;
     private CheckBoxPreference mShowScreenUpdates;
     private CheckBoxPreference mDisableOverlays;
     private CheckBoxPreference mShowCpuUsage;
@@ -284,8 +280,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             }
         }
         mStrictMode = findAndInitCheckboxPref(STRICT_MODE_KEY);
-        mPointerLocation = findAndInitCheckboxPref(POINTER_LOCATION_KEY);
-        mShowTouches = findAndInitCheckboxPref(SHOW_TOUCHES_KEY);
         mShowScreenUpdates = findAndInitCheckboxPref(SHOW_SCREEN_UPDATES_KEY);
         mDisableOverlays = findAndInitCheckboxPref(DISABLE_OVERLAYS_KEY);
         mShowCpuUsage = findAndInitCheckboxPref(SHOW_CPU_USAGE_KEY);
@@ -497,8 +491,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updatePasswordSummary();
         updateDebuggerOptions();
         updateStrictModeVisualOptions();
-        updatePointerLocationOptions();
-        updateShowTouchesOptions();
         updateFlingerOptions();
         updateCpuUsageOptions();
         updateHardwareUiOptions();
@@ -782,26 +774,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private void updateStrictModeVisualOptions() {
         updateCheckBox(mStrictMode, currentStrictModeActiveIndex() == 1);
-    }
-
-    private void writePointerLocationOptions() {
-        Settings.System.putInt(getActivity().getContentResolver(),
-                Settings.System.POINTER_LOCATION, mPointerLocation.isChecked() ? 1 : 0);
-    }
-
-    private void updatePointerLocationOptions() {
-        updateCheckBox(mPointerLocation, Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.POINTER_LOCATION, 0) != 0);
-    }
-
-    private void writeShowTouchesOptions() {
-        Settings.System.putInt(getActivity().getContentResolver(),
-                Settings.System.SHOW_TOUCHES, mShowTouches.isChecked() ? 1 : 0);
-    }
-
-    private void updateShowTouchesOptions() {
-        updateCheckBox(mShowTouches, Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.SHOW_TOUCHES, 0) != 0);
     }
 
     private void updateFlingerOptions() {
@@ -1273,10 +1245,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             writeVerifyAppsOverUsbOptions();
         } else if (preference == mStrictMode) {
             writeStrictModeVisualOptions();
-        } else if (preference == mPointerLocation) {
-            writePointerLocationOptions();
-        } else if (preference == mShowTouches) {
-            writeShowTouchesOptions();
         } else if (preference == mShowScreenUpdates) {
             writeShowUpdatesOption();
         } else if (preference == mDisableOverlays) {

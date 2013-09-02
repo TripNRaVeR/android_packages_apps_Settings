@@ -1673,10 +1673,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Ukwengamela"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Imodi eqinile ivumelwe"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Ukuphazimisa isikrini uma izinhlelo zokusebenza ziyenza umsebenzi ngesikhathi eside kuchungechunge olukhulu"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Isikhombi sendawo"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Imbondela yesikrini ibonisa idatha yokuthinta yamanje"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Khombisa okuthintiwe"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Khombisa umbiko obonwayo wokuthintiwe"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Buka izibuyekezo ezibonakalayo"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Khanyisa ukubonakala kwalo lonke iwindi uma libuyekezwa"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Buka izibuyekezo ze-GPU"</string>

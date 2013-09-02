@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Überwachung"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Strikter Modus aktiviert"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Bei längeren Aktionen im Hauptthread Bildschirm kurz einblenden"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Zeigerposition"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Overlay mit aktuellen Daten zu Tippaktionen"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Berührungen anzeigen"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Visuelles Feedback für Berührungen anzeigen"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Oberflächenaktualisierungen"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Flash für gesamte Fensteroberfläche bei Aktualisierung"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Updates m. GPU-Ansicht"</string>

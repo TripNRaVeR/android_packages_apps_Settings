@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"Suivi"</string>
     <string name="strict_mode" msgid="1938795874357830695">"Mode Strict activé"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Afficher un cadre rouge si le thread principal reste occupé"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"Emplacement du curseur"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Superposition écran indiquant données actuelles"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Afficher élément sélectionné"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Afficher repère visuel pour éléments sélectionnés"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Affich. mise à jour surface"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"Faire clignoter les surfaces à chaque mise à jour"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Afficher mises à jour GPU"</string>

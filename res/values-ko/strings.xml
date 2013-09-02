@@ -1666,10 +1666,6 @@
     <string name="debug_monitoring_category" msgid="7640508148375798343">"모니터링"</string>
     <string name="strict_mode" msgid="1938795874357830695">"엄격 모드 사용"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"앱이 기본 스레드에서 오래 작업하면 화면 깜박이기"</string>
-    <string name="pointer_location" msgid="6084434787496938001">"포인터 위치"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"현재 터치 데이터 오버레이 표시"</string>
-    <string name="show_touches" msgid="1356420386500834339">"터치한 항목 표시"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"터치한 항목에 대해 시각적으로 표시"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"표면 업데이트 표시"</string>
     <string name="show_screen_updates_summary" msgid="2569622766672785529">"전체 창 표면이 업데이트되었을 때 플래시 처리"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"GPU 보기 업데이트 표시"</string>
