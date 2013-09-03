@@ -143,8 +143,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private static final String PACKAGE_MIME_TYPE = "application/vnd.android.package-archive";
 
-    private static final String DEVELOPMENT_TOOLS = "development_tools";
-
     private static final int RESULT_DEBUG_APP = 1000;
 
     private IWindowManager mWindowManager;
@@ -193,7 +191,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private ListPreference mRootAccess;
     private Object mSelectedRootValue;
-    private PreferenceScreen mDevelopmentTools;
 
     private CheckBoxPreference mExperimentalWebView;
 
@@ -319,11 +316,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mRootAccess.setOnPreferenceChangeListener(this);
         if (!removeRootOptionsIfRequired()) {
             mAllPrefs.add(mRootAccess);
-        }
-
-        mDevelopmentTools = (PreferenceScreen) findPreference(DEVELOPMENT_TOOLS);
-        if (!removePreferenceIfPackageNotInstalled(mDevelopmentTools)) {
-            mAllPrefs.add(mDevelopmentTools);
         }
     }
 
