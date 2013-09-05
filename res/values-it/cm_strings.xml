@@ -635,4 +635,5 @@ inserire punti di controllo aggiuntivi. \'Rimuovi\' cancella la riga selezionata
     <string name="more_device_settings_title">Altre opzioni del dispositivo</string>
     <string name="sensors_motors_title">Sensori &amp; Motori</string>
     <string name="display_calibration_title">Calibrazione display calibration</string>
+    <string name="font_size_sample">Esempio</string>
 </resources>
