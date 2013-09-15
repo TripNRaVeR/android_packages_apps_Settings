@@ -442,7 +442,7 @@ public class Settings extends PreferenceActivity
                 launcherIntent.addCategory(Intent.CATEGORY_DEFAULT);
 
                 Intent launcherPrefsIntent = new Intent(Intent.ACTION_MAIN);
-                launcherPrefsIntent.addCategory("com.cyanogenmod.category.LAUNCHER_PREFERENCES");
+                launcherPrefsIntent.addCategory("com.tripndroid.category.LAUNCHER_PREFERENCES");
 
                 final PackageManager pm = getPackageManager();
                 ActivityInfo defaultLauncher = pm.resolveActivity(launcherIntent,
