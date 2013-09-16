@@ -236,7 +236,7 @@
     <header
         android:id="@+id/superuser"
         android:fragment="com.android.settings.tripndroid.superuser.PolicyNativeFragment"
-        android:icon="@drawable/ic_action_permission"
+        android:icon="@drawable/ic_settings_superuser"
         android:title="@string/superuser" />
 
     <!-- About Device -->
