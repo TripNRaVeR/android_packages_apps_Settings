@@ -242,7 +242,9 @@ Let op:\nAangezien het beginvolume hoger is ingesteld dan het beltoonvolume, wor
     <string name="hardware_keys_action_in_app_search">Zoeken in apps</string>
     <string name="swap_volume_buttons_title">Volumeknoppen omdraaien</string>
     <string name="swap_volume_buttons_summary">Volumeknoppen omdraaien indien het scherm gedraaid is</string>
-    <string name="navigation_bar_title">Navigatiebalk</string>
+    <string name="force_navigation_bar_title">Navigatiebalk gebruiken</string>
+    <string name="force_navigation_bar_summary">Aanvullende Navigatiebalk weergeven</string>
+    <string name="navigation_bar_title">Navigatiebalk instellen</string>
     <string name="navigation_bar_help_text">1 - Kies het vergrendelingspictogram om te beginnen\n\n2 - Kies een knop om een functie aan toe te wijzen of te wijzigen\n\n3 - Raak een knop lang aan om de positie te wijzigen\n\n4 - Tik nogmaals op het vergrendelingspictogram om op te slaan\n\n5 - Tik op \'Herstellen\' om de standaardinstellingen te herstellen\n\n</string>
     <string name="navigation_bar_tips">&#8226; Acties kunnen slechts aan één knop worden toegewezen\n\n&#8226; De thuisknop kan niet opnieuw worden toegewezen\n\n&#8226; Randknoppen kunnen niet worden herschikt</string>
     <string name="navigation_bar_tips_title">Snelle tips</string>
@@ -305,10 +307,6 @@ Let op:\nAangezien het beginvolume hoger is ingesteld dan het beltoonvolume, wor
     <string name="power_menu_title">Aan/uit-knop</string>
     <string name="power_menu_reboot_title">Herstarten</string>
     <string name="power_menu_screenshot_title">Schermafdruk</string>
-    <string name="expanded_desktop_disabled">Uitgeschakeld</string>
-    <string name="expanded_desktop_status_bar">Statusbalk zichtbaar</string>
-    <string name="expanded_desktop_no_status_bar">Statusbalk verborgen</string>
-    <string name="power_menu_expanded_desktop">Uitgebreid bureaublad</string>
     <string name="power_menu_profiles_title">Profielen</string>
     <string name="power_menu_airplane_title">Vliegmodus</string>
     <string name="power_menu_user_title">Gebruiker wisselen</string>
@@ -399,7 +397,6 @@ Let op:\nAangezien het beginvolume hoger is ingesteld dan het beltoonvolume, wor
     <string name="title_tile_screen_timeout">Schermtime-out</string>
     <string name="title_tile_quiet_hours">Stille uren</string>
     <string name="title_tile_volume">Volume</string>
-    <string name="title_tile_expanded_desktop">Uitgebreid bureaublad</string>
     <string name="title_dynamic_tiles">Dynamische tegels</string>
     <string name="dynamic_tiles_note_title">Let op</string>
     <string name="dynamic_tiles_note_summary">Dynamische tegels zijn alleen zichtbaar indien opgeroepen door een systeemgebeurtenis</string>
@@ -509,9 +506,10 @@ Elke regel in de lijst van helderheidsstanden komt overeen met één <i>controle
     <string name="navring_action_torch">Zaklamp aan/uit</string>
     <string name="navring_action_google_now">Google Now</string>
     <string name="navring_choose_action_title">Actie selecteren</string>
-    <string name="pie_control_title">Zwevende knoppen</string>
-    <string name="pie_control_enabled">\'Pie controls\' ingeschakeld als \'Uitgebreid bureaublad\' ingeschakeld is</string>
-    <string name="pie_control_disabled">\'Pie controls\' uitgeschakeld</string>
+    <string name="pie_config_category">Pie configuratie</string>
+    <string name="pie_control_title">\'Pie controls\' instellen</string>
+    <string name="pie_control_enabled">Momenteel ingeschakeld</string>
+    <string name="pie_control_disabled">Momenteel uitgeschakeld</string>
     <string name="pie_control_sensitivity_title">Reactiesnelheid</string>
     <string name="pie_control_sensitivity_low">Laag</string>
     <string name="pie_control_sensitivity_medium">Gemiddeld</string>

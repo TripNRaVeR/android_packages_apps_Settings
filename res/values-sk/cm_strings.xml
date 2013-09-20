@@ -296,10 +296,6 @@
     <string name="power_menu_title">Ponuka vypnutia</string>
     <string name="power_menu_reboot_title">Reštart</string>
     <string name="power_menu_screenshot_title">Snímka obrazovky</string>
-    <string name="power_menu_expanded_desktop">Rozšírená plocha</string>
-    <string name="expanded_desktop_disabled">Zakázané</string>
-    <string name="expanded_desktop_status_bar">Stavová lišta zobrazená</string>
-    <string name="expanded_desktop_no_status_bar">Stavová lišta skrytá</string>
     <string name="power_menu_profiles_title">Prepínač profilov</string>
     <string name="power_menu_airplane_title">Režim V lietadle</string>
     <string name="power_menu_user_title">Prepínač užívateľov</string>
@@ -377,7 +373,6 @@
     <string name="title_tile_screen_timeout">Časový limit obrazovky</string>
     <string name="title_tile_quiet_hours">Čas ticha</string>
     <string name="title_tile_volume">Hlasitosť</string>
-    <string name="title_tile_expanded_desktop">Rozšírená plocha</string>
     <string name="title_dynamic_tiles">Dynamické dlaždice</string>
     <string name="dynamic_tiles_note_title">Poznámka</string>
     <string name="dynamic_tiles_note_summary">Dynamické dlaždice nie sú vždy viditeľné a sú zobrazené iba na určitú systémovú udalosť</string>

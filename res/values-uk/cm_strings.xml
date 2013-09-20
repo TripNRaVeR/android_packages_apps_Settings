@@ -245,10 +245,6 @@
     <string name="power_menu_title">Меню \"Параметри пристрою\"</string>
     <string name="power_menu_reboot_title">Перезавантаження</string>
     <string name="power_menu_screenshot_title">Скріншот</string>
-    <string name="power_menu_expanded_desktop">Розширений робочий стіл</string>
-    <string name="expanded_desktop_disabled">Вимкнено</string>
-    <string name="expanded_desktop_status_bar">З рядком стану</string>
-    <string name="expanded_desktop_no_status_bar">Без рядка стану</string>
     <string name="power_menu_profiles_title">Вибір профілю</string>
     <string name="power_menu_airplane_title">Режим польоту</string>
     <string name="power_menu_user_title">Переключенння користувачів</string>
@@ -319,7 +315,6 @@
     <string name="title_tile_networkmode">Режим мережі</string>
     <string name="title_tile_quiet_hours">Тихі години</string>
     <string name="title_tile_volume">Гучність</string>
-    <string name="title_tile_expanded_desktop">Розширений екран</string>
     <string name="title_dynamic_tiles">Динамічні плитки</string>
     <string name="dynamic_tiles_note_title">Замітка</string>
     <string name="dynamic_tiles_note_summary">Динамічні плитки видно тільки при системному виклику</string>

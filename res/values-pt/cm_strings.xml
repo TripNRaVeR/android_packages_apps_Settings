@@ -249,7 +249,6 @@
     <string name="power_menu_title">Menu de energia</string>
     <string name="power_menu_reboot_title">Menu de reinicialização</string>
     <string name="power_menu_screenshot_title">Captura de tela</string>
-    <string name="power_menu_expanded_desktop">Área de trabalho expandida</string>
     <string name="power_menu_profiles_title">Alternador de perfil</string>
     <string name="power_menu_airplane_title">Modo avião</string>
     <string name="cmupdate_settings_title">Atualizações TripNDroid</string>
@@ -395,9 +394,6 @@
     <string name="notification_convert_sound_to_vibration_summary">Em modo de vibração, todas as notificações irão vibrar independente das configurações individuais dos aplicativos</string>
     <string name="cyanogenmod_waiver_title">Garantia</string>
     <string name="cyanogenmod_waiver_body">Alterar esta configuração pode ser contra as leis do seu local.\n\nAo selecionar abaixo \'OK\', você reconhece este aviso e garantia, proteção e isenção ao CyanogenMod e seus contribuintes de todas responsabilidades legais.</string>
-    <string name="expanded_desktop_disabled">Desligado</string>
-    <string name="expanded_desktop_status_bar">Barra de status visível</string>
-    <string name="expanded_desktop_no_status_bar">Barra de status oculta</string>
     <string name="light_sensor_current_value">Valor atual do sensor de luz: <xliff:g id="light_level">%d</xliff:g> lux</string>
     <string name="auto_brightness_dialog_title">Níveis automáticos de brilho</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>
@@ -447,7 +443,6 @@
     <string name="pie_control_trigger_top">Borda superior da tela</string>
     <string name="pie_control_trigger_top_summary">Somente navegação sera exibida na parte superior</string>
     <string name="title_tile_volume">Volume</string>
-    <string name="title_tile_expanded_desktop">Área de trabalho expandida</string>
     <string name="title_dynamic_dock_battery">Bateria do dock</string>
     <string name="gestures_settings_title">Gestos p/ stylus</string>
     <string name="category_spen_title">Gestos p/ stylus</string>

@@ -34,37 +34,49 @@
         android:fragment="com.android.settings.cyanogenmod.NotificationDrawer"
         android:title="@string/notification_drawer_title" />
 
-    <ListPreference
-        android:key="expanded_desktop"
-        android:title="@string/power_menu_expanded_desktop"
-        android:entries="@array/expanded_desktop_entries"
-        android:entryValues="@array/expanded_desktop_values"
-        android:persistent="false" />
-
-    <CheckBoxPreference
-        android:key="expanded_desktop_no_navbar"
-        android:title="@string/power_menu_expanded_desktop"
-        android:persistent="false" />
-
     <PreferenceCategory
         android:key="navigation_bar"
-        android:title="@string/navigation_bar_category" >
+        android:title="@string/navigation_bar_category" />
 
-        <PreferenceScreen
-            android:key="navigation_bar"
-            android:fragment="com.android.settings.cyanogenmod.NavBar"
-            android:title="@string/navigation_bar_title" />
+    <CheckBoxPreference
+        android:key="force_navigation_bar"
+        android:title="@string/force_navigation_bar_title"
+        android:summary="@string/force_navigation_bar_summary"
+        android:defaultValue="false" />
 
-        <PreferenceScreen
-            android:key="navigation_ring"
-            android:fragment="com.android.settings.cyanogenmod.NavRing"
-            android:title="@string/navigation_ring_title" />
+    <CheckBoxPreference
+        android:key="back_button_enabled"
+        android:title="@string/navigation_bar_back_button"
+        android:summary="@string/navigation_bar_back_button_summary"
+        android:defaultValue="true"
+        android:dependency="force_navigation_bar" />
 
-        <PreferenceScreen
-            android:key="pie_control"
-            android:fragment="com.android.settings.cyanogenmod.PieControl"
-            android:title="@string/pie_control_title" />
+    <!-- <CheckBoxPreference
+        android:key="menu_button_enabled"
+        android:title="@string/menu_button_enabled"
+        android:summary="@string/menu_button_enabled_summary"
+        android:defaultValue="true"
+        android:dependency="force_navigation_bar" /> -->
 
-    </PreferenceCategory>
+    <PreferenceScreen
+        android:key="navigation_bar"
+        android:fragment="com.android.settings.cyanogenmod.NavBar"
+        android:title="@string/navigation_bar_title"
+        android:dependency="force_navigation_bar" />
+
+    <PreferenceScreen
+        android:key="navigation_ring"
+        android:fragment="com.android.settings.cyanogenmod.NavRing"
+        android:title="@string/navigation_ring_title"
+        android:dependency="force_navigation_bar" />
+
+    <PreferenceCategory
+        android:key="pie_config"
+        android:title="@string/pie_config_category" />
+
+    <PreferenceScreen
+        android:key="pie_control"
+        android:fragment="com.android.settings.cyanogenmod.PieControl"
+        android:title="@string/pie_control_title" />
 
 </PreferenceScreen>

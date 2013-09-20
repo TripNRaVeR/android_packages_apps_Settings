@@ -320,10 +320,6 @@
     <string name="power_menu_title">Μενού πλήκτρου απενεργοποίησης</string>
     <string name="power_menu_reboot_title">Επανεκκίνηση</string>
     <string name="power_menu_screenshot_title">Στιγμιότυπο οθόνης</string>
-    <string name="power_menu_expanded_desktop">Επέκταση επιφάνειας</string>
-    <string name="expanded_desktop_disabled">Απενεργοποιημένη</string>
-    <string name="expanded_desktop_status_bar">Εμφανής μπάρα κατάστασης</string>
-    <string name="expanded_desktop_no_status_bar">Κρυμμένη μπάρα κατάστασης</string>
     <string name="power_menu_profiles_title">Προφίλ</string>
     <string name="power_menu_airplane_title">Λειτουργία πτήσης</string>
     <string name="power_menu_user_title">Εναλλαγή χρήστη</string>
@@ -401,7 +397,6 @@
     <string name="title_tile_screen_timeout">Χρ. όριο οθόνης</string>
     <string name="title_tile_quiet_hours">Ώρες ησυχίας</string>
     <string name="title_tile_volume">Ένταση</string>
-    <string name="title_tile_expanded_desktop">Επέκταση επιφάνειας</string>
     <string name="title_dynamic_tiles">Δυναμικά πλακίδια</string>
     <string name="dynamic_tiles_note_title">Σημείωση</string>
     <string name="dynamic_tiles_note_summary">Τα δυναμικά πλακίδια δεν είναι πάντα ορατά και εμφανίζονται μόνο όταν προκληθεί ένα συμβάν του συστήματος</string>

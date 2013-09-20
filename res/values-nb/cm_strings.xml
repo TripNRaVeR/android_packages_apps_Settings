@@ -282,10 +282,6 @@
     <string name="power_menu_title">På/av-meny</string>
     <string name="power_menu_reboot_title">Omstarts-meny</string>
     <string name="power_menu_screenshot_title">Skjermbilde</string>
-    <string name="power_menu_expanded_desktop">Utvidet skrivebord</string>
-    <string name="expanded_desktop_disabled">Deaktivert</string>
-    <string name="expanded_desktop_status_bar">Synlig statuslinje</string>
-    <string name="expanded_desktop_no_status_bar">Usynlig statuslinje</string>
     <string name="power_menu_profiles_title">Profilvelger</string>
     <string name="power_menu_airplane_title">Flymodus</string>
     <string name="power_menu_user_title">Brukervelger</string>
@@ -361,7 +357,6 @@
     <string name="title_tile_screen_timeout">Tidsavbrudd for skjerm</string>
     <string name="title_tile_quiet_hours">Stilletid</string>
     <string name="title_tile_volume">Volum</string>
-    <string name="title_tile_expanded_desktop">Utvidet skrivebord</string>
     <string name="title_dynamic_tiles">Dynamiske fliser</string>
     <string name="dynamic_tiles_note_title">Merk</string>
     <string name="dynamic_tiles_note_summary">Dynamiske fliser er ikke alltid synlige, og vil kun vises om de blir trigget av en systembegivenhet</string>

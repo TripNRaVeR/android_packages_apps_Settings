@@ -362,10 +362,6 @@
     <string name="power_menu_title">Меню кнопки питания</string>
     <string name="power_menu_reboot_title">Перезагрузка</string>
     <string name="power_menu_screenshot_title">Скриншот</string>
-    <string name="power_menu_expanded_desktop">Расширенный экран</string>
-    <string name="expanded_desktop_disabled">Выключен</string>
-    <string name="expanded_desktop_status_bar">Со строкой состояния</string>
-    <string name="expanded_desktop_no_status_bar">Без строки состояния</string>
     <string name="power_menu_profiles_title">Выбор профиля</string>
     <string name="power_menu_airplane_title">Режим полёта</string>
     <string name="power_menu_user_title">Переключение пользователей</string>
@@ -464,8 +460,6 @@
     <string name="title_tile_networkmode">Режим сети</string>
     <string name="title_tile_quiet_hours">Тихие часы</string>
     <string name="title_tile_volume">Громкость</string>
-    <string name="title_tile_expanded_desktop">Расширенный экран</string>
-
     <string name="title_dynamic_tiles">Динамические плитки</string>
     <string name="dynamic_tiles_note_title">Примечание</string>
     <string name="dynamic_tiles_note_summary">Динамические плитки видны, только если они вызваны системным событием</string>

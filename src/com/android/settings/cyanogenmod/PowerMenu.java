@@ -34,10 +34,6 @@ public class PowerMenu extends SettingsPreferenceFragment {
 
         final ContentResolver resolver = getContentResolver();
 
-        // Only enable expanded desktop item if expanded desktop support is also enabled
-        findPreference(Settings.System.POWER_MENU_EXPANDED_DESKTOP_ENABLED).setEnabled(
-                Settings.System.getInt(resolver, Settings.System.EXPANDED_DESKTOP_STYLE, 0) != 0);
-
         if (!UserHandle.MU_ENABLED || !UserManager.supportsMultipleUsers()) {
             getPreferenceScreen().removePreference(
                     findPreference(Settings.System.POWER_MENU_USER_ENABLED));

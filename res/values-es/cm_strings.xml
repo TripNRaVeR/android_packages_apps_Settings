@@ -319,10 +319,6 @@
     <string name="power_menu_title">Menú de apagado</string>
     <string name="power_menu_reboot_title">Reiniciar</string>
     <string name="power_menu_screenshot_title">Capturar pantalla</string>
-    <string name="power_menu_expanded_desktop">Extender escritorio</string>
-    <string name="expanded_desktop_disabled">Desactivado</string>
-    <string name="expanded_desktop_status_bar">Barra de estado visible</string>
-    <string name="expanded_desktop_no_status_bar">Barra de estado oculta</string>
     <string name="power_menu_profiles_title">Perfiles</string>
     <string name="power_menu_airplane_title">Modo avión</string>
     <string name="power_menu_user_title">Cambiar de usuario</string>
@@ -402,7 +398,6 @@
     <string name="title_tile_screen_timeout">Tiempo de espera</string>
     <string name="title_tile_quiet_hours">Modo descanso</string>
     <string name="title_tile_volume">Volumen</string>
-    <string name="title_tile_expanded_desktop">Extender escritorio</string>
     <string name="title_dynamic_tiles">Controles dinámicos</string>
     <string name="dynamic_tiles_note_title">Nota</string>
     <string name="dynamic_tiles_note_summary">Los controles dinámicos no siempre estarán visibles y solo se mostrarán por un evento del sistema</string>

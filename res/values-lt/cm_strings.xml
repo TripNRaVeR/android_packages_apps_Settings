@@ -254,7 +254,6 @@
     <string name="power_menu_title">Išjungimo meniu</string>
     <string name="power_menu_reboot_title">Perkrovimo meniu</string>
     <string name="power_menu_screenshot_title">Ekranvaizdis</string>
-    <string name="power_menu_expanded_desktop">Išplėstinis ekranas</string>
     <string name="power_menu_profiles_title">Perjungti profilį</string>
     <string name="power_menu_airplane_title">Lėktuvo rež.</string>
     <string name="power_menu_user_title">Naudotojo keitimas</string>

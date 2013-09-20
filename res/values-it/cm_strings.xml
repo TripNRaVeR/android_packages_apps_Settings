@@ -309,10 +309,6 @@
     <string name="power_menu_title">Menu tasto accensione</string>
     <string name="power_menu_reboot_title">Menu riavvio</string>
     <string name="power_menu_screenshot_title">Cattura schermata</string>
-    <string name="power_menu_expanded_desktop">Desktop esteso</string>
-    <string name="expanded_desktop_disabled">Disattivato</string>
-    <string name="expanded_desktop_status_bar">Barra di stato visibile</string>
-    <string name="expanded_desktop_no_status_bar">Barra di stato nascosta</string>
     <string name="power_menu_profiles_title">Selettore profilo</string>
     <string name="power_menu_airplane_title">Modalità aereo</string>
     <string name="power_menu_user_title">Cambia utente</string>
@@ -392,7 +388,6 @@
     <string name="title_tile_nfc">NFC</string>
     <string name="title_tile_quiet_hours">Periodo quiete</string>
     <string name="title_tile_volume">Volume</string>
-    <string name="title_tile_expanded_desktop">Desktop esteso</string>
     <string name="title_dynamic_tiles">Tile dinamici</string>
     <string name="dynamic_tiles_note_title">Nota</string>
     <string name="dynamic_tiles_note_summary">I tile dinamici vengono visualizzati solamente se un evento di sistema li attiva</string>

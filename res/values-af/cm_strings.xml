@@ -269,10 +269,6 @@
     <string name="power_menu_title">Kragkieslys</string>
     <string name="power_menu_reboot_title">Herlaai kielys</string>
     <string name="power_menu_screenshot_title">Skermfoto</string>
-    <string name="power_menu_expanded_desktop">Uitgebreide lessenaar</string>
-    <string name="expanded_desktop_disabled">Gedeaktiveer</string>
-    <string name="expanded_desktop_status_bar">Statusbalk sigbaar</string>
-    <string name="expanded_desktop_no_status_bar">Versteek statusbalk</string>
     <string name="power_menu_profiles_title">Profiel wisselaar</string>
     <string name="power_menu_airplane_title">Vliegtuigmodus</string>
     <string name="power_menu_user_title">Gebruiker wisselaar</string>

@@ -386,7 +386,13 @@
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
 
     <!-- Navigation Bar -->
-    <string name="navigation_bar_category">Navigation bar</string>
+    <string name="force_navigation_bar_title">Enable Navigation bar</string>
+    <string name="force_navigation_bar_summary">Show additional on-screen navigation buttons</string>
+    <!-- <string name="menu_button_enabled">Hardware menu button</string>
+    <string name="menu_button_enabled_summary">Enable the hardware menu button</string> -->
+    <string name="navigation_bar_back_button">Hardware back button</string>
+    <string name="navigation_bar_back_button_summary">Enable the hardware back button</string>
+    <string name="navigation_bar_category">Navigation bar setup</string>
     <string name="navigation_bar_title">Buttons and layout</string>
     <string name="navigation_bar_help_text">1 - To begin editing, tap the lock icon\n\n2 - Tap any button to assign or change functionality\n\n3 - Long press any button to rearrange the order\n\n4 - To save, tap the lock icon again\n\n5 - To restore system default, tap the reset button\n\n</string>
     <string name="navigation_bar_tips">\u2022 Actions can only be assigned to one button at a time\n\n\u2022 The home button cannot be re-assigned\n\n\u2022 Side buttons cannot be rearranged</string>
@@ -458,10 +464,6 @@
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
-    <string name="expanded_desktop_disabled">Disabled</string>
-    <string name="expanded_desktop_status_bar">Status bar visible</string>
-    <string name="expanded_desktop_no_status_bar">Status bar hidden</string>
     <string name="power_menu_profiles_title">Profile switcher</string>
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_user_title">User switcher</string>
@@ -576,7 +578,6 @@
     <string name="title_tile_screen_timeout">Screen timeout</string>
     <string name="title_tile_quiet_hours">Quiet hours</string>
     <string name="title_tile_volume">Volume</string>
-    <string name="title_tile_expanded_desktop">Expanded desktop</string>
 
     <string name="title_dynamic_tiles">Dynamic tiles</string>
     <string name="dynamic_tiles_note_title">Note</string>
@@ -715,8 +716,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="auto_brightness_sensitivity_high">High</string>
     <string name="auto_brightness_sensitivity_veryhigh">Very high</string>
 
-    <!-- Navigation bar buttons and shortcuts category title -->
-
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Quick launch shortcuts</string>
     <string name="navring_target_reset_message">Delete all user created navigation bar shortcuts and restore to default?</string>
@@ -735,9 +734,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="navring_choose_action_title">Choose action</string>
 
     <!-- Pie controls -->
+    <string name="pie_config_category">Pie configuration</string>
     <string name="pie_control_title">Pie controls</string>
-    <string name="pie_control_enabled">Floating controls when Expanded desktop is enabled</string>
-    <string name="pie_control_disabled">Floating controls disabled</string>
+    <string name="pie_control_enabled">Currently enabled</string>
+    <string name="pie_control_disabled">Currently disabled</string>
     <string name="pie_control_sensitivity_title">Responsiveness</string>
     <string name="pie_control_sensitivity_low">Low</string>
     <string name="pie_control_sensitivity_medium">Medium</string>
@@ -886,7 +886,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="gamma_tuning_title_head">Gamma calibration</string>
     <string name="gamma_tuning_summary_head">Tweak gamma values</string>
 
-    <!--  Other device settings -->
+    <!-- Other device settings -->
     <string name="more_device_controls_title">More\u2026</string>
     <string name="more_device_settings_title">Other device options</string>
     <string name="sensors_motors_title">Sensors &amp; motors</string>
@@ -899,4 +899,5 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- SELinux warning -->
     <string name="selinux_enable_title">Security Enhanced Android</string>
     <string name="selinux_enable_warning">You are about to enable SEAndroid, an advanced security mechanism, on your device.\n\nThis option exists for debugging purposes only, and it is very likely that your device isn\'t fully ready for it, which may cause parts (or all) of your hardware to block or hang.\n\nAre you sure you want to proceed?</string>
+
 </resources>

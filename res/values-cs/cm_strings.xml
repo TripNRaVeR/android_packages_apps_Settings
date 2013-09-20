@@ -355,10 +355,6 @@
     <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
     <string name="power_menu_reboot_title">Nabídka restartu</string>
     <string name="power_menu_screenshot_title">Snímek obrazovky</string>
-    <string name="power_menu_expanded_desktop">Rozšířená plocha</string>
-    <string name="expanded_desktop_disabled">Vypnuto</string>
-    <string name="expanded_desktop_status_bar">Stavová lišta zobrazena</string>
-    <string name="expanded_desktop_no_status_bar">Stavová lišta skryta</string>
     <string name="power_menu_profiles_title">Přepínač profilů</string>
     <string name="power_menu_airplane_title">Režim V letadle</string>
     <string name="power_menu_user_title">Přepínač uživatelů</string>
@@ -451,7 +447,6 @@
     <string name="title_tile_screen_timeout">Zhasínání obrazovky</string>
     <string name="title_tile_quiet_hours">Tiché hodiny</string>
     <string name="title_tile_volume">Hlasitost</string>
-    <string name="title_tile_expanded_desktop">Rozšířená plocha</string>
 
     <string name="title_dynamic_tiles">Dynamické dlaždice</string>
     <string name="dynamic_tiles_note_title">Poznámka</string>

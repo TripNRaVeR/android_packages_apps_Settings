@@ -284,10 +284,6 @@
     <string name="power_menu_title">Güç menüsü</string>
     <string name="power_menu_reboot_title">Yeniden başlatma menüsü</string>
     <string name="power_menu_screenshot_title">Ekran görüntüsü</string>
-    <string name="power_menu_expanded_desktop">Genişletilmiş masaüstü</string>
-    <string name="expanded_desktop_disabled">Devre dışı</string>
-    <string name="expanded_desktop_status_bar">Durum çubuğu görünür</string>
-    <string name="expanded_desktop_no_status_bar">Durum çubuğu gizli</string>
     <string name="power_menu_profiles_title">Profil değiştirici</string>
     <string name="power_menu_airplane_title">Uçak modu</string>
     <string name="power_menu_user_title">Kullanıcı değiştirici</string>
@@ -363,7 +359,6 @@
     <string name="title_tile_screen_timeout">Ekran zaman aşımı</string>
     <string name="title_tile_quiet_hours">Sessiz saatler</string>
     <string name="title_tile_volume">Ses düzeyi</string>
-    <string name="title_tile_expanded_desktop">Genişletilmiş masaüstü</string>
     <string name="title_dynamic_tiles">Dinamik kareler</string>
     <string name="dynamic_tiles_note_title">Not</string>
     <string name="dynamic_tiles_note_summary">Dinamik kareler her zaman gösterilmez. Sadece bir sistem olayı tarafından tetiklendirildiğinde gösterilirler.</string>

@@ -320,10 +320,6 @@
     <string name="power_menu_title">Käynnistysvalikko</string>
     <string name="power_menu_reboot_title">Uudelleenkäynnistys</string>
     <string name="power_menu_screenshot_title">Kuvakaappaus</string>
-    <string name="power_menu_expanded_desktop">Laajennettu työpöytä</string>
-    <string name="expanded_desktop_disabled">Pois käytöstä</string>
-    <string name="expanded_desktop_status_bar">Tilapalkki näkyvissä</string>
-    <string name="expanded_desktop_no_status_bar">Tilapalkki piilotettu</string>
     <string name="power_menu_profiles_title">Profiilit</string>
     <string name="power_menu_airplane_title">Lentokonetila</string>
     <string name="power_menu_user_title">Käyttäjät</string>
@@ -401,7 +397,6 @@
     <string name="title_tile_screen_timeout">Näytön aikakatkaisu</string>
     <string name="title_tile_quiet_hours">Hiljaisuusaika</string>
     <string name="title_tile_volume">Äänenvoimakkuus</string>
-    <string name="title_tile_expanded_desktop">Laajennettu työpöytä</string>
     <string name="title_dynamic_tiles">Dynaamiset tiilet</string>
     <string name="dynamic_tiles_note_title">Huomio</string>
     <string name="dynamic_tiles_note_summary">Dynaamiset tiilet näkyvät vain järjestelmän käyttäessä niitä</string>

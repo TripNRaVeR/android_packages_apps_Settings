@@ -321,10 +321,6 @@
     <string name="power_menu_title">Menu zasilania</string>
     <string name="power_menu_reboot_title">Ponowne uruchamianie</string>
     <string name="power_menu_screenshot_title">Zrzut ekranu</string>
-    <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
-    <string name="expanded_desktop_disabled">Wyłączony</string>
-    <string name="expanded_desktop_status_bar">Pasek stanu widoczny</string>
-    <string name="expanded_desktop_no_status_bar">Pasek stanu ukryty</string>
     <string name="power_menu_profiles_title">Przełączanie profilu</string>
     <string name="power_menu_airplane_title">Tryb samolotowy</string>
     <string name="power_menu_user_title">Przełączanie użytkownika</string>
@@ -402,7 +398,6 @@
     <string name="title_tile_screen_timeout">Wygaszanie ekranu</string>
     <string name="title_tile_quiet_hours">Godziny ciszy</string>
     <string name="title_tile_volume">Głośność</string>
-    <string name="title_tile_expanded_desktop">Rozszerzony pulpit</string>
     <string name="title_dynamic_tiles">Dynamiczne przełączniki</string>
     <string name="dynamic_tiles_note_title">Uwaga</string>
     <string name="dynamic_tiles_note_summary">Dynamiczne przełączniki pojawiają się tylko w wybranych sytuacjach systemowych</string>

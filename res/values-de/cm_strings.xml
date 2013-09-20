@@ -262,10 +262,6 @@
     <string name="power_menu_title">Ein/Aus-Taste</string>
     <string name="power_menu_reboot_title">Neustart-Menü</string>
     <string name="power_menu_screenshot_title">Bildschirmfoto</string>
-    <string name="power_menu_expanded_desktop">Erweiterter Desktop</string>
-    <string name="expanded_desktop_disabled">Deaktiviert</string>
-    <string name="expanded_desktop_status_bar">Statusleiste anzeigen</string>
-    <string name="expanded_desktop_no_status_bar">Statusleiste verbergen</string>
     <string name="power_menu_profiles_title">Profilwechsel</string>
     <string name="power_menu_airplane_title">Flugmodus</string>
     <string name="power_menu_user_title">Benutzer</string>
@@ -347,7 +343,6 @@
     <string name="title_tile_screen_timeout">Bildschirm-Timeout</string>
     <string name="title_tile_quiet_hours">Ruhige Stunden</string>
     <string name="title_tile_volume">Lautstärke</string>
-    <string name="title_tile_expanded_desktop">Erweiterter Desktop</string>
     <string name="title_tile_camera">Kamera</string>
     <string name="title_dynamic_tiles">Dynamische Kacheln</string>
     <string name="dynamic_tiles_note_title">Hinweis</string>

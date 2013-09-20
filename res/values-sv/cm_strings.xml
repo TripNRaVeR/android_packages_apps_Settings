@@ -295,10 +295,6 @@
     <string name="power_menu_title">Avstängningsmeny</string>
     <string name="power_menu_reboot_title">Omstartsmeny</string>
     <string name="power_menu_screenshot_title">Skärmdump</string>
-    <string name="power_menu_expanded_desktop">Expanderat skrivbord</string>
-    <string name="expanded_desktop_disabled">Avaktiverat</string>
-    <string name="expanded_desktop_status_bar">Statusrad synlig</string>
-    <string name="expanded_desktop_no_status_bar">Statusrad dold</string>
     <string name="power_menu_profiles_title">Profilväxlare</string>
     <string name="power_menu_airplane_title">Flygplansläge</string>
     <string name="power_menu_user_title">Användarväxlare</string>
@@ -376,7 +372,6 @@
     <string name="title_tile_screen_timeout">Skärmtidsgräns</string>
     <string name="title_tile_quiet_hours">Tysta timmar</string>
     <string name="title_tile_volume">Volym</string>
-    <string name="title_tile_expanded_desktop">Expanderat skrivbord</string>
     <string name="title_dynamic_tiles">Dynamiska brickor</string>
     <string name="dynamic_tiles_note_title">Observera</string>
     <string name="dynamic_tiles_note_summary">Dynamiska brickor visas inte alltid och dyker endast upp om de utlöses av systemhändelser</string>

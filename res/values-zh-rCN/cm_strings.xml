@@ -285,10 +285,6 @@
     <string name="power_menu_title">电源菜单选项</string>
     <string name="power_menu_reboot_title">重启菜单</string>
     <string name="power_menu_screenshot_title">屏幕截图</string>
-    <string name="power_menu_expanded_desktop">扩展桌面</string>
-    <string name="expanded_desktop_disabled">禁用</string>
-    <string name="expanded_desktop_status_bar">显示状态栏</string>
-    <string name="expanded_desktop_no_status_bar">隐藏状态栏</string>
     <string name="power_menu_profiles_title">情景模式</string>
     <string name="power_menu_airplane_title">飞行模式</string>
     <string name="power_menu_user_title">用户切换器</string>
@@ -364,7 +360,6 @@
     <string name="title_tile_screen_timeout">屏幕超时</string>
     <string name="title_tile_quiet_hours">安静时段</string>
     <string name="title_tile_volume">音量</string>
-    <string name="title_tile_expanded_desktop">扩展桌面</string>
     <string name="title_dynamic_tiles">动态按钮</string>
     <string name="dynamic_tiles_note_title">注意</string>
     <string name="dynamic_tiles_note_summary">动态按钮不是随时都会显示的, 它们仅会在有相关的系统事件时显示</string>

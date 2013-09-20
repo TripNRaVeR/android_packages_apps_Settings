@@ -350,10 +350,6 @@
     <string name="power_menu_title">電源ボタンメニュー</string>
     <string name="power_menu_reboot_title">再起動メニュー</string>
     <string name="power_menu_screenshot_title">スクリーンショット</string>
-    <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
-    <string name="expanded_desktop_disabled">無効</string>
-    <string name="expanded_desktop_status_bar">ステータスバーを表示</string>
-    <string name="expanded_desktop_no_status_bar">ステータスバーを隠す</string>
     <string name="power_menu_profiles_title">プロファイル切り替え</string>
     <string name="power_menu_airplane_title">機内モード</string>
     <string name="power_menu_user_title">ユーザー切り替え</string>
@@ -497,7 +493,6 @@
     <string name="pie_control_trigger_right">スクリーン境界の右側</string>
     <string name="pie_control_trigger_top">スクリーン境界の上側</string>
     <string name="pie_control_trigger_top_summary">上側ではナビゲーションのみ表示されます</string>
-    <string name="title_tile_expanded_desktop">デスクトップ拡張</string>
     <string name="title_dynamic_dock_battery">ドックバッテリー</string>
     <string name="auto_brightness_close_button">閉じる</string>
     <string name="auto_brightness_level_dialog_title">明るさレベル設定</string>

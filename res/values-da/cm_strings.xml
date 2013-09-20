@@ -317,10 +317,6 @@
     <string name="power_menu_title">Tænd/sluk-menu</string>
     <string name="power_menu_reboot_title">Genstartsmenu</string>
     <string name="power_menu_screenshot_title">Skærmbillede</string>
-    <string name="power_menu_expanded_desktop">Udvidet skrivebord</string>
-    <string name="expanded_desktop_disabled">Slået fra</string>
-    <string name="expanded_desktop_status_bar">Statuslinje synlig</string>
-    <string name="expanded_desktop_no_status_bar">Statuslinje skjult</string>
     <string name="power_menu_profiles_title">Profilskifter</string>
     <string name="power_menu_airplane_title">Flytilstand</string>
     <string name="power_menu_user_title">Brugerskifter</string>
@@ -399,7 +395,6 @@
     <string name="title_tile_screen_timeout">Skærm-timeout</string>
     <string name="title_tile_quiet_hours">Stille timer</string>
     <string name="title_tile_volume">Lydstyrke</string>
-    <string name="title_tile_expanded_desktop">Udvidet skrivebord</string>
     <string name="title_dynamic_tiles">Dynamiske felter</string>
     <string name="dynamic_tiles_note_title">NB:</string>
     <string name="dynamic_tiles_note_summary">Dynamiske felter er ikke altid synlige, og vil kun vises, hvis de udløses af en systembegivenhed</string>
