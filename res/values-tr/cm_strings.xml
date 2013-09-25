@@ -275,11 +275,6 @@
     <string name="expanded_haptic_feedback_title">Titreşimli geri bildirim modu</string>
     <string name="kill_app_longpress_back">Uygulama öldürücü geri butonu</string>
     <string name="kill_app_longpress_back_summary">Geri butonuna uzun basıldığındu öndeki uygulamayı öldür</string>
-    <string name="changelog_title">Değişiklik kütüğü</string>
-    <string name="changelog_loading">Değişiklik kütüğü yükleniyor\u2026</string>
-    <string name="changelog_error">Değişiklik kütüğü yüklenemedi</string>
-    <string name="changelog_unknown">Bilinmiyor</string>
-    <string name="changelog_version">Sürüm</string>
     <string name="power_menu_title">Güç menüsü</string>
     <string name="power_menu_reboot_title">Yeniden başlatma menüsü</string>
     <string name="power_menu_screenshot_title">Ekran görüntüsü</string>

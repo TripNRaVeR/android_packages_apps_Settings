@@ -308,11 +308,6 @@
     <string name="expanded_haptic_feedback_title">Érintési visszajelzés</string>
     <string name="kill_app_longpress_back">Alkalmazás bezárás</string>
     <string name="kill_app_longpress_back_summary">Alkalmazás bezárása nyomva tartott vissza gombbal</string>
-    <string name="changelog_title">Változások megtekintése</string>
-    <string name="changelog_loading">Változások betöltése\u2026</string>
-    <string name="changelog_error">Nem lehet betölteni a változásokat</string>
-    <string name="changelog_unknown">Ismeretlen</string>
-    <string name="changelog_version">Verzió</string>
     <string name="power_menu_title">Kikapcsoló menü</string>
     <string name="power_menu_reboot_title">Újraindítás</string>
     <string name="power_menu_screenshot_title">Képernyőmentés</string>

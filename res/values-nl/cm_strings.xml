@@ -298,11 +298,6 @@ Let op:\nAangezien het beginvolume hoger is ingesteld dan het beltoonvolume, wor
     <string name="expanded_haptic_feedback_title">Trillen</string>
     <string name="kill_app_longpress_back">Terugknop forceert afsluiten</string>
     <string name="kill_app_longpress_back_summary">App op de voorgrond geforceerd afsluiten door de terugknop lang ingedrukt te houden</string>
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_loading">Bezig met het laden van changelog\u2026</string>
-    <string name="changelog_error">Kan changelog niet laden</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Versie</string>
     <string name="power_menu_title">Aan/uit-knop</string>
     <string name="power_menu_reboot_title">Herstarten</string>
     <string name="power_menu_screenshot_title">Schermafdruk</string>

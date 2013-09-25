@@ -350,13 +350,6 @@
     <string name="kill_app_longpress_back">Закрытие приложения</string>
     <string name="kill_app_longpress_back_summary">Долгое нажатие кнопки «Назад» закроет запущенное приложение</string>
 
-    <!-- Change Log strings -->
-    <string name="changelog_title">Список изменений</string>
-    <string name="changelog_loading">Загрузка списка изменений\u2026</string>
-    <string name="changelog_error">Ошибка загрузки списка изменений</string>
-    <string name="changelog_unknown">Неизвестно</string>
-    <string name="changelog_version">Версия</string>
-
     <!-- Power menu enable disable -->
     <string name="power_menu_title">Меню кнопки питания</string>
     <string name="power_menu_reboot_title">Перезагрузка</string>

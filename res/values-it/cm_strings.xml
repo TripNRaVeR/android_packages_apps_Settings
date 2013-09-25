@@ -300,11 +300,6 @@
     <string name="expanded_haptic_feedback_title">Vibrazione al tocco</string>
     <string name="kill_app_longpress_back">Termina app con tasto</string>
     <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano tenendo premuto il tasto indietro</string>
-    <string name="changelog_title">Mostra changelog</string>
-    <string name="changelog_loading">Caricamento changelog\u2026</string>
-    <string name="changelog_error">Impossibile caricare il changelog</string>
-    <string name="changelog_unknown">Sconosciuto</string>
-    <string name="changelog_version">Versione</string>
     <string name="power_menu_title">Menu tasto accensione</string>
     <string name="power_menu_reboot_title">Menu riavvio</string>
     <string name="power_menu_screenshot_title">Cattura schermata</string>

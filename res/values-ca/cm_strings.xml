@@ -285,11 +285,6 @@
     <string name="cm_sound_mode_soundVibrate">So &amp; Vibració</string>
     <string name="kill_app_longpress_back">Mata amb la tecla enrera l\'app</string>
     <string name="kill_app_longpress_back_summary">Mata l\'app en primer pla fent una pulsació llarga de la tecla enrera</string>
-    <string name="changelog_title">Veure registre de canvis</string>
-    <string name="changelog_loading">Carregant registre de canvis\u2026</string>
-    <string name="changelog_error">No s\'ha pogut carregar el registre de canvis</string>
-    <string name="changelog_unknown">Desconegut</string>
-    <string name="changelog_version">Versió</string>
     <string name="power_menu_title">Menú Energia</string>
     <string name="power_menu_reboot_title">Menú reinicia</string>
     <string name="power_menu_screenshot_title">Captura de pantalla</string>

@@ -308,11 +308,6 @@
     <string name="expanded_haptic_feedback_title">Berøringsvibration</string>
     <string name="kill_app_longpress_back">Luk app på knappen Tilbage</string>
     <string name="kill_app_longpress_back_summary">Luk kørende app ved langt tryk på knappen Tilbage</string>
-    <string name="changelog_title">Vis ændringslog</string>
-    <string name="changelog_loading">Indlæser ændringslog...</string>
-    <string name="changelog_error">Kunne ikke indlæse ændringsloggen</string>
-    <string name="changelog_unknown">Ukendt</string>
-    <string name="changelog_version">Version</string>
     <string name="power_menu_title">Tænd/sluk-menu</string>
     <string name="power_menu_reboot_title">Genstartsmenu</string>
     <string name="power_menu_screenshot_title">Skærmbillede</string>

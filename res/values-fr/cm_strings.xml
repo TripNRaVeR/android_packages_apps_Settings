@@ -309,11 +309,6 @@
     <string name="expanded_haptic_feedback_title">Vibrer au toucher</string>
     <string name="kill_app_longpress_back">Tuer avec bouton Retour</string>
     <string name="kill_app_longpress_back_summary">Permet de forcer la fermeture de l\'application en cours en appuyant longuement sur le bouton Retour</string>
-    <string name="changelog_title">Voir le rapport de version</string>
-    <string name="changelog_loading">Chargement du rapport de version\u2026</string>
-    <string name="changelog_error">Impossible de charger le rapport de version</string>
-    <string name="changelog_unknown">Inconnu</string>
-    <string name="changelog_version">Version</string>
     <string name="power_menu_title">Menu marche/arrêt</string>
     <string name="power_menu_reboot_title">Redémarrer</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>

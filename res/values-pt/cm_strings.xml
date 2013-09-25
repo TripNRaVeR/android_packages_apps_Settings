@@ -240,11 +240,6 @@
     <string name="expanded_haptic_feedback_title">Vibrar ao tocar</string>
     <string name="kill_app_longpress_back">Matar app com botão voltar</string>
     <string name="kill_app_longpress_back_summary">Matar o aplicativo mantendo pressionado o botão voltar</string>
-    <string name="changelog_title">Visualizar alterações</string>
-    <string name="changelog_loading">Carregando registro de mudanças\u2026</string>
-    <string name="changelog_error">Não foi possível carregar as mudanças</string>
-    <string name="changelog_unknown">Desconhecido</string>
-    <string name="changelog_version">Versão</string>
     <string name="power_menu_title">Menu de energia</string>
     <string name="power_menu_reboot_title">Menu de reinicialização</string>
     <string name="power_menu_screenshot_title">Captura de tela</string>

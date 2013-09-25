@@ -312,11 +312,6 @@
     <string name="expanded_haptic_feedback_title">Wibracja przy dotknięciu</string>
     <string name="kill_app_longpress_back">Zabijaj aplikacje przyciskiem wstecz</string>
     <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabija aktywną aplikację</string>
-    <string name="changelog_title">Zobacz listę zmian</string>
-    <string name="changelog_loading">Wczytywanie listy zmian\u2026</string>
-    <string name="changelog_error">Nie można wczytać listy zmian</string>
-    <string name="changelog_unknown">Nieznane</string>
-    <string name="changelog_version">Wersja</string>
     <string name="power_menu_title">Menu zasilania</string>
     <string name="power_menu_reboot_title">Ponowne uruchamianie</string>
     <string name="power_menu_screenshot_title">Zrzut ekranu</string>

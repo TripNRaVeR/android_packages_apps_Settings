@@ -249,11 +249,6 @@
     <string name="expanded_haptic_feedback_title">משוב מגע</string>
     <string name="kill_app_longpress_back">סגור תהליך בלחיצה על חזור</string>
     <string name="kill_app_longpress_back_summary">סגור את תהליך היישום הנוכחי בלחיצה ארוכה על חזור</string>
-    <string name="changelog_title">צפייה בתיעוד השינויים</string>
-    <string name="changelog_loading">טוען את התיעוד...</string>
-    <string name="changelog_error">לא ניתן לטעון את תיעוד השינויים</string>
-    <string name="changelog_unknown">לא ידוע</string>
-    <string name="changelog_version">גרסה</string>
     <string name="power_menu_title">תפריט כיבוי</string>
     <string name="power_menu_reboot_title">הפעלה מחדש</string>
     <string name="power_menu_screenshot_title">צילום מסך</string>

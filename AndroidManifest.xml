@@ -1612,8 +1612,6 @@
 
         <activity android:name=".cyanogenmod.ButtonSettings" />
 
-        <activity android:name=".cyanogenmod.ChangeLog" />
-
         <activity android:name=".cyanogenmod.LockscreenInterface" />
 
         <activity android:name=".cyanogenmod.LockscreenButtons" />

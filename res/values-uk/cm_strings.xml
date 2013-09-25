@@ -236,11 +236,6 @@
     <string name="expanded_haptic_feedback_title">Реакція на натиск</string>
     <string name="kill_app_longpress_back">Закрити програму</string>
     <string name="kill_app_longpress_back_summary">Довгий настиск на кнопку Назад закриє запущену прогаму</string>
-    <string name="changelog_title">Список змін</string>
-    <string name="changelog_loading">Завантаження списку змін\u2026</string>
-    <string name="changelog_error">Помилка завантаження списку змін</string>
-    <string name="changelog_unknown">Невідомо</string>
-    <string name="changelog_version">Версія</string>
     <string name="power_menu_title">Меню \"Параметри пристрою\"</string>
     <string name="power_menu_reboot_title">Перезавантаження</string>
     <string name="power_menu_screenshot_title">Скріншот</string>

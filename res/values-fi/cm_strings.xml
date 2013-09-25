@@ -311,11 +311,6 @@
     <string name="expanded_haptic_feedback_title">Haptinen palaute</string>
     <string name="kill_app_longpress_back">Tapa sovellus</string>
     <string name="kill_app_longpress_back_summary">Tappaa etualalla olevan sovelluksen kun takaisin-painiketta pidetään pohjassa</string>
-    <string name="changelog_title">Näytä muutosloki</string>
-    <string name="changelog_loading">Ladataan muutoslokia</string>
-    <string name="changelog_error">Muutoslokin lataus ei onnistu</string>
-    <string name="changelog_unknown">Tuntematon</string>
-    <string name="changelog_version">Versio</string>
     <string name="power_menu_title">Käynnistysvalikko</string>
     <string name="power_menu_reboot_title">Uudelleenkäynnistys</string>
     <string name="power_menu_screenshot_title">Kuvakaappaus</string>

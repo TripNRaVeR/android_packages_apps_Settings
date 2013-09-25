@@ -311,11 +311,6 @@
     <string name="expanded_haptic_feedback_title">Απτική ανάδραση</string>
     <string name="kill_app_longpress_back">Τερμ. με πλήκτρο πίσω</string>
     <string name="kill_app_longpress_back_summary">Το πλήκτρο πίσω τερματίζει την τρέχουσα εφαρμογή</string>
-    <string name="changelog_title">Εμφάνιση αρχείου αλλαγών</string>
-    <string name="changelog_loading">Φόρτωση αρχείου αλλαγών\u2026</string>
-    <string name="changelog_error">Δεν είναι δυνατή η φόρτωση του αρχείου αλλαγών</string>
-    <string name="changelog_unknown">Άγνωστο</string>
-    <string name="changelog_version">Έκδοση</string>
     <string name="power_menu_title">Μενού πλήκτρου απενεργοποίησης</string>
     <string name="power_menu_reboot_title">Επανεκκίνηση</string>
     <string name="power_menu_screenshot_title">Στιγμιότυπο οθόνης</string>

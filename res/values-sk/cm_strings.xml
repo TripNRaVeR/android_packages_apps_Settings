@@ -287,11 +287,6 @@
     <string name="cm_sound_mode_soundVibrate">Zvuk a vibrácie</string>
     <string name="kill_app_longpress_back">Ukončiť aplikáciu tlačidlom Späť</string>
     <string name="kill_app_longpress_back_summary">Dlhé stlačenie tlačidla Späť ukončí aplikáciu na popredí</string>
-    <string name="changelog_title">Zobraziť zoznam zmien</string>
-    <string name="changelog_loading">Načítavam zoznam zmien\u2026</string>
-    <string name="changelog_error">Nemožno načítať zoznam zmien</string>
-    <string name="changelog_unknown">Neznámy</string>
-    <string name="changelog_version">Verzia</string>
     <string name="power_menu_title">Ponuka vypnutia</string>
     <string name="power_menu_reboot_title">Reštart</string>
     <string name="power_menu_screenshot_title">Snímka obrazovky</string>

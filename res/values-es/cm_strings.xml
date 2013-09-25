@@ -310,11 +310,6 @@
     <string name="expanded_haptic_feedback_title">Respuesta háptica</string>
     <string name="kill_app_longpress_back">Botón Volver</string>
     <string name="kill_app_longpress_back_summary">Cerrar aplicaciones mediante la pulsación prolongada del botón Volver</string>
-    <string name="changelog_title">Mostrar registro de cambios</string>
-    <string name="changelog_loading">Cargando registro de cambios\u2026</string>
-    <string name="changelog_error">Imposible cargar el registro de cambios</string>
-    <string name="changelog_unknown">Desconocido</string>
-    <string name="changelog_version">Versión</string>
     <string name="power_menu_title">Menú de apagado</string>
     <string name="power_menu_reboot_title">Reiniciar</string>
     <string name="power_menu_screenshot_title">Capturar pantalla</string>

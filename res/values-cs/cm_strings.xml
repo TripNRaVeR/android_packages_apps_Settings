@@ -345,12 +345,6 @@
     <string name="kill_app_longpress_back">Vynucené ukončení aplikace</string>
     <string name="kill_app_longpress_back_summary">Dlouhým stiskem tlačítka zpět se provede ukončení aplikace na popředí.</string>
 
-    <string name="changelog_title">Zobrazit seznam změn</string>
-    <string name="changelog_loading">Načítá se seznam změn\u2026</string>
-    <string name="changelog_error">Chyba při načítání seznamu změn</string>
-    <string name="changelog_unknown">Neznámý</string>
-    <string name="changelog_version">Verze</string>
-
     <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
     <string name="power_menu_reboot_title">Nabídka restartu</string>
     <string name="power_menu_screenshot_title">Snímek obrazovky</string>

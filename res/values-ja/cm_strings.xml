@@ -341,11 +341,6 @@
     <string name="increasing_ring_interval_3seconds">3 秒</string>
     <string name="increasing_ring_interval_5seconds">5 秒</string>
     <string name="increasing_ring_interval_10seconds">10 秒</string>
-    <string name="changelog_title">更新履歴の表示</string>
-    <string name="changelog_loading">更新履歴をロード中...</string>
-    <string name="changelog_error">更新履歴をロードできませんでした</string>
-    <string name="changelog_unknown">不明</string>
-    <string name="changelog_version">バージョン</string>
     <string name="power_menu_title">電源ボタンメニュー</string>
     <string name="power_menu_reboot_title">再起動メニュー</string>
     <string name="power_menu_screenshot_title">スクリーンショット</string>

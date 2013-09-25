@@ -276,11 +276,6 @@
     <string name="expanded_haptic_feedback_title">触动反馈</string>
     <string name="kill_app_longpress_back">使用返回键强制关闭程序</string>
     <string name="kill_app_longpress_back_summary">长按返回键将终止前台应用程序</string>
-    <string name="changelog_title">查看更改记录</string>
-    <string name="changelog_loading">正在读取更改记录\u2026</string>
-    <string name="changelog_error">无法读取更改记录</string>
-    <string name="changelog_unknown">未知</string>
-    <string name="changelog_version">版本</string>
     <string name="power_menu_title">电源菜单选项</string>
     <string name="power_menu_reboot_title">重启菜单</string>
     <string name="power_menu_screenshot_title">屏幕截图</string>

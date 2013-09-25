@@ -273,11 +273,6 @@
     <string name="expanded_haptic_feedback_title">Vibrer ved berøring</string>
     <string name="kill_app_longpress_back">Drep app med tilbake-knappen</string>
     <string name="kill_app_longpress_back_summary">Trykk og hold tilbake-tasten for å drepe appen i forgrunnen</string>
-    <string name="changelog_title">Vis endringslogg</string>
-    <string name="changelog_loading">Laster endringslogg\u2026</string>
-    <string name="changelog_error">Kunne ikke hente endringsloggen</string>
-    <string name="changelog_unknown">Ukjent</string>
-    <string name="changelog_version">Versjon</string>
     <string name="power_menu_title">På/av-meny</string>
     <string name="power_menu_reboot_title">Omstarts-meny</string>
     <string name="power_menu_screenshot_title">Skjermbilde</string>

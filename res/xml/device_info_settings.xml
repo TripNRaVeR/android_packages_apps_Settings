@@ -49,12 +49,6 @@
                     android:targetClass="com.cyanogenmod.updater.UpdatesSettings" />
         </PreferenceScreen>
 
-        <!-- Change Log -->
-        <PreferenceScreen android:key="changelog"
-            android:title="@string/changelog_title"
-            android:fragment="com.android.settings.cyanogenmod.ChangeLog" >
-        </PreferenceScreen>
-
         <!-- Legal Information -->
         <PreferenceScreen
                 android:key="container"

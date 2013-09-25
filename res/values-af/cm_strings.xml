@@ -260,11 +260,6 @@
     <string name="expanded_haptic_feedback_title">Haptiese terugvoer</string>
     <string name="kill_app_longpress_back">Beëindig met Terug-knoppie</string>
     <string name="kill_app_longpress_back_summary">Beëindig die voorgrond program deur \'n lang-druk op die Terug-knoppie</string>
-    <string name="changelog_title">Bekyk Veranderinge-log</string>
-    <string name="changelog_loading">Laai Veranderinge-log\u2026</string>
-    <string name="changelog_error">Kan nie Veranderinge-log laai nie</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Weergawe</string>
     <string name="power_menu_title">Kragkieslys</string>
     <string name="power_menu_reboot_title">Herlaai kielys</string>
     <string name="power_menu_screenshot_title">Skermfoto</string>

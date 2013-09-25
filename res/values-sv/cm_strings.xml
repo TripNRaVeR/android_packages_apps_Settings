@@ -286,11 +286,6 @@
     <string name="cm_sound_mode_soundVibrate">Ljud &amp; vibration</string>
     <string name="kill_app_longpress_back">Tvångsavslutande bakåtknapp</string>
     <string name="kill_app_longpress_back_summary">Tvångsavsluta förgrundsapp genom att långtrycka på bakåtknappen</string>
-    <string name="changelog_title">Visa ändringslogg</string>
-    <string name="changelog_loading">Laddar ändringslogg\u2026</string>
-    <string name="changelog_error">Kan inte ladda ändringslogg</string>
-    <string name="changelog_unknown">Okänd</string>
-    <string name="changelog_version">Version</string>
     <string name="power_menu_title">Avstängningsmeny</string>
     <string name="power_menu_reboot_title">Omstartsmeny</string>
     <string name="power_menu_screenshot_title">Skärmdump</string>
