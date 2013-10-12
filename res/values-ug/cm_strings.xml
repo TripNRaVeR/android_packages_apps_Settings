@@ -59,7 +59,6 @@
     <string name="mod_version">TripNDroid نەشرى</string>
     <string name="mod_version_default">يوچۇن</string>
     <string name="build_date">ھاسىللىغان چېسلا</string>
-    <string name="build_date_default" translatable="false">2013-01-01-0000</string>
     <string name="cpu_info">CPU</string>
     <string name="mem_info">ئەسلەك</string>
     <string name="preview_id_title">بىردىنبىر كىملىك</string>
@@ -85,7 +84,6 @@
     <string name="lockscreen_target_title">سۈرگۈچ قىسقا يولى</string>
     <string name="lockscreen_target_summary">ئىختىيارىي قۇلۇپ ئېكراننىڭ قىسقا يولىنى كۆرسەت ياكى ئۆزگەرت</string>
     <string name="lockscreen_target_reset">ئېكران قۇلۇپ قىسقا يولى كۆڭۈلدىكىگە ئەسلىگە قايتۇرۇلدى</string>
-    <string name="lockscreen_target_save">ئېكران قۇلۇپ قىسقا يولى ساقلاندى</string>
     <string name="lockscreen_target_reset_title">ئەسلىگە قايتۇر</string>
     <string name="lockscreen_target_reset_message">ئىشلەتكۈچى قۇرغان ھەممە ئېكران قۇلۇپ قىسقا يوللىرىنى ئۆچۈرۈپ كۆڭۈلدىكى تەڭشەككە ئەسلىگە كەلتۈرەمدۇ؟</string>
     <string name="lockscreen_target_empty">بوشات</string>
@@ -291,8 +289,6 @@
     <string name="power_menu_airplane_title">ئايروپىلان ھالىتى</string>
     <string name="power_menu_user_title">ئىشلەتكۈچى ئالماشتۇرغۇچ</string>
     <string name="power_menu_sound_title">ئاۋاز تاختا</string>
-    <string name="cmupdate_settings_title">CyanogenMod يېڭىلانمىلار</string>
-    <string name="cmupdate_settings_summary">ئىشلەتكىلى بولىدىغان يېڭىلانمىلارنى تەكشۈرۈپ، كۆرسىتىپ ياكى ئورنىتىدۇ</string>
     <string name="advanced_settings_title">ئالىي</string>
     <string name="ime_switcher_notify">كىرگۈزگۈچ ئۇقتۇرۇشى</string>
     <string name="ime_switcher_notify_summary">كىرگۈزگۈچ تاللىغۇچ ئۇقتۇرۇشىنى كۆرسىتىدۇ</string>
@@ -429,7 +425,7 @@
     <string name="headset_connect_player_summary">تىڭشىغۇچ قىستۇرۇلغاندا كۆڭۈلدىكى نەغمە چالىدىغان ئەپنى قوزغىتىدۇ</string>
     <string name="safe_headset_volume_title">بىخەتەر تىڭشىغۇچ ئاۋازى</string>
     <string name="cyanogenmod_waiver_title">ھوقۇقتىن ۋاز كېچىش باياناتى</string>
-    <string name="cyanogenmod_waiver_body">"بۇ تەڭشەكنى ئۆزگەرتىش سىز تۇرۇشلۇق دۆلەتتە قانۇنسىز قىلمىش بولۇشى مۇمكىن. \n\nتۆۋەندىكى «جەزملە» توپچىنى چەككەنلىكىڭىز سىزنىڭ بۇ ئاگاھلاندۇرۇشنى ئوقۇپ ئەرز قىلىش ھوقۇقىدىن ۋاز كەچكەنلىكىڭىزنى ھەمدە CyanogenMod ۋە ئۇنىڭ تۆھپىكارلىرىنىڭ جازاغا ئۇچرىمايدىغانلىقى ھەمدە ھېچقانداق قانۇنىي مەسئۇلىيەتنى ئۈستىگە ئالمايدىغانلىقىنى بىلدۈرىدۇ."</string>
+    <string name="cyanogenmod_waiver_body">"بۇ تەڭشەكنى ئۆزگەرتىش سىز تۇرۇشلۇق دۆلەتتە قانۇنسىز قىلمىش بولۇشى مۇمكىن. \n\nتۆۋەندىكى «جەزملە» توپچىنى چەككەنلىكىڭىز سىزنىڭ بۇ ئاگاھلاندۇرۇشنى ئوقۇپ ئەرز قىلىش ھوقۇقىدىن ۋاز كەچكەنلىكىڭىزنى ھەمدە TripNDroid ۋە ئۇنىڭ تۆھپىكارلىرىنىڭ جازاغا ئۇچرىمايدىغانلىقى ھەمدە ھېچقانداق قانۇنىي مەسئۇلىيەتنى ئۈستىگە ئالمايدىغانلىقىنى بىلدۈرىدۇ."</string>
     <string name="auto_brightness_setup_title">يورۇقلۇقنى ئۆزلۈكىدىن تەڭشەش</string>
     <string name="auto_brightness_adjustment_title">يورۇقلۇق تەڭشەش</string>
     <string name="auto_brightness_twilight_adjustment">كۈن چىقىش ۋە كۈن بېپىشقا تەڭشەيدۇ</string>
@@ -464,7 +460,6 @@
     <string name="navigation_ring_title">تېز قوزغىتىش قىسقا يولى</string>
     <string name="navring_target_reset_message">ئىشلەتكۈچى قۇرغان ھەممە يولباشچى بالداق قىسقا يوللىرىنى ئۆچۈرۈپ كۆڭۈلدىكى تەڭشەككە ئەسلىگە كەلتۈرەمدۇ؟</string>
     <string name="navring_target_reset">يولباشچى بالداق قىسقا يولى كۆڭۈلدىكىگە ئەسلىگە قايتۇرۇلدى</string>
-    <string name="navring_target_save">يولباشچى بالداق قىسقا يولى ساقلاندى</string>
     <string name="navring_action_open_ime_switcher">كىرگۈزگۈچ ئالماشتۇرغۇچنى ئاچ</string>
     <string name="navring_action_kill_app">ئەپنى ئاخىرلاشتۇر</string>
     <string name="navring_action_none">يوق</string>
