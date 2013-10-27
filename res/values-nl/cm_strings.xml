@@ -321,11 +321,31 @@ Let op:\nAangezien het beginvolume hoger is ingesteld dan het beltoonvolume, wor
 
     <string name="ime_switcher_notify">Invoermethodemelding</string>
     <string name="ime_switcher_notify_summary">Melding tonen voor wijzigen invoermethode</string>
+
+    <!-- Status bar Clock -->
+    <string name="status_bar_clock">Klok en datum</string>
+    <string name="status_bar_clock_title">Klok en datum stijl</string>
+    <string name="clock_title_enable">Klok positie</string>
+    <string name="clock_enabled">Aan</string>
+    <string name="clock_disabled">Uit</string>
+    <string name="clock_color_title">Klok kleur</string>
+    <string name="status_bar_clock_style_reset">Reset kleur</string>
+    <string name="status_bar_show_clock_title">Show clock</string>
+    <string name="status_bar_am_pm_title">12-uursformaat</string>
+    <string name="enable_clock_weekday">Dag van de week</string>
+    <string name="right_clock">Klok rechts</string>
+    <string name="center_clock">Klok gecentreerd</string>
+    <string name="dont_show">Niet weergeven</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Aangepaste datum weergeve voor de klok</string>
+    <string name="clock_date_style">Datum stijl</string>
+    <string name="clock_date_format">Datum formaat</string>
+    <string name="clock_date_string_edittext_title">Moet in datum formaat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Voer de tekst in</string>
+
     <string name="status_bar_title">Statusbalk</string>
-    <string name="status_bar_clock_title">Klok</string>
     <string name="status_bar_general_title">Algemeen</string>
     <string name="status_bar_show_clock_title">Klok tonen</string>
-    <string name="status_bar_am_pm_title">12-uursformaat</string>
     <string name="status_bar_battery_title">Opmaak accustatus</string>
     <string name="status_bar_toggle_brightness">Helderheid beheren</string>
     <string name="status_bar_toggle_brightness_summary">Helderheid wijzigen door over de statusbalk te slepen</string>
