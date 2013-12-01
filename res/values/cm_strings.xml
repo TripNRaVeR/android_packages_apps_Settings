@@ -353,10 +353,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="auto_brightness_sensitivity_high">High</string>
     <string name="auto_brightness_sensitivity_veryhigh">Very high</string>
 
-    <!-- Advanced reboot options -->
-    <string name="advanced_reboot_title">Advanced reboot</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery or bootloader</string>
-
     <string name="app_security_title">App security</string>
 
     <!-- Setting checkbox title for root access -->
