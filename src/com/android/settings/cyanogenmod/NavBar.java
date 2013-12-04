@@ -65,7 +65,6 @@ public class NavBar extends Fragment {
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        view.setSystemUiVisibility(View.SYSTEM_UI_FLAG_SHOW_NAVIGATION_IN_EXPANDED_DESKTOP);
 
         // If running on a phone, remove padding around container
         if (Utils.isPhone(mActivity)) {

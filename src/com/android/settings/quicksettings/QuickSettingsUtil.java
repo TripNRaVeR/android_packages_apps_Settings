@@ -88,9 +88,6 @@ public class QuickSettingsUtil {
                  TILE_CAMERA, R.string.title_tile_camera,
                 "com.android.systemui:drawable/ic_qs_camera"));
         registerTile(new QuickSettingsUtil.TileInfo(
-                TILE_EXPANDEDDESKTOP, R.string.title_tile_expanded_desktop,
-                "com.android.systemui:drawable/ic_qs_expanded_desktop_neutral"));
-        registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_SLEEP, R.string.title_tile_sleep,
                 "com.android.systemui:drawable/ic_qs_sleep"));
         registerTile(new QuickSettingsUtil.TileInfo(

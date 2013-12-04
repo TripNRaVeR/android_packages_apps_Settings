@@ -259,7 +259,6 @@
     <string name="title_tile_screen_timeout">Screen timeout</string>
     <string name="title_tile_quiet_hours">Quiet hours</string>
     <string name="title_tile_volume">Volume</string>
-    <string name="title_tile_expanded_desktop">Expanded desktop</string>
     <string name="title_tile_network_adb">ADB over network</string>
 
     <string name="title_dynamic_tiles">Dynamic tiles</string>
@@ -708,10 +707,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
-    <string name="expanded_desktop_disabled">Disabled</string>
-    <string name="expanded_desktop_status_bar">Status bar visible</string>
-    <string name="expanded_desktop_no_status_bar">Status bar hidden</string>
     <string name="power_menu_profiles_title">Profile switcher</string>
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_user_title">User switcher</string>
