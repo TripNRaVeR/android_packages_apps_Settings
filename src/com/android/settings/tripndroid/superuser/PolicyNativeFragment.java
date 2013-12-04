@@ -1,4 +1,4 @@
-package com.android.settings.cyanogenmod.superuser;
+package com.android.settings.tripndroid.superuser;
 
 import android.content.res.Resources;
 import android.os.Bundle;

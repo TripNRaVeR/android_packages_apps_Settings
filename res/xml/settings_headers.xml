@@ -255,7 +255,7 @@
     <!-- Superuser -->
     <header
         android:id="@+id/superuser"
-        android:fragment="com.android.settings.cyanogenmod.superuser.PolicyNativeFragment"
+        android:fragment="com.android.settings.tripndroid.superuser.PolicyNativeFragment"
         android:icon="@drawable/ic_settings_superuser"
         android:title="@string/superuser" />
 
