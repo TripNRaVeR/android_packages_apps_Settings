@@ -179,13 +179,6 @@
         android:title="@string/security_settings_title"
         android:id="@+id/security_settings" />
 
-    <!-- Language -->
-    <header
-        android:id="@+id/language_settings"
-        android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"
-        android:icon="@drawable/ic_settings_language"
-        android:title="@string/language_settings" />
-
     <!-- Backup and reset -->
     <header
         android:fragment="com.android.settings.PrivacySettings"
@@ -209,6 +202,13 @@
     <!-- SYSTEM -->
     <header android:id="@+id/system_section"
         android:title="@string/header_category_system" />
+
+    <!-- Language & Input -->
+    <header
+        android:id="@+id/language_settings"
+        android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"
+        android:icon="@drawable/ic_settings_language"
+        android:title="@string/language_settings" />
 
     <!-- Date & Time -->
     <header
