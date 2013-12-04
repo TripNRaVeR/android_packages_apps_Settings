@@ -60,11 +60,11 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        return SystemProperties.get("ro.cm.device");
+        return SystemProperties.get("ro.tripndroid.device");
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.cm.version");
+        return SystemProperties.get("ro.tripndroid.version");
     }
 
     public static String digest(String input) {
