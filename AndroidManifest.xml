@@ -87,9 +87,9 @@
     <permission
         android:name="android.permission.ACCESS_SUPERUSER"
         android:description="@string/superuser_description_more"
-        android:icon="@drawable/ic_action_permission"
+        android:icon="@drawable/ic_settings_superuser"
         android:label="@string/superuser_description"
-        android:logo="@drawable/ic_action_permission"
+        android:logo="@drawable/ic_settings_superuser"
         android:permissionGroup="android.permission-group.SUPERUSER"
         android:protectionLevel="dangerous" />
 
