@@ -835,4 +835,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="status_bar_network_mtr_title">Network meters</string>
     <string name="status_bar_show_network_stats_title">Show network speeds</string>
     <string name="status_bar_network_stats_update_title">Update frequency</string>
+
+    <!-- AOSP dummy strings -->
+    <string name="experimental_webview"></string>
+    <string name="experimental_webview_summary"></string>
 </resources>
