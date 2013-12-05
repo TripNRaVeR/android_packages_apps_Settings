@@ -35,6 +35,12 @@
         android:title="@string/clock_style_settings"
         android:summary="@string/clock_style_title_summary" />
 
+    <PreferenceScreen
+        android:key="status_bar_network_traffic"
+        android:fragment="com.android.settings.cyanogenmod.NetworkTraffic"
+        android:title="@string/network_traffic_title"
+        android:summary="@string/network_traffic_title_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
