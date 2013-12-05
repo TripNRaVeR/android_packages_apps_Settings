@@ -20,9 +20,15 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.preference.CheckBoxPreference;
+import android.preference.ListPreference;
+import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.provider.Settings.SettingNotFoundException;
+import android.util.Log;
+import android.view.WindowManagerGlobal;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -30,13 +36,19 @@ import com.android.settings.hardware.DisplayColor;
 import com.android.settings.hardware.DisplayGamma;
 import com.android.settings.hardware.VibratorIntensity;
 
-public class MoreDeviceSettings extends SettingsPreferenceFragment {
+public class MoreDeviceSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
+
     private static final String TAG = "MoreDeviceSettings";
 
     private static final String KEY_SENORS_MOTORS_CATEGORY = "sensors_motors_category";
     private static final String KEY_DISPLAY_CALIBRATION_CATEGORY = "display_calibration_category";
     private static final String KEY_DISPLAY_COLOR = "color_calibration";
     private static final String KEY_DISPLAY_GAMMA = "gamma_tuning";
+
+    private static final String KEY_LOW_BATTERY_WARNING_POLICY = "pref_low_battery_warning_policy";
+
+    private ListPreference mLowBatteryWarning;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,5 +75,39 @@ public class MoreDeviceSettings extends SettingsPreferenceFragment {
                 calibrationCategory.removePreference(findPreference(KEY_DISPLAY_GAMMA));
             }
         }
+
+        mLowBatteryWarning = (ListPreference) findPreference(KEY_LOW_BATTERY_WARNING_POLICY);
+        int lowBatteryWarning = Settings.System.getInt(resolver,
+                Settings.System.POWER_UI_LOW_BATTERY_WARNING_POLICY, 0);
+        mLowBatteryWarning.setValue(String.valueOf(lowBatteryWarning));
+        mLowBatteryWarning.setSummary(mLowBatteryWarning.getEntry());
+        mLowBatteryWarning.setOnPreferenceChangeListener(this);
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        if (preference == mLowBatteryWarning) {
+            int lowBatteryWarning = Integer.valueOf((String) objValue);
+            int index = mLowBatteryWarning.findIndexOfValue((String) objValue);
+            Settings.System.putInt(resolver,
+                    Settings.System.POWER_UI_LOW_BATTERY_WARNING_POLICY,
+                    lowBatteryWarning);
+            mLowBatteryWarning.setSummary(mLowBatteryWarning.getEntries()[index]);
+            return true;
+        }
+
+        return false;
+    }
+
 }
