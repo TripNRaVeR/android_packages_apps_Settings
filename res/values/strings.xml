@@ -4927,4 +4927,7 @@
 
     <!-- User experience accessibility header -->
     <string name="user_experience_settings_category">User experience</string>
+
+    <!-- Default launcher header -->
+    <string name="home_settings_category_title">Launcher</string>
 </resources>
