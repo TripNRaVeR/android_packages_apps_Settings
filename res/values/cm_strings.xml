@@ -765,6 +765,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_status_circle_percentage">Circle with percentage</string>
     <string name="battery_status_dotted_circle_percentage">Dotted Circle with percentage</string>
     <string name="battery_status_dotted_circle">Dotted Circle</string>
+    <string name="battery_status_hidden">Hidden</string>
     <string name="battery_color_title">Battery color</string>
     <string name="circle_battery_animation_speed">Circle animation speed</string>
     <string name="circle_battery_animation_speed_none">None</string>
