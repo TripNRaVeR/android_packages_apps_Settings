@@ -24,7 +24,6 @@ import static com.android.internal.util.cm.QSConstants.TILE_BLUETOOTH;
 import static com.android.internal.util.cm.QSConstants.TILE_BRIGHTNESS;
 import static com.android.internal.util.cm.QSConstants.TILE_CAMERA;
 import static com.android.internal.util.cm.QSConstants.TILE_DELIMITER;
-import static com.android.internal.util.cm.QSConstants.TILE_EXPANDEDDESKTOP;
 import static com.android.internal.util.cm.QSConstants.TILE_GPS;
 import static com.android.internal.util.cm.QSConstants.TILE_LOCKSCREEN;
 import static com.android.internal.util.cm.QSConstants.TILE_LTE;
@@ -244,13 +243,6 @@ public class QuickSettingsUtil {
             enableTile(TILE_PROFILE);
         } else {
             disableTile(TILE_PROFILE);
-        }
-
-        // Don't show the Expanded desktop tile if expanded desktop is disabled
-        if (QSUtils.expandedDesktopEnabled(resolver)) {
-            enableTile(TILE_EXPANDEDDESKTOP);
-        } else {
-            disableTile(TILE_EXPANDEDDESKTOP);
         }
 
         // Don't show the Network ADB tile if adb debugging is disabled
