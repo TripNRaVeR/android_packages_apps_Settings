@@ -4998,4 +4998,7 @@
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
+
+    <!-- User experience accessibility header -->
+    <string name="user_experience_settings_category">User experience</string>
 </resources>
