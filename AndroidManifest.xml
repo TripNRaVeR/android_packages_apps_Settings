@@ -1679,8 +1679,6 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.nfc.PaymentSettings" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/nfc_payment_settings" />
         </activity>
         <activity android:name=".nfc.PaymentDefaultDialog"
                   android:label="@string/nfc_payment_set_default_label"

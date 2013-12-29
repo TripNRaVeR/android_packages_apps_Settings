@@ -39,6 +39,11 @@
         android:key="android_beam_settings"
         android:title="@string/android_beam_settings_title" />
 
+     <PreferenceScreen
+        android:fragment="com.android.settings.nfc.PaymentSettings"
+        android:key="nfc_payment_settings"
+        android:title="@string/nfc_payment_settings_title" />
+
     <PreferenceScreen
         android:fragment="com.android.settings.TetherSettings"
         android:key="tether_settings"
