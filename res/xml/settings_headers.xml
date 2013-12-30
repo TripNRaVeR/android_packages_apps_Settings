@@ -171,6 +171,13 @@
     <header android:id="@+id/system_section"
         android:title="@string/header_category_system" />
 
+    <!-- Superuser -->
+    <header
+        android:id="@+id/superuser"
+        android:fragment="com.android.settings.tripndroid.superuser.PolicyNativeFragment"
+        android:icon="@drawable/ic_settings_superuser"
+        android:title="@string/superuser" />
+
     <!-- Language & Input -->
     <header
         android:id="@+id/language_settings"
