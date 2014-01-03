@@ -506,6 +506,16 @@
             </intent-filter>
         </activity>
 
+         <activity
+            android:name=".HardwareKeys"
+            android:label="@string/hardware_keys_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name="Settings$LocalePickerActivity"
                 android:label="@string/language_picker_title"
                 android:taskAffinity="com.android.settings"

@@ -94,6 +94,13 @@
         android:fragment="com.android.settings.DisplaySettings"
         android:title="@string/display_settings" />
 
+    <!-- Hardware keys -->
+    <header
+        android:id="@+id/hardware_keys"
+        android:fragment="com.android.settings.HardwareKeys"
+        android:title="@string/hardware_keys_title"
+        android:icon="@drawable/ic_settings_buttons" />
+
     <!-- Storage -->
     <header
         android:id="@+id/storage_settings"
