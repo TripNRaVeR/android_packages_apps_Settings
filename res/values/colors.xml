@@ -41,4 +41,7 @@
     <color name="circle_avatar_frame_color">#ffffffff</color>
     <color name="circle_avatar_frame_shadow_color">#80000000</color>
     <color name="circle_avatar_frame_pressed_color">#ffffffff</color>
+
+    <color name="color_dark">#0D0D0D</color>
+    <color name="text_white">@android:color/white</color>
 </resources>

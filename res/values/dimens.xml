@@ -73,4 +73,6 @@
     <dimen name="captioning_preview_height">200dp</dimen>
 
     <dimen name="settings_side_margin">@*android:dimen/preference_fragment_padding_side</dimen>
+
+    <dimen name="shortcut_picker_left_padding">70dip</dimen>
 </resources>

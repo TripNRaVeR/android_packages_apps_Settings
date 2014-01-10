@@ -31,4 +31,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="keyguard_sc"
+        android:title="@string/keyguard_sc_category" >
+
+    <PreferenceScreen
+        android:key="keyguard_settings"
+        android:fragment="com.android.settings.tripndroid.KeyguardSettings"
+        android:title="@string/keyguard_title"
+        android:summary="@string/keyguard_sc_summary" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
