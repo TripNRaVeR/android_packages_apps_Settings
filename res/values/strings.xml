@@ -5039,6 +5039,7 @@
     <string name="system_settings_title">Interface</string>
     <string name="system_interface_title">System interface</string>
     <string name="status_bar_sb_category">Status bar</string>
+    <string name="header_category_tripndroid">TripNDroid</string>
 
     <!-- Clock and date -->
     <string name="clock_style_settings">Clock and date settings</string>
