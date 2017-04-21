@@ -3074,7 +3074,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"തണുത്ത വർണ്ണ താപനില"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"കൂടുതൽ തണുത്ത ഡിസ്പ്ലേ വർണ്ണങ്ങൾ ഉപയോഗിക്കുക"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"വർണ്ണ മാറ്റം ബാധകമാക്കാൻ, സ്ക്രീൻ ഓഫാക്കുക"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"സ്വയമേവയുള്ള സിസ്റ്റം അപ്ഡേറ്റുകൾ"</string>
     <string name="usage" msgid="2977875522080448986">"ഉപയോഗം"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"സെല്ലുലാർ ഡാറ്റാ ഉപയോഗം"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"വൈഫൈ ഡാറ്റ ഉപയോഗം"</string>

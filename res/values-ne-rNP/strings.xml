@@ -3074,7 +3074,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"सुन्दर रंगको तापमान"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"अझ सुन्दर प्रदर्शनको रंगहरू प्रयोग गर्नुहोस्"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"रंगको परिवर्तन लागू गर्न स्क्रिन बन्द गर्नुहोस्"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"स्वचालित प्रणाली अद्यावधिकहरू"</string>
     <string name="usage" msgid="2977875522080448986">"उपयोग"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"सेलुलर डेटाको उपयोग"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Wi-Fi डेटाको उपयोग"</string>

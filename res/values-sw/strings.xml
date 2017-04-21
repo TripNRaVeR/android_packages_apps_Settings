@@ -3078,7 +3078,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"Halijoto ya rangi ya baridi"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"Tumia rangi yenye halijoto ya baridi zaidi kwenye onyesho"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"Zima skrini ili uweze kutekeleza ubadilishaji wa rangi"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"Masasisho ya mfumo kiotomatiki"</string>
     <string name="usage" msgid="2977875522080448986">"Matumizi"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"Matumizi ya data ya simu za mkononi"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Matumizi ya data ya Wi-Fi"</string>

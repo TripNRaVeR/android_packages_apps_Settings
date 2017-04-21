@@ -3078,7 +3078,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"寒色の色温度"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"寒色の表示色を使用します"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"色の変更を適用するには、画面を OFF にしてください"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"自動システム アップデート"</string>
     <string name="usage" msgid="2977875522080448986">"使用量"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"モバイルデータ使用量"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Wi-Fi データ使用量"</string>

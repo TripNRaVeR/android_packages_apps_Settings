@@ -3074,7 +3074,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"Студена цветова гама"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"Използване на по-студени цветове за дисплея"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"За да приложите промяната на цветовете, изключете екрана"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"Автоматични системни актуализации"</string>
     <string name="usage" msgid="2977875522080448986">"Пренос на данни"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"Пренос на мобилни данни"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Пренос на данни през Wi-Fi"</string>

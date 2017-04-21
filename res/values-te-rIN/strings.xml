@@ -3074,7 +3074,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"ప్రశాంత వర్ణము ఉష్ణోగ్రత"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"ప్రశాంత భావనను కలిగించే ప్రదర్శన రంగులను ఉపయోగిస్తుంది"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"రంగు మార్పును వర్తింపజేయడానికి, స్క్రీన్‌ను ఆఫ్ చేయండి"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"స్వయంచాలక సిస్టమ్ నవీకరణలు"</string>
     <string name="usage" msgid="2977875522080448986">"వినియోగం"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"సెల్యులార్ డేటా వినియోగం"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Wi-Fi డేటా వినియోగం"</string>

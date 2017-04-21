@@ -3074,7 +3074,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"Température des couleurs froides"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"Utiliser des couleurs plus froides à l\'écran"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"Pour appliquer la modification des couleurs, éteignez l\'écran"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"Mises à jour automatiques du système"</string>
     <string name="usage" msgid="2977875522080448986">"Utilisation"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"Utilisation des données cellulaires"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Utilisation de données Wi-Fi"</string>

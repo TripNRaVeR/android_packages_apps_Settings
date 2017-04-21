@@ -3138,7 +3138,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"Hladnejša barvna temperatura"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"Uporaba hladnejših barv zaslona"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"Če želite uveljaviti spremembo barv, izklopite zaslon"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"Samodejne sistemske posodobitve"</string>
     <string name="usage" msgid="2977875522080448986">"Uporaba"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"Prenesena količina podatkov v mobilnih omrežjih"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"Preneseni podatki (Wi-Fi)"</string>

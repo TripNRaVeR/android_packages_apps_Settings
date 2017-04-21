@@ -3074,7 +3074,6 @@
     <string name="color_temperature" msgid="2070126836910615605">"কুল রঙের টেম্পারেচার"</string>
     <string name="color_temperature_desc" msgid="4793729830226404052">"কুলার প্রদর্শনী রঙগুলি ব্যবহার করুন"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"রঙের পরিবর্তন প্রয়োগ করতে, স্ক্রীন বন্ধ করুন"</string>
-    <string name="ota_disable_automatic_update" msgid="2319639631655915050">"স্বয়ংক্রিয় সিস্টেম আপডেটগুলি"</string>
     <string name="usage" msgid="2977875522080448986">"ব্যবহার"</string>
     <string name="cellular_data_usage" msgid="2763710678354680712">"সেলুলার ডেটার ব্যবহার"</string>
     <string name="wifi_data_usage" msgid="686754111095324306">"ওয়াই-ফাই ডেটার ব্যবহার"</string>
