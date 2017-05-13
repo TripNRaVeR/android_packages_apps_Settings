@@ -114,7 +114,7 @@
     <dimen name="dashboard_category_title_margin_start">16dp</dimen>
 
     <!-- Dashboard tile minimum height -->
-    <dimen name="dashboard_tile_minimum_height">72dp</dimen>
+    <dimen name="dashboard_tile_minimum_height">52dp</dimen>
 
     <!-- Dashboard image tile size -->
     <dimen name="dashboard_tile_image_size">24dp</dimen>
