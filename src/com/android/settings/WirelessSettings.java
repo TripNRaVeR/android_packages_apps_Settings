@@ -23,6 +23,7 @@ import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -75,11 +76,14 @@ public class WirelessSettings extends SettingsPreferenceFragment implements Inde
     private static final String KEY_WFC_SETTINGS = "wifi_calling_settings";
     private static final String KEY_NETWORK_RESET = "network_reset";
 
+    private static final String SHOW_LTE_FOURGEE = "show_lte_fourgee";
+
     public static final String EXIT_ECM_RESULT = "exit_ecm_result";
     public static final int REQUEST_CODE_EXIT_ECM = 1;
 
     private AirplaneModeEnabler mAirplaneModeEnabler;
     private SwitchPreference mAirplaneModePreference;
+    private SwitchPreference mShowLteFourGee;
     private NfcEnabler mNfcEnabler;
     private NfcAdapter mNfcAdapter;
 
@@ -101,7 +105,12 @@ public class WirelessSettings extends SettingsPreferenceFragment implements Inde
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         log("onPreferenceTreeClick: preference=" + preference);
-        if (preference == mAirplaneModePreference && Boolean.parseBoolean(
+        if  (preference == mShowLteFourGee) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.SHOW_LTE_FOURGEE, checked ? 1:0);
+            return true;
+        } else if (preference == mAirplaneModePreference && Boolean.parseBoolean(
                 SystemProperties.get(TelephonyProperties.PROPERTY_INECM_MODE))) {
             // In ECM mode launch ECM app dialog
             startActivityForResult(
@@ -227,8 +236,13 @@ public class WirelessSettings extends SettingsPreferenceFragment implements Inde
         addPreferencesFromResource(R.xml.wireless_settings);
 
         final boolean isAdmin = mUm.isAdminUser();
-
         final Activity activity = getActivity();
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        mShowLteFourGee = (SwitchPreference) findPreference(SHOW_LTE_FOURGEE);
+        mShowLteFourGee.setChecked((Settings.System.getInt(resolver,
+                Settings.System.SHOW_LTE_FOURGEE, 0) == 1));
+
         mAirplaneModePreference = (SwitchPreference) findPreference(KEY_TOGGLE_AIRPLANE);
         SwitchPreference nfc = (SwitchPreference) findPreference(KEY_TOGGLE_NFC);
         RestrictedPreference androidBeam = (RestrictedPreference) findPreference(

@@ -204,5 +204,9 @@
     <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
     <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
 
+    <!-- Show lte/4g switch -->
+    <string name="show_lte_fourgee_title">Show 4G instead of LTE</string>
+    <string name="show_lte_fourgee_summary">Replace the LTE mobile indicator with 4G</string>
+
 </resources>
 
