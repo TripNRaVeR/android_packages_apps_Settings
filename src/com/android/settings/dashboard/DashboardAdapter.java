@@ -315,14 +315,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         } else {
             summaryContentDescription = mContext.getString(R.string.condition_expand_hide);
         }
-        holder.summary.setContentDescription(summaryContentDescription);
 
-        if (undisplayedSuggestionCount == 0) {
-            holder.summary.setText(null);
-        } else {
-            holder.summary.setText(
-                    mContext.getString(R.string.suggestions_summary, undisplayedSuggestionCount));
-        }
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -345,12 +338,6 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     private void onBindTile(DashboardItemHolder holder, Tile tile) {
         holder.icon.setImageDrawable(mCache.getIcon(tile.icon));
         holder.title.setText(tile.title);
-        if (!TextUtils.isEmpty(tile.summary)) {
-            holder.summary.setText(tile.summary);
-            holder.summary.setVisibility(View.VISIBLE);
-        } else {
-            holder.summary.setVisibility(View.GONE);
-        }
     }
 
     private void onBindCategory(DashboardItemHolder holder, DashboardCategory category) {
@@ -468,13 +455,11 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     public static class DashboardItemHolder extends RecyclerView.ViewHolder {
         public final ImageView icon;
         public final TextView title;
-        public final TextView summary;
 
         public DashboardItemHolder(View itemView) {
             super(itemView);
             icon = (ImageView) itemView.findViewById(android.R.id.icon);
             title = (TextView) itemView.findViewById(android.R.id.title);
-            summary = (TextView) itemView.findViewById(android.R.id.summary);
         }
     }
 }

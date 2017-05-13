@@ -83,7 +83,6 @@ public class ConditionAdapterUtils {
                     detailGroup, isExpanded, actions.length > 0);
         }
         if (isExpanded) {
-            view.summary.setText(condition.getSummary());
             for (int i = 0; i < 2; i++) {
                 Button button = (Button) detailGroup.findViewById(i == 0
                         ? R.id.first_action : R.id.second_action);
