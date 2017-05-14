@@ -129,8 +129,16 @@
 
         <activity android:name=".Settings$WirelessSettings"
             android:label="@string/header_category_wireless_networks">
-            <intent-filter android:priority="4">
+            <intent-filter android:priority="5">
                 <action android:name="com.android.settings.category.wireless" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Settings$TDSettings"
+            android:label="@string/header_category_tdsettings">
+            <intent-filter android:priority="4">
+                <action android:name="com.android.settings.category.tdsettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -929,6 +937,64 @@
                 android:value="com.android.settings.notification.ZenModeExternalRuleSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
+        </activity>
+
+        <activity android:name="Settings$TDSettingsActivity"
+            android:label="@string/tdsettings_title"
+            android:icon="@drawable/ic_settings_tripndroid"
+            android:taskAffinity="">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.TD_SETTINGS" />
+                <action android:name="android.settings.TD_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="9">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.tdsettings" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.TDSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <!-- Battery, Carrier, Clock settings -->
+        <activity android:name="Settings$BatterySettingsActivity"
+                android:label="@string/battery_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.td.BatterySettings" />
+        </activity>
+        <activity android:name="Settings$CarrierLabelActivity"
+                android:label="@string/carrier_label_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.td.CarrierLabel" />
+        </activity>
+        <activity android:name="Settings$ClockSettingsActivity"
+                android:label="@string/clock_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.td.ClockSettings" />
         </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"

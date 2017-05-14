@@ -120,6 +120,10 @@ import com.android.settings.search.DynamicIndexableContentMonitor;
 import com.android.settings.search.Index;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.tts.TextToSpeechSettings;
+import com.android.settings.TDSettings;
+import com.android.settings.td.BatterySettings;
+import com.android.settings.td.CarrierLabel;
+import com.android.settings.td.ClockSettings;
 import com.android.settings.users.UserSettings;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
@@ -357,7 +361,11 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
-            AutomaticStorageManagerSettings.class.getName()
+            AutomaticStorageManagerSettings.class.getName(),
+            TDSettings.class.getName(),
+            BatterySettings.class.getName(),
+            CarrierLabel.class.getName(),
+            ClockSettings.class.getName()
     };
 
 
