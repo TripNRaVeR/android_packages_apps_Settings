@@ -240,17 +240,8 @@ public class DashboardSummary extends InstrumentedFragment
             List<Tile> suggestions = mSuggestionParser.getSuggestions();
             for (int i = 0; i < suggestions.size(); i++) {
                 Tile suggestion = suggestions.get(i);
-                if (mSuggestionsChecks.isSuggestionComplete(suggestion)) {
                     mAdapter.disableSuggestion(suggestion);
                     suggestions.remove(i--);
-                } else if (context != null) {
-                    String id = DashboardAdapter.getSuggestionIdentifier(context, suggestion);
-                    if (!mSuggestionsShownLogged.contains(id)) {
-                        mSuggestionsShownLogged.add(id);
-                        MetricsLogger.action(context,
-                                MetricsEvent.ACTION_SHOW_SETTINGS_SUGGESTION, id);
-                    }
-                }
             }
             return suggestions;
         }

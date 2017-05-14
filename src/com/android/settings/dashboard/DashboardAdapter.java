@@ -319,11 +319,6 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (hasMoreSuggestions()) {
-                    mSuggestionMode = SUGGESTION_MODE_EXPANDED;
-                } else {
-                    mSuggestionMode = SUGGESTION_MODE_COLLAPSED;
-                }
                 recountItems();
             }
         });
