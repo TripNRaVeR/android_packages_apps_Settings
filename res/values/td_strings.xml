@@ -208,5 +208,16 @@
     <string name="show_lte_fourgee_title">Show 4G instead of LTE</string>
     <string name="show_lte_fourgee_summary">Replace the LTE mobile indicator with 4G</string>
 
+    <!-- Color Picker -->
+    <string name="press_color_to_apply">Press on the color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
 </resources>
 
