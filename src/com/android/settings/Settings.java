@@ -163,4 +163,5 @@ public class Settings extends SettingsActivity {
     public static class BatterySettingsActivity extends SettingsActivity { /* empty */ }
     public static class CarrierLabelActivity extends SettingsActivity { /* empty */ }
     public static class ClockSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class PieControlActivity extends SettingsActivity { /* empty */ }
 }

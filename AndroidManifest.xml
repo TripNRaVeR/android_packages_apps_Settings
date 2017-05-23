@@ -965,7 +965,7 @@
                 android:value="true" />
         </activity>
 
-        <!-- Battery, Carrier, Clock settings -->
+        <!-- Battery, Carrier, Clock, Pie settings -->
         <activity android:name="Settings$BatterySettingsActivity"
                 android:label="@string/battery_settings_title"
                 android:excludeFromRecents="true">
@@ -995,6 +995,36 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.td.ClockSettings" />
+        </activity>
+        <activity android:name="Settings$PieControlActivity"
+                android:label="@string/pa_pie_control_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.td.PieControl" />
+        </activity>
+        <activity android:name="Settings$PieTargetsActivity"
+                android:label="@string/pa_pie_targets_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.td.PieTargets" />
+        </activity>
+        <activity android:name="Settings$PieColorActivity"
+                android:label="@string/pa_pie_color_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.td.PieColor" />
         </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"
