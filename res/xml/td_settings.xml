@@ -52,4 +52,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="header_category_misc"
+        android:title="@string/header_category_misc" >
+
+        <Preference
+            android:key="misc_settings"
+            android:title="@string/misc_settings_title"
+            android:summary="@string/misc_settings_summary"
+            android:persistent="false"
+            android:fragment="com.android.settings.td.MiscSettings" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

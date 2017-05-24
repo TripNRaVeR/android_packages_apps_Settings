@@ -127,6 +127,7 @@ import com.android.settings.td.ClockSettings;
 import com.android.settings.td.PieControl;
 import com.android.settings.td.PieTargets;
 import com.android.settings.td.PieColor;
+import com.android.settings.td.MiscSettings;
 import com.android.settings.users.UserSettings;
 import com.android.settings.vpn2.VpnSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
@@ -371,7 +372,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             ClockSettings.class.getName(),
             PieControl.class.getName(),
             PieTargets.class.getName(),
-            PieColor.class.getName()
+            PieColor.class.getName(),
+            MiscSettings.class.getName()
     };
 
 

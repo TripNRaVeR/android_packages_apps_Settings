@@ -223,6 +223,7 @@
     <string name="tdsettings_title">TripNDroid settings</string>
     <string name="header_category_tdsettings">Customization</string>
     <string name="header_category_statusbar">Statusbar</string>
+    <string name="header_category_misc">Miscellaneous</string>
 
     <!-- TD Settings: Battery settings -->
     <string name="battery_settings_title">Battery icon</string>
@@ -356,6 +357,12 @@
     <string name="reset_generic">TripNDroid</string>
     <string name="reset_android">Android</string>
     <string name="reset">Reset</string>
+
+    <!-- TD Settings: Misc -->
+    <string name="misc_settings_title">Misc</string>
+    <string name="misc_settings_summary">Various small system settings</string>
+    <string name="enable_freeform_support_title">Freeform Window Support</string>
+    <string name="enable_freeform_support_summary">Experimental freeform window support</string>
 
 </resources>
 
