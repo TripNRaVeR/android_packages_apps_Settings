@@ -38,8 +38,10 @@ public class MiscSettings extends SettingsPreferenceFragment implements OnPrefer
     private static final String TAG = "MiscSettings";
 
     private static final String DEVELOPMENT_ENABLE_FREEFORM_WINDOWS_SUPPORT = "enable_freeform_support";
+    private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
 
     private SwitchPreference mEnableFreeformSupport;
+    private SwitchPreference mVolumeRockerWake;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements OnPrefer
                 DEVELOPMENT_ENABLE_FREEFORM_WINDOWS_SUPPORT, 0);
         mEnableFreeformSupport.setChecked(EnableFreeformSupport != 0);
 
+        mVolumeRockerWake = (SwitchPreference) findPreference(VOLUME_ROCKER_WAKE);
+        mVolumeRockerWake.setOnPreferenceChangeListener(this);
+        int volumeRockerWake = Settings.System.getInt(getContentResolver(),
+                VOLUME_ROCKER_WAKE, 0);
+        mVolumeRockerWake.setChecked(volumeRockerWake != 0);
+
     }
 
     @Override
@@ -68,6 +76,11 @@ public class MiscSettings extends SettingsPreferenceFragment implements OnPrefer
         if (preference == mEnableFreeformSupport) {
             boolean value = (Boolean) newValue;
             Settings.Global.putInt(getContentResolver(), DEVELOPMENT_ENABLE_FREEFORM_WINDOWS_SUPPORT,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mVolumeRockerWake) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(), VOLUME_ROCKER_WAKE,
                     value ? 1 : 0);
             return true;
         }

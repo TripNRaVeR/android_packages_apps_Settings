@@ -23,4 +23,10 @@
         android:title="@string/enable_freeform_support_title"
         android:summary="@string/enable_freeform_support_summary" />
 
+    <SwitchPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

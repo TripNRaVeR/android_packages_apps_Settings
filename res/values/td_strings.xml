@@ -363,6 +363,8 @@
     <string name="misc_settings_summary">Various small system settings</string>
     <string name="enable_freeform_support_title">Freeform Window Support</string>
     <string name="enable_freeform_support_summary">Experimental freeform window support</string>
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 
 </resources>
 
