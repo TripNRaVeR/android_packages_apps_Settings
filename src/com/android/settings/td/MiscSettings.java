@@ -41,10 +41,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements OnPrefer
     private static final String DEVELOPMENT_ENABLE_FREEFORM_WINDOWS_SUPPORT = "enable_freeform_support";
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
     private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+    private static final String HIDE_LOCKSCREEN_BOTTOM_SHORTCUTS = "hide_lockscreen_bottom_shortcuts";
 
     private SwitchPreference mEnableFreeformSupport;
     private SwitchPreference mVolumeRockerWake;
     private ListPreference mMsob;
+    private SwitchPreference mHideLockscreenBottomShortcuts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,6 +73,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements OnPrefer
                 Settings.System.MEDIA_SCANNER_ON_BOOT, 0)));
         mMsob.setSummary(mMsob.getEntry());
         mMsob.setOnPreferenceChangeListener(this);
+
+        mHideLockscreenBottomShortcuts = (SwitchPreference) findPreference(HIDE_LOCKSCREEN_BOTTOM_SHORTCUTS);
+        mHideLockscreenBottomShortcuts.setOnPreferenceChangeListener(this);
+        int HideLockscreenBottomShortcuts = Settings.Secure.getInt(getContentResolver(),
+                HIDE_LOCKSCREEN_BOTTOM_SHORTCUTS, 0);
+        mHideLockscreenBottomShortcuts.setChecked(HideLockscreenBottomShortcuts != 0);
     }
 
     @Override
@@ -97,6 +105,11 @@ public class MiscSettings extends SettingsPreferenceFragment implements OnPrefer
                     Integer.valueOf(String.valueOf(newValue)));
             mMsob.setValue(String.valueOf(newValue));
             mMsob.setSummary(mMsob.getEntry());
+            return true;
+        } else if (preference == mHideLockscreenBottomShortcuts) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getContentResolver(), HIDE_LOCKSCREEN_BOTTOM_SHORTCUTS,
+                    value ? 1 : 0);
             return true;
         }
         return false;

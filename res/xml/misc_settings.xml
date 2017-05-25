@@ -36,4 +36,11 @@
         android:entryValues="@array/media_scanner_on_boot_values"
         android:persistent="false" />
 
+    <com.android.settings.SecureSettingSwitchPreference
+        android:key="hide_lockscreen_bottom_shortcuts"
+        android:title="@string/hide_lockscreen_bottom_shortcuts_title"
+        android:summaryOn="@string/hide_lockscreen_bottom_shortcuts_summary_on"
+        android:summaryOff="@string/hide_lockscreen_bottom_shortcuts_summary_off"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
