@@ -49,6 +49,7 @@
     <color name="setup_lock_pattern_view_error_color_light">@color/lock_pattern_view_error_color</color>
     <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
     <color name="setup_wizard_wifi_color_light">#89000000</color>
+    <color name="setup_wizard_wifi_statusbar">@*android:color/material_deep_teal_700</color>
 
     <color name="lock_pattern_background">#00000000</color>
     <color name="lock_pattern_view_regular_color">#ff37474f</color>

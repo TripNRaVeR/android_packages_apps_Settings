@@ -16,9 +16,12 @@
 
 package com.android.settings;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.support.annotation.ColorRes;
+import android.view.Window;
 
 import com.android.setupwizardlib.util.SystemBarHelper;
 import com.android.setupwizardlib.util.WizardManagerHelper;
@@ -62,5 +65,18 @@ public class SetupWizardUtils {
                 fromIntent.getStringExtra(WizardManagerHelper.EXTRA_THEME));
         toIntent.putExtra(WizardManagerHelper.EXTRA_USE_IMMERSIVE_MODE,
                 fromIntent.getBooleanExtra(WizardManagerHelper.EXTRA_USE_IMMERSIVE_MODE, false));
+    }
+
+    /**
+     * Sets the status bar color of the provided activity.
+     */
+    @SuppressLint("NewApi")
+    public static void setStatusBarColor(Activity activity, @ColorRes int colorId) {
+        if (activity != null) {
+            final Window window = activity.getWindow();
+            if (window != null) {
+                window.setStatusBarColor(activity.getResources().getColor(colorId));
+            }
+        }
     }
 }

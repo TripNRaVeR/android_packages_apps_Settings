@@ -206,6 +206,7 @@ public class WifiSetupActivity extends WifiPickerActivity
         mNavigationBar = bar;
         bar.setNavigationBarListener(this);
         SetupWizardUtils.setImmersiveMode(this);
+        SetupWizardUtils.setStatusBarColor(this, R.color.setup_wizard_wifi_statusbar);
     }
 
     @Override
