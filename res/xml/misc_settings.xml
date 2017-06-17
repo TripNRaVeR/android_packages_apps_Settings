@@ -43,4 +43,10 @@
         android:summaryOff="@string/hide_lockscreen_bottom_shortcuts_summary_off"
         android:defaultValue="false" />
 
+    <com.android.settings.SystemSettingSwitchPreference
+        android:key="navigation_bar_visible"
+        android:title="@string/navigation_bar_visible_title"
+        android:summaryOn="@string/navigation_bar_visible_summary_on"
+        android:summaryOff="@string/navigation_bar_visible_summary_off" />
+
 </PreferenceScreen>

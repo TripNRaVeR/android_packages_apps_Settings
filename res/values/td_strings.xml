@@ -372,6 +372,9 @@
     <string name="hide_lockscreen_bottom_shortcuts_title">Bottom shortcuts</string>
     <string name="hide_lockscreen_bottom_shortcuts_summary_on">Lockscreen bottom shortcuts are enabled</string>
     <string name="hide_lockscreen_bottom_shortcuts_summary_off">Lockscreen bottom shortcuts are disabled</string>
+    <string name="navigation_bar_visible_title">Show navigationbar</string>
+    <string name="navigation_bar_visible_summary_on">The navigationbar is currently enabled</string>
+    <string name="navigation_bar_visible_summary_off">The navigationbar is currently disabled</string>
 
 </resources>
 
