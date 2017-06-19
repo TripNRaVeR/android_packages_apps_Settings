@@ -116,7 +116,7 @@
 
     <!-- Accessibility portion of Setup Wizard -->
     <style name="SetupWizardAccessibilityTheme" parent="Theme.SettingsBase">
-        <item name="android:colorPrimary">@color/material_blue_700</item>
+        <item name="android:colorPrimary">@color/material_blue_500</item>
         <item name="android:colorPrimaryDark">@color/material_blue_700</item>
         <item name="preferenceTheme">@style/PreferenceTheme</item>
         <item name="switchBarTheme">@style/SetupWizardAccessibilitySwitchBarTheme</item>
@@ -135,6 +135,10 @@
 
     <style name="Theme.Settings" parent="Theme.SettingsBase">
         <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:colorPrimary">@color/material_blue_500</item>
+        <item name="android:colorPrimaryDark">@color/material_blue_700</item>
         <item name="@*android:preferenceHeaderPanelStyle">@style/PreferenceHeaderPanelSinglePane</item>
         <item name="@*android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
         <item name="@*android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
